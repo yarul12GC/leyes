@@ -1,0 +1,59 @@
+<!-- Botón para alternar el estado de la barra lateral -->
+<button (click)="toggleSidebar()" class="fixed top-4 left-4 z-50 xl:hidden bg-gray-800 text-white p-2 rounded-lg">
+    <!-- Ícono de menú -->
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
+        class="h-5 w-5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h18M3 6h18M3 18h18" />
+    </svg>
+</button>
+
+<!-- Barra lateral -->
+<aside [ngClass]="{'-translate-x-full': !isSidebarOpen, 'translate-x-0': isSidebarOpen}"
+    class="bg-gradient-to-r from-gray-800 to-red-600 fixed inset-0 z-50 h-full w-72 rounded-xl shadow-lg transition-transform duration-300 xl:translate-x-0 overflow-y-auto">
+
+    <!-- Encabezado de la barra lateral -->
+    <div class="relative border-b border-white/30">
+        <img src="locenca.png" alt="Logo" class="rotate-on-hover w-20 h-20 mx-auto mt-4">
+        <a class="flex items-center justify-center gap-4 py-4 px-6 hover:bg-red-500 rounded-lg transition-colors duration-200"
+            href="#/">
+            <h6 class="font-sans text-xl font-bold leading-relaxed text-white text-center">
+                Biblioteca Virtual Aduanera
+            </h6>
+        </a>
+
+        <!-- Botón para cerrar la barra lateral -->
+        <button (click)="toggleSidebar()"
+            class="absolute right-0 top-0 w-8 h-8 rounded-lg text-white hover:bg-white/10 active:bg-white/30 xl:hidden"
+            type="button" aria-label="Toggle Menu">
+            <span class="grid place-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                    stroke="currentColor" class="h-5 w-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </span>
+        </button>
+    </div>
+
+    <!-- Menú de navegación -->
+    <div class="p-4">
+        <ul class="mb-4 flex flex-col gap-2">
+            <li *ngFor="let item of menuItems">
+                <a (click)="toggleMenu(item)"
+                    class="flex items-center gap-4 px-4 py-3 rounded-lg text-white hover:bg-red-500 active:bg-red-600 transition-all cursor-pointer">
+                    <i [class]="item.icon"></i>
+                    <p class="block font-sans text-base leading-relaxed capitalize">{{ item.title }}</p>
+                </a>
+
+                <!-- Submenú -->
+                <ul *ngIf="item.isOpen" class="pl-6 mt-2 space-y-1">
+                    <li *ngFor="let sub of item.submenu">
+                        <a [routerLink]="sub.link"
+                            class="block py-2 text-sm text-gray-300 hover:text-white transition-colors duration-200">
+                            {{ sub.title }}
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</aside>
