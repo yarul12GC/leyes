@@ -10,9 +10,9 @@ export interface Curso {
 @Component({
   selector: 'app-panel',
   standalone: true,
-  imports: [CommonModule],  // Agrega los módulos necesarios
+  imports: [CommonModule],
   templateUrl: './panel.component.html',
-  styleUrls: ['./panel.component.css']  // Corrección aquí
+  styleUrls: ['./panel.component.css'] 
 })
 export default class PanelComponent {
   cursos: Curso[] = [

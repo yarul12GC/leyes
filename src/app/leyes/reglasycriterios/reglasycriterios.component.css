@@ -1,17 +1,10 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    background: #f7f7f7;
-
-}
-
 .zona1 {
     width: 99%;
     height: auto;
     background: rgb(255, 255, 255);
     margin: 0px;
     padding: 20px;
-    margin-top: 2ch;
+    margin-top: 0ch;
     color: #000000;
     border-radius: 5px;
     box-shadow: 7px 13px 37px #000000;
