@@ -27,7 +27,7 @@ export class SidebarComponent {
       icon: 'fas fa-tachometer-alt',
       link: '/panel',
       submenu: [
-        { title: 'Submenu 1', icon: 'fas fa-circle', link: '/leyes/submenu1', submenu: [] },
+        { title: 'Anexo1', icon: 'fas fa-circle', link: '/anexo1', submenu: [] },
         { title: 'Submenu 2', icon: 'fas fa-circle', link: '/leyes/submenu2', submenu: [] },
         { title: 'Submenu 3', icon: 'fas fa-circle', link: '/leyes/submenu3', submenu: [] },
         { title: 'Submenu 4', icon: 'fas fa-circle', link: '/leyes/submenu4', submenu: [] },

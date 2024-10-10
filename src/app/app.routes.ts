@@ -31,6 +31,10 @@ export const routes: Routes = [
         loadComponent: () => import('./leyes/reglasgenerales/reglasgenerales.component')
       },
       {
+        path: 'anexo1',
+        loadComponent: () => import('./leyes/anexo1/anexo1.component')
+      },
+      {
         path: '',
         redirectTo: 'panel',
         pathMatch: 'full'

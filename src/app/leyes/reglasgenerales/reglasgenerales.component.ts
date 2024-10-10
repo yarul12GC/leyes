@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './reglasgenerales.component.html',
   styleUrl: './reglasgenerales.component.css'
 })
-export  default class ReglasgeneralesComponent {
+export default class ReglasgeneralesComponent {
 
 }
