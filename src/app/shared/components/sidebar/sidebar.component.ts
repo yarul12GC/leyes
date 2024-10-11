@@ -44,10 +44,10 @@ export class SidebarComponent {
       icon: 'fas fa-gavel',
       link: '/leyes',
       submenu: [
-        { title: 'Submenu 1', icon: 'fas fa-circle', link: '/leyes/submenu1', submenu: [] },
-        { title: 'Submenu 2', icon: 'fas fa-circle', link: '/leyes/submenu2', submenu: [] },
-        { title: 'Submenu 3', icon: 'fas fa-circle', link: '/leyes/submenu3', submenu: [] },
-        { title: 'Submenu 4', icon: 'fas fa-circle', link: '/leyes/submenu4', submenu: [] },
+        { title: 'Ley Aduanera', icon: 'fas fa-circle', link: '/leyadua', submenu: [] },
+        { title: 'Ley Federal de Procedimiento Administrativo', icon: 'fas fa-circle', link: '/leyfpa', submenu: [] },
+        { title: 'Ley Reglamentaria Del Artículo 27 Constitucional En Materia Nuclear', icon: 'fas fa-circle', link: '/ley27', submenu: [] },
+        { title: 'Ley Federal De Los Derechos Del Contribuyente', icon: 'fas fa-circle', link: '/leyfdc', submenu: [] },
         { title: 'Submenu 5', icon: 'fas fa-circle', link: '/leyes/submenu5', submenu: [] },
         { title: 'Submenu 6', icon: 'fas fa-circle', link: '/leyes/submenu6', submenu: [] },
         { title: 'Submenu 7', icon: 'fas fa-circle', link: '/leyes/submenu7', submenu: [] },
@@ -80,6 +80,7 @@ export class SidebarComponent {
       submenu: [
         { title: 'Reglas y criterios de caracter general en materia decomercio exterior', icon: 'fas fa-circle', link: '/reglasycriterios', submenu: [] },
         { title: 'Reglas generales de comercio exterior', icon: 'fas fa-circle', link: '/reglasgenerales', submenu: [] },
+        { title: 'Reglamento de la ley de comercio exterior', icon: 'fas fa-circle', link: '/reglamentoley/', submenu: [] },
         { title: 'Submenu 3', icon: 'fas fa-circle', link: '/leyes/submenu3', submenu: [] },
         { title: 'Submenu 4', icon: 'fas fa-circle', link: '/leyes/submenu4', submenu: [] },
         { title: 'Submenu 5', icon: 'fas fa-circle', link: '/leyes/submenu5', submenu: [] },

@@ -35,6 +35,28 @@ export const routes: Routes = [
         loadComponent: () => import('./leyes/anexo1/anexo1.component')
       },
       {
+        path: 'reglamentoley',
+        loadComponent: () => import('./leyes/reglamentoley/reglamentoley.component')
+      },
+      {
+        path: 'leyadua',
+        loadComponent: () => import('./leyes/leyadua/leyadua.component')
+      },
+
+      {
+        path: 'leyfpa',
+        loadComponent: () => import('./leyes/leyfpa/leyfpa.component')
+      },
+      {
+        path: 'ley27',
+        loadComponent: () => import('./leyes/ley27/ley27.component')
+      },
+      {
+        path: 'leyfdc',
+        loadComponent: () => import('./leyes/leyfdc/leyfdc.component')
+      },
+
+      {
         path: '',
         redirectTo: 'panel',
         pathMatch: 'full'
