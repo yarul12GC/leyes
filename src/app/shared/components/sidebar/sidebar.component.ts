@@ -70,11 +70,11 @@ export class SidebarComponent {
       submenu: [
         { title: 'DECRETO por el que se crea la Autoridad Federal para el Desarrollo de las Zonas Económicas Especiales y se reforman y adicionan diversas disposiciones del Reglamento Interior de la Secretaría de Hacienda y Crédito Público.', icon: 'fas fa-circle', link: '/decre1', submenu: [] },
         { title: 'DECRETO para el apoyo de la competitividad de la industria automotriz terminal y el impulso al desarrollo del mercado interno de automóviles.', icon: 'fas fa-circle', link: '/decre2', submenu: [] },
-        { title: 'Submenu 3', icon: 'fas fa-circle', link: '/leyes/submenu3', submenu: [] },
-        { title: 'Submenu 4', icon: 'fas fa-circle', link: '/leyes/submenu4', submenu: [] },
-        { title: 'Submenu 5', icon: 'fas fa-circle', link: '/leyes/submenu5', submenu: [] },
-        { title: 'Submenu 6', icon: 'fas fa-circle', link: '/leyes/submenu6', submenu: [] },
-        { title: 'Submenu 7', icon: 'fas fa-circle', link: '/leyes/submenu7', submenu: [] },
+        { title: 'DECRETO por el que se otorgan facilidades administrativas en Materia Aduanera y de Comercio Exterior.', icon: 'fas fa-circle', link: '/decre3', submenu: [] },
+        { title: 'DECRETO para el fomento del recinto fiscalizado estratégico y del régimen de recinto fiscalizado estratégico.', icon: 'fas fa-circle', link: '/decre4', submenu: [] },
+        { title: 'DECRETO por el que se regula la importación definitiva de vehículos usados.', icon: 'fas fa-circle', link: '/decre5', submenu: [] },
+        { title: 'DECRETO por el que se establece el impuesto general de importación para la región fronteriza y la franja fronteriza norte.', icon: 'fas fa-circle', link: '/decre6', submenu: [] },
+        { title: 'DECRETO por el que se establecen medidas para la productividad, competitividad y combate de prácticas de subvaluación del sector calzado.', icon: 'fas fa-circle', link: '/decre7', submenu: [] },
         { title: 'Submenu 8', icon: 'fas fa-circle', link: '/leyes/submenu8', submenu: [] },
         { title: 'Submenu 9', icon: 'fas fa-circle', link: '/leyes/submenu9', submenu: [] },
         { title: 'Submenu 10', icon: 'fas fa-circle', link: '/leyes/submenu10', submenu: [] }
