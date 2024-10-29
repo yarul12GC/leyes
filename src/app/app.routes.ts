@@ -104,6 +104,14 @@ export const routes: Routes = [
         loadComponent: () => import('./leyes/leycam/leycam.component')
       },
       {
+        path: 'decre1',
+        loadComponent: () => import('./leyes/decre1/decre1.component')
+      },
+      {
+        path: 'decre2',
+        loadComponent: () => import('./leyes/decre2/decre2.component')
+      },
+      {
         path: '',
         redirectTo: 'panel',
         pathMatch: 'full'

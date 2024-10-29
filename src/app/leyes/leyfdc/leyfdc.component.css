@@ -7,7 +7,7 @@
     margin-top: 0ch;
     color: #000000;
     border-radius: 5px;
-    box-shadow: 7px 13px 37px #000000;
+    box-shadow: 7px 13px 37px #5a5a5a;
 }
 
 #titulo1 {
@@ -59,20 +59,6 @@ b {
 }
 
 
-caption {
-    border: 3px solid #000000;
-    /* Borde azul */
-    background-color: rgb(234, 233, 233);
-    /* Relleno gris */
-    padding: 5px 10px;
-    /* Relleno interno */
-    text-align: center;
-    /* Texto alineado a la derecha */
-    margin-top: 2%;
-
-    border-bottom-width: 1px;
-    /* Grosor del borde inferior */
-}
 
 th {
     background-color: rgb(234, 233, 233);
@@ -89,11 +75,11 @@ ul li a {
     font-size: 15px;
     line-height: 2;
     text-decoration: none;
-    color: red;
+    color: rgb(0, 57, 163);
     cursor: pointer;
 
     &:hover {
-        color: #5e0404;
+        color: #ff0000;
     }
 }
 
@@ -101,22 +87,4 @@ ol li {
     text-align: left;
     line-height: 20px;
     margin-left: 25px;
-}
-
-
-.contenido {
-    padding: 15px;
-    display: none;
-}
-
-
-td.contenidos {
-
-    vertical-align: top;
-}
-
-td {
-
-    text-align: center;
-    justify-content: center;
 }

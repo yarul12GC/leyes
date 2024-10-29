@@ -68,8 +68,8 @@ export class SidebarComponent {
       icon: 'fas fa-file-alt',
       link: '/decretos',
       submenu: [
-        { title: 'Submenu 1', icon: 'fas fa-circle', link: '/leyes/submenu1', submenu: [] },
-        { title: 'Submenu 2', icon: 'fas fa-circle', link: '/leyes/submenu2', submenu: [] },
+        { title: 'DECRETO por el que se crea la Autoridad Federal para el Desarrollo de las Zonas Económicas Especiales y se reforman y adicionan diversas disposiciones del Reglamento Interior de la Secretaría de Hacienda y Crédito Público.', icon: 'fas fa-circle', link: '/decre1', submenu: [] },
+        { title: 'DECRETO para el apoyo de la competitividad de la industria automotriz terminal y el impulso al desarrollo del mercado interno de automóviles.', icon: 'fas fa-circle', link: '/decre2', submenu: [] },
         { title: 'Submenu 3', icon: 'fas fa-circle', link: '/leyes/submenu3', submenu: [] },
         { title: 'Submenu 4', icon: 'fas fa-circle', link: '/leyes/submenu4', submenu: [] },
         { title: 'Submenu 5', icon: 'fas fa-circle', link: '/leyes/submenu5', submenu: [] },

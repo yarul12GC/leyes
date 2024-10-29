@@ -1,5 +1,97 @@
-<p>leyfdc works!</p>
-<hr style="height:3px; color: black; background-color: red;" />
+<div class="zona1">
+    <div class="p-4">
+        <div class="mt-4">
+            <!-- Botón principal del acordeón -->
+            <button (click)="toggleMenu()"
+                class="text-lg font-semibold text-red-600 bg-white border border-gray-300 p-2 rounded-md w-full shadow-lg hover:shadow-xl transition-shadow duration-300">
+                Artículos de la Ley Federal de los Derechos del Contribuyente
+            </button>
+            <div *ngIf="isMenuOpen">
+                <button (click)="toggleSubMenu({ isOpen: false })"
+                    class="flex justify-between w-full p-2 text-left bg-white  text-red-600 font-bold  border border-gray-300 rounded">
+
+                    <table width="100%">
+                        <tr>
+                            <td class="contenidos" width="18%">
+
+
+                                <ul>
+                                    <ul>
+                                        <li><a [routerLink]="['/leyfdc']" fragment="lfdc1">Artículo 1</a></li>
+                                        <li><a [routerLink]="['/leyfdc']" fragment="lfdc2">Artículo 2</a></li>
+                                        <li><a [routerLink]="['/leyfdc']" fragment="lfdc3">Artículo 3</a></li>
+                                        <li><a [routerLink]="['/leyfdc']" fragment="lfdc4">Artículo 4</a></li>
+                                        <li><a [routerLink]="['/leyfdc']" fragment="lfdc5">Artículo 5</a></li>
+                                        <li><a [routerLink]="['/leyfdc']" fragment="lfdc6">Artículo 6</a></li>
+                                        <li><a [routerLink]="['/leyfdc']" fragment="lfdc7">Artículo 7</a></li>
+                                        <li><a [routerLink]="['/leyfdc']" fragment="lfdc8">Artículo 8</a></li>
+                                        <li><a [routerLink]="['/leyfdc']" fragment="lfdc9">Artículo 9</a></li>
+                                        <li><a [routerLink]="['/leyfdc']" fragment="lfdc10">Artículo 10</a></li>
+                               
+                                      </ul>
+                                      
+
+
+                                </ul>
+
+                            </td>
+
+
+                            <td class="contenidos" width="18%">
+                                <ul>
+                                    <li><a [routerLink]="['/leyfdc']" fragment="lfdc11">Artículo 11</a></li>
+                                    <li><a [routerLink]="['/leyfdc']" fragment="lfdc12">Artículo 12</a></li>
+                                    <li><a [routerLink]="['/leyfdc']" fragment="lfdc13">Artículo 13</a></li>
+                                    <li><a [routerLink]="['/leyfdc']" fragment="lfdc14">Artículo 14</a></li>
+                                    <li><a [routerLink]="['/leyfdc']" fragment="lfdc15">Artículo 15</a></li>
+                                    <li><a [routerLink]="['/leyfdc']" fragment="lfdc16">Artículo 16</a></li>
+                                    <li><a [routerLink]="['/leyfdc']" fragment="lfdc17">Artículo 17</a></li>
+                                    <li><a [routerLink]="['/leyfdc']" fragment="lfdc18">Artículo 18</a></li>
+                                    <li><a [routerLink]="['/leyfdc']" fragment="lfdc19">Artículo 19</a></li>
+                                    <li><a [routerLink]="['/leyfdc']" fragment="lfdc20">Artículo 20</a></li>
+                                </ul>
+
+
+
+                            </td>
+
+
+                            <td class="contenidos" width="18%">
+                                <ul>
+                                    <li><a [routerLink]="['/leyfdc']" fragment="lfdc21">Artículo 21</a></li>
+                                    <li><a [routerLink]="['/leyfdc']" fragment="lfdc22">Artículo 22</a></li>
+                                    <li><a [routerLink]="['/leyfdc']" fragment="lfdc23">Artículo 23</a></li>
+                                    <li><a [routerLink]="['/leyfdc']" fragment="lfdc24">Artículo 24</a></li>
+                                </ul>
+
+
+
+
+
+                            </td>
+
+
+
+
+
+
+                    </table>
+
+
+
+                </button>
+                <div *ngIf="false" class="ml-4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <hr style="height:3px; color: black; background-color: red;" />
     <div id="cabezaLey">
         <p id="titulo1"><a name="cfdlf"></a>LEY FEDERAL DE LOS DERECHOS DEL CONTRIBUYENTE</p>
         <p>TEXTO VIGENTE</p>
