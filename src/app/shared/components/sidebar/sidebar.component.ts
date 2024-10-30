@@ -23,23 +23,6 @@ interface MenuItem {
 export class SidebarComponent {
   menuItems: MenuItem[] = [
     {
-      title: 'Panel',
-      icon: 'fas fa-tachometer-alt',
-      link: '/panel',
-      submenu: [
-        { title: 'Anexo1', icon: 'fas fa-circle', link: '/anexo1', submenu: [] },
-        { title: 'Submenu 2', icon: 'fas fa-circle', link: '/leyes/submenu2', submenu: [] },
-        { title: 'Submenu 3', icon: 'fas fa-circle', link: '/leyes/submenu3', submenu: [] },
-        { title: 'Submenu 4', icon: 'fas fa-circle', link: '/leyes/submenu4', submenu: [] },
-        { title: 'Submenu 5', icon: 'fas fa-circle', link: '/leyes/submenu5', submenu: [] },
-        { title: 'Submenu 6', icon: 'fas fa-circle', link: '/leyes/submenu6', submenu: [] },
-        { title: 'Submenu 7', icon: 'fas fa-circle', link: '/leyes/submenu7', submenu: [] },
-        { title: 'Submenu 8', icon: 'fas fa-circle', link: '/leyes/submenu8', submenu: [] },
-        { title: 'Submenu 9', icon: 'fas fa-circle', link: '/leyes/submenu9', submenu: [] },
-        { title: 'Submenu 10', icon: 'fas fa-circle', link: '/leyes/submenu10', submenu: [] }
-      ]
-    },
-    {
       title: 'Leyes',
       icon: 'fas fa-gavel',
       link: '/leyes',
@@ -60,7 +43,7 @@ export class SidebarComponent {
         { title: 'Ley De Puertos', icon: 'fas fa-circle', link: '/leypu', submenu: [] },
         { title: 'Ley Federal Para El Control De Precursores Químicos, Productos Químicos Esenciales Y Máquinas Para Elaborar Cápsulas, Tabletas y/o Comprimidos', icon: 'fas fa-circle', link: '/leymaq', submenu: [] },
         { title: 'Ley De Caminos, Puentes Y Autotransporte Federal', icon: 'fas fa-circle', link: '/leycam', submenu: [] },
-       
+
       ]
     },
     {
@@ -80,7 +63,7 @@ export class SidebarComponent {
         { title: 'DECRETO que establece la devolución de impuestos de importación a los exportadores.', icon: 'fas fa-circle', link: '/decre10', submenu: [] },
         { title: 'DECRETO por el que se modifica el diverso para el fomento y operación de la industria maquiladora de exportación', icon: 'fas fa-circle', link: '/decre11', submenu: [] },
         { title: 'DECRETO por el que se establece la Ventanilla Digital Mexicana de Comercio Exterior.', icon: 'fas fa-circle', link: '/decre12', submenu: [] },
-      
+
       ]
     },
     {
@@ -88,9 +71,15 @@ export class SidebarComponent {
       icon: 'fas fa-book',
       link: '/reglas',
       submenu: [
-        { title: 'Reglas y criterios de caracter general en materia decomercio exterior', icon: 'fas fa-circle', link: '/reglasycriterios', submenu: [] },
-        { title: 'Reglas generales de comercio exterior', icon: 'fas fa-circle', link: '/reglasgenerales', submenu: [] },
+        { title: 'Reglas Generales de Comercio Exterior', icon: 'fas fa-circle', link: '/reglasgenerales', submenu: [] },
+        { title: '-  Anexo 1 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo1', submenu: [] },
+
+
+        //esta seccion es para los  30 anexos que corresponden a las reglas generales de comercio exterior 
+
+
         { title: 'Reglamento de la ley de comercio exterior', icon: 'fas fa-circle', link: '/reglamentoley/', submenu: [] },
+        { title: 'Reglas y criterios de caracter general en materia decomercio exterior', icon: 'fas fa-circle', link: '/reglasycriterios', submenu: [] },
         { title: 'Submenu 3', icon: 'fas fa-circle', link: '/leyes/submenu3', submenu: [] },
         { title: 'Submenu 4', icon: 'fas fa-circle', link: '/leyes/submenu4', submenu: [] },
         { title: 'Submenu 5', icon: 'fas fa-circle', link: '/leyes/submenu5', submenu: [] },
