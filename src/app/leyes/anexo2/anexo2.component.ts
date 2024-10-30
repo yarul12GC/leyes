@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './anexo2.component.html',
   styleUrl: './anexo2.component.css'
 })
-export class Anexo2Component {
+export default class Anexo2Component {
 
 }

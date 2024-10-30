@@ -28,8 +28,8 @@ export class SidebarComponent {
       link: '/panel',
       submenu: [
         { title: 'Anexo1', icon: 'fas fa-circle', link: '/anexo1', submenu: [] },
-        { title: 'Submenu 2', icon: 'fas fa-circle', link: '/leyes/submenu2', submenu: [] },
-        { title: 'Submenu 3', icon: 'fas fa-circle', link: '/leyes/submenu3', submenu: [] },
+        { title: 'Anexo2', icon: 'fas fa-circle', link: '/anexo2', submenu: [] },
+        { title: 'Anexo3', icon: 'fas fa-circle', link: '/anexo3', submenu: [] },
         { title: 'Submenu 4', icon: 'fas fa-circle', link: '/leyes/submenu4', submenu: [] },
         { title: 'Submenu 5', icon: 'fas fa-circle', link: '/leyes/submenu5', submenu: [] },
         { title: 'Submenu 6', icon: 'fas fa-circle', link: '/leyes/submenu6', submenu: [] },
