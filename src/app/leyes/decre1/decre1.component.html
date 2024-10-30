@@ -1,617 +1,799 @@
+<div class="zona1">
+    <div class="p-4">
+        <div class="mt-4">
+            <!-- Botón principal del acordeón -->
+            <button (click)="toggleMenu()"
+                class="text-lg font-semibold text-red-600 bg-white border border-gray-300 p-2 rounded-md w-full shadow-lg hover:shadow-xl transition-shadow duration-300">
+                DECRETO por el que se crea la Autoridad Federal para el Desarrollo de las Zonas Económicas Especiales y
+                se reforman y añaden diversas disposiciones del Reglamento Interior de la Secretaría de Hacienda y
+                Crédito Público.
+            </button>
+            <div *ngIf="isMenuOpen">
+                <button (click)="toggleSubMenu({ isOpen: false })"
+                    class="flex justify-between w-full p-2 text-left bg-white  text-red-600 font-bold  border border-gray-300 rounded">
 
-<hr style="height:3px; color: black; background-color: red;" />
-<div id="cabezaLey">
-    <p id="titulo1"><a name="cfdlf"></a>DECRETO por el que se crea la Autoridad Federal para el Desarrollo de las Zonas
-        Económicas Especiales y se reforman y adicionan diversas disposiciones del Reglamento Interior de la Secretaría
-        de Hacienda y Crédito Público.</p>
-    <p>Nueva Ley publicada en el Diario Oficial de la Federación el 4 de febrero de 1985
-    </p>
-    <p>Al margen un sello con el Escudo Nacional, que dice: Estados Unidos Mexicanos.- Presidencia de la República.</p>
-    <p>ENRIQUE PEÑA NIETO, Presidente de los Estados Unidos Mexicanos, en ejercicio de la facultad que me confiere el
-        artículo 89, fracción I, de la Constitución Política de los Estados Unidos Mexicanos, con fundamento en los
-        artículos 17 y 31 de la Ley Orgánica de la Administración Pública Federal, y 1, 4, 9, 10, 11, 16 al 24, 26, 27,
-        29, 30, 31, 34, 36, 39, 42, 43, 47 y 49 de la Ley Federal de Zonas Económicas Especiales, y</p>
-    <p>Que el H. Congreso de la Unión se ha servido dirigirme el siguiente DECRETO:</p>
-    <br>
-    <p id="titulo1">CONSIDERANDO
-    </p>
-
-    <p>Que el artículo 25 de la Constitución Política de los Estados Unidos Mexicanos establece que corresponde al
-        Estado la rectoría del desarrollo nacional para garantizar que éste sea integral y sustentable, y que mediante
-        la competitividad, el fomento del crecimiento económico, el empleo, así como una justa distribución del ingreso
-        y la riqueza, permitan el pleno ejercicio de la libertad y la dignidad de los individuos, grupos y clases
-        sociales;</p>
-    <p>Que los artículos 25, último párrafo y 26, apartado A, de la Constitución Política de los Estados Unidos
-        Mexicanos prevén que se alentará la actividad económica que realicen los particulares para que ésta contribuya
-        al desarrollo económico nacional, promoviendo la competitividad e implementando una política nacional para el
-        desarrollo industrial sustentable, que incluya vertientes sectoriales y regionales en el marco de la planeación
-        nacional del desarrollo;</p>
-    <p>Que el Plan Nacional de Desarrollo 2013 â 2018, en su meta México Próspero, prevé que se buscará elevar la
-        productividad del país como medio para incrementar el crecimiento potencial de la economía y el bienestar de las
-        familias, para lo cual se establece como una de sus líneas de acción la implementación de una política de
-        fomento económico que contemple el diseño y desarrollo de agendas sectoriales y regionales; el desarrollo de
-        capital humano innovador; el impulso de sectores estratégicos de alto valor; el desarrollo y promoción de
-        cadenas de valor en dichos sectores, y el apoyo a la innovación y desarrollo tecnológico;</p>
-    <p>Que el 1 de junio de 2016, se publicó en el Diario Oficial de la Federación, el Decreto por el que se expide la
-        Ley Federal de Zonas Económicas Especiales y se adiciona un quinto párrafo al artículo 9 de la Ley General de
-        Bienes Nacionales, con el objeto de impulsar el crecimiento económico sostenible que, entre otros fines, reduzca
-        la pobreza, permita la provisión de servicios básicos y expanda las oportunidades para vidas saludables y
-        productivas en las regiones del país que tengan mayores rezagos en desarrollo social, a través del fomento de la
-        inversión, la productividad, la competitividad, el empleo y una mejor distribución del ingreso entre la
-        población;</p>
-    <p>Que las Zonas Económicas Especiales son consideradas áreas prioritarias del desarrollo nacional, que permitirán
-        concentrar en ciertas áreas geográficas con potencial productivo y logístico, los recursos de los sectores
-        público, privado y social, en acciones que fomenten el desarrollo de actividades de mayor valor agregado en las
-        regiones del país con mayor pobreza;</p>
-    <p>Que la Ley Federal de Zonas Económicas Especiales confiere diversas atribuciones en materia de planeación,
-        promoción, regulación, supervisión y verificación de dichas Zonas a la Secretaría de Hacienda y Crédito Público;
-    </p>
-    <p>Que el artículo 17 de la Ley Orgánica de la Administración Pública Federal prevé que para la más eficaz atención
-        y eficiente despacho de los asuntos de su competencia, las Secretarías de Estado podrán contar con órganos
-        administrativos desconcentrados que les estarán jerárquicamente subordinados y tendrán las facultades para
-        resolver sobre los asuntos que se les encomienden, de conformidad con las disposiciones legales aplicables, y
-    </p>
-    <p>Que resulta conveniente que la Secretaría de Hacienda y Crédito Público cuente con un órgano desconcentrado de
-        carácter especializado para llevar a cabo la ejecución de la Ley Federal de Zonas</p>
-    <p>Económicas Especiales en el ámbito administrativo, he tenido a bien expedir el siguiente</p>
-
-    <p id="titulo1">DECRETO</p>
-
-
-
-
-
-
-</div>
-
-<div id="contenedor_tablas">
-    <table width="100%" border="3" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
-        bordercolor="#A5D3E7">
-
-        <caption>
-            <p id="titulo3">ARTÍCULO PRIMERO.</p>
-            <p id="titulo2">Se crea la Autoridad Federal para el Desarrollo de las Zonas Económicas Especiales.</p>
-        </caption>
-
-        <tr>
-            <th width="30%">ARTÍCULO</th>
-            <th width="70%">CONTENIDO</th>
-        </tr>
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz1"><strong>Artículo 1</strong></p>
-            </td>
-            <td valign="top">
-                <p> La Autoridad Federal para el Desarrollo de las Zonas Económicas Especiales, en lo subsecuente la
-                    Autoridad Federal, se constituye como un órgano administrativo desconcentrado de la Secretaría de
-                    Hacienda y Crédito Público, con autonomía técnica, operativa y de gestión.
-                </p>
-
-            </td>
-        </tr>
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz2"><strong>Artículo 2</strong></p>
-            </td>
-            <td valign="top">
-                <p>
-                    La Autoridad Federal tiene por objeto ejercer las funciones en materia de planeación, promoción,
-                    regulación, supervisión y verificación en materia de Zonas que la Ley Federal de Zonas Económicas
-                    Especiales confiere a la Secretaría de Hacienda y Crédito Público, así como las demás que establecen
-                    las disposiciones jurídicas aplicables.
-                </p>
-            </td>
-        </tr>
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz3"><strong>Artículo 3</strong></p>
-            </td>
-            <td valign="top">
-                <p>Las definiciones previstas en el artículo 3 de la Ley Federal de Zonas Económicas Especiales y en su
-                    Reglamento serán aplicables al presente Decreto.
-                </p>
-
-            </td>
-
-        </tr>
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz4"><strong>Artículo 4</strong></p>
-            </td>
-            <td valign="top">
-                <p>
-                    Para el cumplimiento de su objeto, la Autoridad Federal tendrá las siguientes atribuciones en los
-                    términos de la Ley y su Reglamento:
-                </p>
-                <ol type="I">
-                    <br>
-                    <li>Implementar la política para el establecimiento y desarrollo de Zonas</li>
-                    <br>
-                    <li> Establecer mecanismos específicos para promover, facilitar la gestión, fomentar y financiar la
-                        planeación, establecimiento y operación de Zonas, en los términos de las disposiciones
-                        aplicables y de manera coordinada con las dependencias y entidades paraestatales de la
-                        Administración Pública Federal competentes;</li>
-                    <br>
-                    <li> Coordinar, promover y realizar estudios, consultas, análisis y proyectos para el
-                        establecimiento de Zonas;</li>
-                    <br>
-                    <li> Interpretar la Ley Federal de Zonas Económicas Especiales para efectos administrativos, sin
-                        perjuicio de las atribuciones que competa ejercer a otras autoridades en términos de las
-                        disposiciones jurídicas aplicables;</li>
-                    <br>
-                    <li> Realizar la Evaluación Estratégica sobre la situación e impacto sociales y ambientales respecto
-                        de las Zonas y sus Áreas de Influencia, con la participación de las instancias correspondientes,
-                        en términos del artículo 17, segundo párrafo, de la Ley</li>
-                    <br>
-                    <li>Realizar, en coordinación con la Comisión Nacional para el Desarrollo de los Pueblos Indígenas y
-                        la Secretaría de Gobernación, así como con la participación que corresponda a las entidades
-                        federativas y los municipios, los procedimientos de consulta previa, libre e informada a las
-                        comunidades y pueblos indígenas en las Zonas y sus Áreas de Influencia;</li>
-                    <br>
-                    <li> Dictaminar las propuestas para el establecimiento, ampliación o modificación de las Zonas, así
-                        como someterlos a la aprobación de la Comisión Intersecretarial;</li>
-                    <br>
-                    <li> Elaborar el proyecto de Declaratoria de la Zona, con la participación de las unidades
-                        administrativas competentes de la Secretaría y de las dependencias y entidades paraestatales de
-                        la Administración Pública Federal, así como enviarlo al Titular de la Secretaría para someterlo
-                        a la consideración del Presidente de la República;</li>
-                    <br>
-                    <li> Celebrar los Convenios de Coordinación con los titulares de las entidades federativas y de los
-                        municipios donde se ubicará la Zona, sin perjuicio de la participación que corresponda a las
-                        dependencias y entidades paraestatales de la Administración Pública Federal;</li>
-                    <br>
-                    <li> Elaborar, en coordinación con las dependencias y entidades paraestatales de la Administración
-                        Pública Federal competentes, así como con la participación de las entidades federativas y los
-                        municipios involucrados, y tomando en consideración las recomendaciones que, en su caso, haya
-                        realizado el Consejo Técnico de la Zona, el proyecto de Programa de Desarrollo y sus
-                        modificaciones, así como someterlos a aprobación de la Comisión Intersecretarial;</li>
-                    <br>
-                    <li>Ser el enlace, como parte del funcionamiento de la Ventanilla Única, entre las autoridades de
-                        los tres órdenes de gobierno y los Administradores Integrales e Inversionistas, así como fungir
-                        como facilitador y dar seguimiento a los trámites de éstos;</li>
-                    <br>
-                    <li>Atender los trámites que le competen y brindar orientación a los Administradores Integrales,
-                        Inversionistas y cualquier persona interesada en realizar actividades económicas en las Zonas y
-                        Áreas de Influencia, que presenten los mismos directamente ante la Autoridad Federal;</li>
-                    <br>
-                    <li> Emitir los lineamientos para el otorgamiento de Permisos y Autorizaciones conforme a las
-                        disposiciones jurídicas aplicables;</li>
-                    <br>
-                    <li> Otorgar los Permisos y Asignaciones, así como resolver, según sea el caso, su modificación,
-                        cesión, terminación o prórroga;</li>
-                    <br>
-                    <li>Otorgar las Autorizaciones, así como resolver su modificación o terminación;</li>
-                    <br>
-                    <li> Promover, ante la autoridad competente, las medidas en materia de expropiación previstas en la
-                        Ley de Expropiación y la Ley Agraria, así como proporcionar la información que posea y resulte
-                        necesaria para la sustanciación de tales procedimientos ante las autoridades competentes en cada
-                        una de las materias</li>
-                    <br>
-                    <li> Otorgar, de conformidad con la Ley General de Bienes Nacionales y las disposiciones aplicables,
-                        concesiones y otros derechos respecto de los bienes del dominio público de la Federación que le
-                        hubieren sido destinados. Para tal efecto, la Autoridad Federal tendrá el carácter de
-                        administradora de inmuebles en términos de lo dispuesto en dicha ley, únicamente respecto de
-                        aquéllos que se requieran para el establecimiento y operación de Zonas;</li>
-                    <br>
-                    <li> Vigilar y supervisar el cumplimiento de los términos y condiciones de los Permisos,
-                        Asignaciones, y Autorizaciones;</li>
-                    <br>
-                    <li> Aprobar, a propuesta del Administrador Integral, el Plan Maestro de la Zona y sus
-                        modificaciones, así como verificar su cumplimiento;</li>
-                    <br>
-                    <li>Aprobar, a propuesta del Administrador Integral, las reglas de operación de cada Zona y, en su
-                        caso, las modificaciones que resulten necesarias;</li>
-                    <br>
-                    <li> Autorizar al Administrador Integral la prestación de Servicios Asociados a terceros en el Área
-                        de Influencia;</li>
-                    <br>
-                    <li> Requerir información y documentación al Administrador Integral y a los Inversionistas para el
-                        ejercicio de sus atribuciones;</li>
-                    <br>
-                    <li> Coordinar acciones de promoción de las Zonas, sin perjuicio de las que corresponden al
-                        Administrador Integral;</li>
-                    <br>
-                    <li> Intervenir en los supuestos previstos en la Ley, en la operación o administración de las Zonas
-                        en forma provisional;</li>
-                    <br>
-                    <li> Suspender las actividades o la ejecución de obras cuando el Administrador Integral o el
-                        Inversionista pongan en riesgo inminente la salud de la población, la seguridad o el
-                        funcionamiento de la Zona y, en su caso, determinar las acciones que deben realizar para
-                        subsanar las irregularidades que motivaron la suspensión;</li>
-                    <br>
-                    <li> Solicitar el auxilio de las autoridades que resulten competentes, para hacer efectivo el
-                        cumplimiento de las medidas que determine, así como requerir a éstas la información y
-                        colaboración necesaria para el ejercicio de sus atribuciones;</li>
-                    <br>
-                    <li>Fungir como representante del Gobierno Federal, ante los Consejos Técnicos de las Zonas, así
-                        como recibir y dar trámite a sus recomendaciones;</li>
-                    <br>
-                    <li> Coadyuvar en las acciones de coordinación entre los gobiernos federal, locales y municipales en
-                        donde se ubique la Zona y el Área de Influencia, y el Administrador Integral y los
-                        Inversionistas;</li>
-                    <br>
-                    <li>Ejercer el derecho del tanto en favor de la Federación, en caso de enajenación de inmuebles de
-                        propiedad privada en los que se hubiere establecido una Zona;</li>
-                    <br>
-                    <li>Autorizar los actos que impliquen el cambio del control de la persona moral titular del Permiso;
-                    </li>
-                    <br>
-                    <li>Aplicar las sanciones derivadas de las infracciones a la Ley y disposiciones que derivan de la
-                        misma;</li>
-                    <br>
-                    <li> Elaborar y enviar al Congreso de la Unión, el informe sobre la operación de cada Zona y los
-                        resultados obtenidos en el desarrollo económico y social del Área de Influencia;</li>
-                    <br>
-                    <li>Publicar en su página de Internet la información relacionada con las Zonas y sus Áreas de
-                        Influencia, y</li>
-                    <br>
-                    <li>Las demás que establecen las disposiciones jurídicas aplicables.</li>
-                </ol>
-
-            </td>
-        </tr>
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz5"><strong>Artículo 5</strong></p>
-            </td>
-            <td valign="top">
-                <p>Los mecanismos específicos a que se refiere el artículo 4, fracción II, del presente Decreto, podrán
-                    implementarse a través de fideicomisos de fomento; financiamiento a través de las instituciones de
-                    la banca de desarrollo, y los demás instrumentos conducentes, los cuales se sujetarán a las
-                    disposiciones jurídicas aplicables.
-                </p>
-
-            </td>
-
-        </tr>
-
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz6"><strong>Artículo 6</strong></p>
-            </td>
-            <td valign="top">
-                <p> Para el ejercicio de sus atribuciones, la Autoridad Federal podrá requerir información y
-                    colaboración a las dependencias y entidades paraestatales de la Administración Pública Federal, en
-                    sus respectivos ámbitos de competencia, quienes los prestarán de conformidad con las disposiciones
-                    jurídicas aplicables.
-                </p>
-
-            </td>
-
-        </tr>
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz7"><strong>Artículo 7</strong></p>
-            </td>
-            <td valign="top">
-                <p> La Autoridad Federal contará con un Titular, quien será nombrado y removido libremente por el
-                    Presidente de la República, a propuesta del Titular de la Secretaría.
-                </p>
-
-            </td>
-
-        </tr>
-
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz8"><strong>Artículo 8</strong></p>
-            </td>
-            <td valign="top">
-                <p>El Titular de la Autoridad Federal deberá reunir los requisitos siguientes:
-                </p>
-                <ol type="I">
-                    <br>
-                    <li>Ser ciudadano mexicano en pleno goce de sus derechos civiles y políticos;</li>
-                    <br>
-                    <li> Contar con título profesional de nivel licenciatura o superior en las áreas de administración,
-                        economía, derecho, ingeniería, contaduría o materias afines al objeto de la Ley, con una
-                        antigedad no menor a cinco años al día del nombramiento;</li>
-                    <br>
-                    <li>Haberse desempeñado, durante al menos diez años, en actividades que proporcionen la experiencia
-                        necesaria para cumplir las funciones a su cargo, ya sea en los ámbitos profesional, académico o
-                        de investigación;</li>
-                    <br>
-                    <li> No haber sido condenado mediante sentencia firme por delito doloso que le imponga pena de
-                        prisión. Tratándose de delitos patrimoniales dolosos, cualquiera que haya sido la pena, y</li>
-                    <br>
-                    <li> No encontrarse, al momento de su nombramiento, inhabilitado o suspendido para ejercer el
-                        comercio o para desempeñar un empleo, cargo o comisión en el servicio público.</li>
-
-                </ol>
-            </td>
-
-        </tr>
-
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz9"><strong>Artículo 9</strong></p>
-            </td>
-            <td valign="top">
-                <p> La representación, trámite y resolución de los asuntos que son competencia de la Autoridad Federal,
-                    corresponde originalmente a su Titular, quien está facultado para celebrar los actos y convenios
-                    inherentes al objeto de la misma
-                </p>
-                <p>Los titulares de las unidades administrativas de la Autoridad Federal ejercerán, conforme a la
-                    distribución de competencias que al efecto prevea el Reglamento Interior, las atribuciones a que se
-                    refiere el artículo 4 de este Decreto, con excepción de aquéllas a que se refiere el artículo
-                    siguiente.</p>
-            </td>
-
-        </tr>
-
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz10"><strong>Artículo 10</strong></p>
-            </td>
-            <td valign="top">
-                <p>. Las atribuciones indelegables del Titular de la Autoridad Federal son:
-                </p>
-                <ol type="I">
-                    <li>Planear y coordinar el desarrollo de las actividades de las unidades administrativas de la
-                        Autoridad Federal;</li>
-                    <br>
-                    <li>Coordinar la implementación de la política para el establecimiento y desarrollo de Zonas;</li>
-                    <br>
-                    <li>Determinar la instrumentación de mecanismos específicos para apoyar, promover, facilitar la
-                        gestión, fomentar y financiar la planeación, establecimiento y operación de Zonas;</li>
-                    <br>
-                    <li>Emitir los Dictámenes para el establecimiento, modificación y ampliación de las Zonas a que se
-                        refiere la fracción VII del artículo 4 del presente Decreto;</li>
-                    <br>
-
-                    <li>Suscribir los Convenios de Coordinación a que se refiere el artículo 4, fracción IX del presente
-                        Decreto, así como los demás convenios y acuerdos que se requieran para dar cumplimiento a la
-                        Ley, el Reglamento y demás disposiciones jurídicas aplicables;</li>
-                    <br>
-                    <li>Someter a la consideración y, en su caso, aprobación de la Comisión Intersecretarial, los
-                        Dictámenes, Programas de Desarrollo y demás instrumentos que correspondan;</li>
-                    <br>
-                    <li>Fungir como Secretario Técnico de la Comisión Intersecretarial;</li>
-                    <br>
-                    <li>Proponer al Titular de la Secretaría el anteproyecto de Reglamento Interior de la Autoridad
-                        Federal;</li>
-                    <br>
-                    <li>Aprobar los programas y anteproyectos de presupuesto de la Autoridad Federal y someterlos a la
-                        consideración del Titular de la Secretaría;</li>
-                    <br>
-                    <li>Emitir el Manual de Organización de la Autoridad Federal, así como proponer la estructura
-                        orgánica de la misma, de conformidad con las disposiciones jurídicas aplicables;</li>
-                    <li>Enviar al Congreso de la Unión, el informe sobre la operación de cada Zona y los resultados
-                        obtenidos en el desarrollo económico y social del Área de Influencia, conforme a los artículos
-                        16, fracción II, inciso d) de la Ley Federal de Zonas Económicas Especiales y 4, fracción XXXII
-                        del presente Decreto;</li>
-                    <br>
-                    <li>Rendir informes al Titular de la Secretaría, respecto de las acciones que realice la Autoridad
-                        Federal;</li>
-                    <br>
-                    <li>Las demás que establecen las disposiciones jurídicas aplicables.</li>
-
-                </ol>
-
-            </td>
-
-        </tr>
-
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz11"><strong>Artículo 11</strong></p>
-            </td>
-            <td valign="top">
-                <p> El Titular de la Autoridad Federal será auxiliado por los servidores públicos que se determinen en
-                    el Reglamento Interior que emita el Titular del Ejecutivo Federal. La Autoridad Federal se sujetará
-                    a las estructuras orgánica y ocupacional que le sean autorizadas en términos de las disposiciones
-                    aplicables.</p>
-            </td>
-
-        </tr>
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz12"><strong>Artículo 12</strong></p>
-            </td>
-            <td valign="top">
-                <p>Para la realización de su objeto, la Autoridad Federal contará con las asignaciones que establezca el
-                    Presupuesto de Egresos de la Federación. Los recursos y los ingresos excedentes que, en su caso,
-                    genere, serán ejercidos en términos de lo dispuesto en la Ley Federal de Presupuesto y
-                    Responsabilidad Hacendaria, su Reglamento y demás disposiciones jurídicas aplicables. </p>
-                <p>La Auditoría Superior de la Federación, en los términos de la Ley de Fiscalización y Rendición de
-                    Cuentas de la Federación, llevará a cabo la fiscalización de los recursos públicos que ejerza la
-                    Autoridad Federal</p>
-
-            </td>
-
-        </tr>
-
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz13"><strong>Artículo 13</strong></p>
-            </td>
-            <td valign="top">
-                <p> La Autoridad Federal rendirá cuentas sobre los resultados alcanzados en términos de la Ley y sobre
-                    su operación, a través de los siguientes informes:</p>
-                <ol type="I">
-                    <li> Informe al Congreso de la Unión, a más tardar el 15 de mayo de cada año, sobre la operación de
-                        cada Zona y los resultados obtenidos en el desarrollo económico y social del Área de Influencia;
-                    </li>
-                    <li> La Información que sea difundida a través de su página oficial de Internet, sobre:</li>
-                    <ol type="a">
-                        <li> El Informe que se menciona en la fracción I del presente artículo</li>
-                        <li>Las disposiciones administrativas aplicables en materia de Zonas;</li>
-                        <li>Los dictámenes emitidos para el establecimiento de Zonas;</li>
-                        <li> Los Convenios de Coordinación suscritos para el establecimiento y desarrollo de las Zonas;
-                        </li>
-                        <li> Los Programas de Desarrollo, los Planes Maestros de las Zonas y las reglas de operación de
-                            cada Zona, con excepción de la información reservada o confidencial en términos de las
-                            disposiciones jurídicas aplicables;</li>
-                        <li> El listado de Permisos, Asignaciones y Autorizaciones que se encuentren vigentes, así como
-                            sus términos y condiciones, y</li>
-                        <li>Las estadísticas generales sobre la operación de cada Zona</li>
-                    </ol>
-                    <li> La información anual y trimestral, a través de la Secretaría, sobre su presupuesto, su
-                        ejercicio y, en su caso, sobre los fideicomisos en los que actúe como unidad responsable, en los
-                        términos de la Ley Federal de Presupuesto y Responsabilidad Hacendaria, la Ley General de
-                        Contabilidad Gubernamental y demás disposiciones aplicables;</li>
-                    <li> La información prevista en la legislación en materia de transparencia y acceso a la información
-                        pública gubernamental que deberá difundirse en Internet y en los plazos establecidos en dicha
-                        legislación, y</li>
-                    <li>Los demás que establezcan las disposiciones aplicables.</li>
-
-                </ol>
-
-            </td>
-
-        </tr>
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz14"><strong>Artículo 14</strong></p>
-            </td>
-            <td valign="top">
-                <p>La actuación de los servidores públicos de la Autoridad Federal en el otorgamiento, regulación y
-                    supervisión de los Permisos, Asignaciones o Autorizaciones o de cualquier acto o procedimiento
-                    establecido en la Ley y demás disposiciones aplicables, se sujetará a los principios de legalidad,
-                    honradez, lealtad, imparcialidad y eficiencia, y a las disposiciones jurídicas aplicables en materia
-                    de combate a la corrupción y de responsabilidades administrativas.
-                </p>
-            </td>
-
-        </tr>
-
-
-    </table>
-    <br>
-    <table width="100%" border="3" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
-        bordercolor="#A5D3E7">
-
-        <caption>
-            <p id="titulo3">ARTÍCULO SEGUNDO</p>
-            <p id="titulo2"> Se reforman los artículos 2o., apartado D, en sus fracciones III y IV y 98-C y se adiciona
-                al artículo 2o., la fracción V al apartado D, del Reglamento Interior de la Secretaría de Hacienda y
-                Crédito Público, para quedar como sigue:</p>
-        </caption>
-
-        <tr>
-            <th width="30%">ARTÍCULO</th>
-            <th width="70%">CONTENIDO</th>
-        </tr>
-
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz15"><strong>Artículo 2o</strong></p>
-            </td>
-            <td valign="top">
-                <p>
-                </p>
-                <p>"Artículo 2o. ...</p>
-                <p>A. a C. ..</p>
-                <p>D. ...</p>
-                <p>I. y II. ...</p>
-                <p>III. Comisión Nacional de Seguros y Fianzas;</p>
-                <p>IV. Comisión Nacional del Sistema de Ahorro para el Retiro, y</p>
-                <p>V. Autoridad Federal para el Desarrollo de las Zonas Económicas Especiales.</p>
-            </td>
-        </tr>
-
-
-
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz16"><strong>Artículo 98-C</strong></p>
-            </td>
-            <td valign="top">
-                <p> El Servicio de Administración Tributaria, la Comisión Nacional Bancaria y de Valores, la Comisión
-                    Nacional de Seguros y Fianzas, la Comisión Nacional del Sistema de Ahorro para el Retiro y la
-                    Autoridad Federal para el Desarrollo de las Zonas Económicas Especiales, tendrán la organización y
-                    las atribuciones que establezcan las leyes o, en su caso, los ordenamientos emitidos por el
-                    Presidente de la República, por los que fueron creados."
-                </p>
-
-            </td>
-        </tr>
-
-
-
-
-    </table>
-    <br>
-    <br>
-    <table width="100%" border="3" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
-        bordercolor="#A5D3E7">
-
-        <caption>
-            <p id="titulo3">Transitorios</p>
-
-        </caption>
-
-        <tr>
-            <th width="30%">ARTÍCULO</th>
-            <th width="70%">CONTENIDO</th>
-        </tr>
-
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz16"><strong>PRIMERO</strong></p>
-            </td>
-            <td valign="top">
-                <p> - El presente Decreto entrará en vigor al día siguiente de su publicación en el Diario Oficial de la Federación
-                </p>
-
-            </td>
-        </tr>
-
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz16"><strong>SEGUNDO</strong></p>
-            </td>
-            <td valign="top">
-                <p>  La Secretaría de Hacienda y Crédito Público, con cargo a su presupuesto, asignará los recursos humanos, financieros y materiales que requiera la Autoridad Federal para el Desarrollo de las Zonas Económicas Especiales para el inicio de sus actividades, conforme a las disposiciones jurídicas aplicables.
-                </p>
-
-            </td>
-        </tr>
-
-
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz16"><strong>TERCERO</strong></p>
-            </td>
-            <td valign="top">
-                <p> Dentro de los 120 días contados a partir de la entrada en vigor del presente Decreto, el Titular de la Secretaría de Hacienda y Crédito Público someterá a consideración del Titular del Ejecutivo Federal, el proyecto de Reglamento Interior de la Autoridad Federal para el Desarrollo de las Zonas Económicas Especiales.
-                </p>
-
-            </td>
-        </tr>
-
-
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz16"><strong>CUARTO</strong></p>
-            </td>
-            <td valign="top">
-                <p>La atribución prevista en el artículo 4, fracción XVII, del artículo PRIMERO del presente 
-                </p>
-
-            </td>
-        </tr>
-    </table>
-    <br>
+                    <table width="100%">
+                        <tr>
+                            <td class="contenidos" width="18%">
+
+
+                                <ul>
+
+
+                                    <li><a [routerLink]="['/decre1']" fragment="dz1">Artículo 1</a></li>
+                                    <li><a [routerLink]="['/decre1']" fragment="dz2">Artículo 2</a></li>
+                                    <li><a [routerLink]="['/decre1']" fragment="dz3">Artículo 3</a></li>
+                                    <li><a [routerLink]="['/decre1']" fragment="dz4">Artículo 4</a></li>
+                                    <li><a [routerLink]="['/decre1']" fragment="dz5">Artículo 5</a></li>
+                                    <li><a [routerLink]="['/decre1']" fragment="dz6">Artículo 6</a></li>
+                                    <li><a [routerLink]="['/decre1']" fragment="dz7">Artículo 7</a></li>
+                                </ul>
+                            </td>
+
+                            <td class="contenidos" width="18%">
+                                <ul>
+
+                                    <li><a [routerLink]="['/decre1']" fragment="dz8">Artículo 8</a></li>
+                                    <li><a [routerLink]="['/decre1']" fragment="dz9">Artículo 9</a></li>
+                                    <li><a [routerLink]="['/decre1']" fragment="dz10">Artículo 10</a></li>
+                                    <li><a [routerLink]="['/decre1']" fragment="dz11">Artículo 11</a></li>
+                                    <li><a [routerLink]="['/decre1']" fragment="dz12">Artículo 12</a></li>
+                                    <li><a [routerLink]="['/decre1']" fragment="dz13">Artículo 13</a></li>
+                                    <li><a [routerLink]="['/decre1']" fragment="dz14">Artículo 14</a></li>
+                                </ul>
+
+                            </td>
+
+                            <td class="contenidos" width="18%">
+                                <ul>
+                                    <li><a [routerLink]="['/decre1']" fragment="dz15">Artículo 2o</a></li>
+                                    <li><a [routerLink]="['/decre1']" fragment="dz16">Artículo 98-C</a></li>
+                                </ul>
+                            </td>
+
+
+
+
+                    </table>
+
+
+
+                </button>
+                <div *ngIf="false" class="ml-4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr style="height:3px; color: black; background-color: red;" />
+    <div id="cabezaLey">
+        <p id="titulo1"><a name="cfdlf"></a>DECRETO por el que se crea la Autoridad Federal para el Desarrollo de las
+            Zonas
+            Económicas Especiales y se reforman y adicionan diversas disposiciones del Reglamento Interior de la
+            Secretaría
+            de Hacienda y Crédito Público.</p>
+        <p>Nueva Ley publicada en el Diario Oficial de la Federación el 4 de febrero de 1985
+        </p>
+        <p>Al margen un sello con el Escudo Nacional, que dice: Estados Unidos Mexicanos.- Presidencia de la República.
+        </p>
+        <p>ENRIQUE PEÑA NIETO, Presidente de los Estados Unidos Mexicanos, en ejercicio de la facultad que me confiere
+            el
+            artículo 89, fracción I, de la Constitución Política de los Estados Unidos Mexicanos, con fundamento en los
+            artículos 17 y 31 de la Ley Orgánica de la Administración Pública Federal, y 1, 4, 9, 10, 11, 16 al 24, 26,
+            27,
+            29, 30, 31, 34, 36, 39, 42, 43, 47 y 49 de la Ley Federal de Zonas Económicas Especiales, y</p>
+        <p>Que el H. Congreso de la Unión se ha servido dirigirme el siguiente DECRETO:</p>
         <br>
-<P>Decreto, entrará en vigor una vez que las facultades en materia de administración de bienes inmuebles de propiedad federal se transfieran de la Secretaría de la Función Pública a la Secretaría de Hacienda y Crédito Público, en términos de las disposiciones jurídicas aplicables.</P>
-<P>Dado en la residencia del Poder Ejecutivo Federal, en la Ciudad de México, a veinticuatro de junio de dos mil dieciséis.- Enrique Peña Nieto.- Rúbrica.- El Secretario de Hacienda y Crédito Público, Luis Videgaray Caso.- Rúbrica.</P>
+        <p id="titulo1">CONSIDERANDO
+        </p>
 
+        <p>Que el artículo 25 de la Constitución Política de los Estados Unidos Mexicanos establece que corresponde al
+            Estado la rectoría del desarrollo nacional para garantizar que éste sea integral y sustentable, y que
+            mediante
+            la competitividad, el fomento del crecimiento económico, el empleo, así como una justa distribución del
+            ingreso
+            y la riqueza, permitan el pleno ejercicio de la libertad y la dignidad de los individuos, grupos y clases
+            sociales;</p>
+        <p>Que los artículos 25, último párrafo y 26, apartado A, de la Constitución Política de los Estados Unidos
+            Mexicanos prevén que se alentará la actividad económica que realicen los particulares para que ésta
+            contribuya
+            al desarrollo económico nacional, promoviendo la competitividad e implementando una política nacional para
+            el
+            desarrollo industrial sustentable, que incluya vertientes sectoriales y regionales en el marco de la
+            planeación
+            nacional del desarrollo;</p>
+        <p>Que el Plan Nacional de Desarrollo 2013 â 2018, en su meta México Próspero, prevé que se buscará elevar la
+            productividad del país como medio para incrementar el crecimiento potencial de la economía y el bienestar de
+            las
+            familias, para lo cual se establece como una de sus líneas de acción la implementación de una política de
+            fomento económico que contemple el diseño y desarrollo de agendas sectoriales y regionales; el desarrollo de
+            capital humano innovador; el impulso de sectores estratégicos de alto valor; el desarrollo y promoción de
+            cadenas de valor en dichos sectores, y el apoyo a la innovación y desarrollo tecnológico;</p>
+        <p>Que el 1 de junio de 2016, se publicó en el Diario Oficial de la Federación, el Decreto por el que se expide
+            la
+            Ley Federal de Zonas Económicas Especiales y se adiciona un quinto párrafo al artículo 9 de la Ley General
+            de
+            Bienes Nacionales, con el objeto de impulsar el crecimiento económico sostenible que, entre otros fines,
+            reduzca
+            la pobreza, permita la provisión de servicios básicos y expanda las oportunidades para vidas saludables y
+            productivas en las regiones del país que tengan mayores rezagos en desarrollo social, a través del fomento
+            de la
+            inversión, la productividad, la competitividad, el empleo y una mejor distribución del ingreso entre la
+            población;</p>
+        <p>Que las Zonas Económicas Especiales son consideradas áreas prioritarias del desarrollo nacional, que
+            permitirán
+            concentrar en ciertas áreas geográficas con potencial productivo y logístico, los recursos de los sectores
+            público, privado y social, en acciones que fomenten el desarrollo de actividades de mayor valor agregado en
+            las
+            regiones del país con mayor pobreza;</p>
+        <p>Que la Ley Federal de Zonas Económicas Especiales confiere diversas atribuciones en materia de planeación,
+            promoción, regulación, supervisión y verificación de dichas Zonas a la Secretaría de Hacienda y Crédito
+            Público;
+        </p>
+        <p>Que el artículo 17 de la Ley Orgánica de la Administración Pública Federal prevé que para la más eficaz
+            atención
+            y eficiente despacho de los asuntos de su competencia, las Secretarías de Estado podrán contar con órganos
+            administrativos desconcentrados que les estarán jerárquicamente subordinados y tendrán las facultades para
+            resolver sobre los asuntos que se les encomienden, de conformidad con las disposiciones legales aplicables,
+            y
+        </p>
+        <p>Que resulta conveniente que la Secretaría de Hacienda y Crédito Público cuente con un órgano desconcentrado
+            de
+            carácter especializado para llevar a cabo la ejecución de la Ley Federal de Zonas</p>
+        <p>Económicas Especiales en el ámbito administrativo, he tenido a bien expedir el siguiente</p>
+
+        <p id="titulo1">DECRETO</p>
+
+
+
+
+
+
+    </div>
+
+    <div id="contenedor_tablas">
+        <table width="100%" border="3" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
+            bordercolor="#A5D3E7">
+
+            <caption>
+                <p id="titulo3">ARTÍCULO PRIMERO.</p>
+                <p id="titulo2">Se crea la Autoridad Federal para el Desarrollo de las Zonas Económicas Especiales.</p>
+            </caption>
+
+            <tr>
+                <th width="30%">ARTÍCULO</th>
+                <th width="70%">CONTENIDO</th>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz1"><strong>Artículo 1</strong></p>
+                </td>
+                <td valign="top">
+                    <p> La Autoridad Federal para el Desarrollo de las Zonas Económicas Especiales, en lo subsecuente la
+                        Autoridad Federal, se constituye como un órgano administrativo desconcentrado de la Secretaría
+                        de
+                        Hacienda y Crédito Público, con autonomía técnica, operativa y de gestión.
+                    </p>
+
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz2"><strong>Artículo 2</strong></p>
+                </td>
+                <td valign="top">
+                    <p>
+                        La Autoridad Federal tiene por objeto ejercer las funciones en materia de planeación, promoción,
+                        regulación, supervisión y verificación en materia de Zonas que la Ley Federal de Zonas
+                        Económicas
+                        Especiales confiere a la Secretaría de Hacienda y Crédito Público, así como las demás que
+                        establecen
+                        las disposiciones jurídicas aplicables.
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz3"><strong>Artículo 3</strong></p>
+                </td>
+                <td valign="top">
+                    <p>Las definiciones previstas en el artículo 3 de la Ley Federal de Zonas Económicas Especiales y en
+                        su
+                        Reglamento serán aplicables al presente Decreto.
+                    </p>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz4"><strong>Artículo 4</strong></p>
+                </td>
+                <td valign="top">
+                    <p>
+                        Para el cumplimiento de su objeto, la Autoridad Federal tendrá las siguientes atribuciones en
+                        los
+                        términos de la Ley y su Reglamento:
+                    </p>
+                    <ol type="I">
+                        <br>
+                        <li>Implementar la política para el establecimiento y desarrollo de Zonas</li>
+                        <br>
+                        <li> Establecer mecanismos específicos para promover, facilitar la gestión, fomentar y financiar
+                            la
+                            planeación, establecimiento y operación de Zonas, en los términos de las disposiciones
+                            aplicables y de manera coordinada con las dependencias y entidades paraestatales de la
+                            Administración Pública Federal competentes;</li>
+                        <br>
+                        <li> Coordinar, promover y realizar estudios, consultas, análisis y proyectos para el
+                            establecimiento de Zonas;</li>
+                        <br>
+                        <li> Interpretar la Ley Federal de Zonas Económicas Especiales para efectos administrativos, sin
+                            perjuicio de las atribuciones que competa ejercer a otras autoridades en términos de las
+                            disposiciones jurídicas aplicables;</li>
+                        <br>
+                        <li> Realizar la Evaluación Estratégica sobre la situación e impacto sociales y ambientales
+                            respecto
+                            de las Zonas y sus Áreas de Influencia, con la participación de las instancias
+                            correspondientes,
+                            en términos del artículo 17, segundo párrafo, de la Ley</li>
+                        <br>
+                        <li>Realizar, en coordinación con la Comisión Nacional para el Desarrollo de los Pueblos
+                            Indígenas y
+                            la Secretaría de Gobernación, así como con la participación que corresponda a las entidades
+                            federativas y los municipios, los procedimientos de consulta previa, libre e informada a las
+                            comunidades y pueblos indígenas en las Zonas y sus Áreas de Influencia;</li>
+                        <br>
+                        <li> Dictaminar las propuestas para el establecimiento, ampliación o modificación de las Zonas,
+                            así
+                            como someterlos a la aprobación de la Comisión Intersecretarial;</li>
+                        <br>
+                        <li> Elaborar el proyecto de Declaratoria de la Zona, con la participación de las unidades
+                            administrativas competentes de la Secretaría y de las dependencias y entidades paraestatales
+                            de
+                            la Administración Pública Federal, así como enviarlo al Titular de la Secretaría para
+                            someterlo
+                            a la consideración del Presidente de la República;</li>
+                        <br>
+                        <li> Celebrar los Convenios de Coordinación con los titulares de las entidades federativas y de
+                            los
+                            municipios donde se ubicará la Zona, sin perjuicio de la participación que corresponda a las
+                            dependencias y entidades paraestatales de la Administración Pública Federal;</li>
+                        <br>
+                        <li> Elaborar, en coordinación con las dependencias y entidades paraestatales de la
+                            Administración
+                            Pública Federal competentes, así como con la participación de las entidades federativas y
+                            los
+                            municipios involucrados, y tomando en consideración las recomendaciones que, en su caso,
+                            haya
+                            realizado el Consejo Técnico de la Zona, el proyecto de Programa de Desarrollo y sus
+                            modificaciones, así como someterlos a aprobación de la Comisión Intersecretarial;</li>
+                        <br>
+                        <li>Ser el enlace, como parte del funcionamiento de la Ventanilla Única, entre las autoridades
+                            de
+                            los tres órdenes de gobierno y los Administradores Integrales e Inversionistas, así como
+                            fungir
+                            como facilitador y dar seguimiento a los trámites de éstos;</li>
+                        <br>
+                        <li>Atender los trámites que le competen y brindar orientación a los Administradores Integrales,
+                            Inversionistas y cualquier persona interesada en realizar actividades económicas en las
+                            Zonas y
+                            Áreas de Influencia, que presenten los mismos directamente ante la Autoridad Federal;</li>
+                        <br>
+                        <li> Emitir los lineamientos para el otorgamiento de Permisos y Autorizaciones conforme a las
+                            disposiciones jurídicas aplicables;</li>
+                        <br>
+                        <li> Otorgar los Permisos y Asignaciones, así como resolver, según sea el caso, su modificación,
+                            cesión, terminación o prórroga;</li>
+                        <br>
+                        <li>Otorgar las Autorizaciones, así como resolver su modificación o terminación;</li>
+                        <br>
+                        <li> Promover, ante la autoridad competente, las medidas en materia de expropiación previstas en
+                            la
+                            Ley de Expropiación y la Ley Agraria, así como proporcionar la información que posea y
+                            resulte
+                            necesaria para la sustanciación de tales procedimientos ante las autoridades competentes en
+                            cada
+                            una de las materias</li>
+                        <br>
+                        <li> Otorgar, de conformidad con la Ley General de Bienes Nacionales y las disposiciones
+                            aplicables,
+                            concesiones y otros derechos respecto de los bienes del dominio público de la Federación que
+                            le
+                            hubieren sido destinados. Para tal efecto, la Autoridad Federal tendrá el carácter de
+                            administradora de inmuebles en términos de lo dispuesto en dicha ley, únicamente respecto de
+                            aquéllos que se requieran para el establecimiento y operación de Zonas;</li>
+                        <br>
+                        <li> Vigilar y supervisar el cumplimiento de los términos y condiciones de los Permisos,
+                            Asignaciones, y Autorizaciones;</li>
+                        <br>
+                        <li> Aprobar, a propuesta del Administrador Integral, el Plan Maestro de la Zona y sus
+                            modificaciones, así como verificar su cumplimiento;</li>
+                        <br>
+                        <li>Aprobar, a propuesta del Administrador Integral, las reglas de operación de cada Zona y, en
+                            su
+                            caso, las modificaciones que resulten necesarias;</li>
+                        <br>
+                        <li> Autorizar al Administrador Integral la prestación de Servicios Asociados a terceros en el
+                            Área
+                            de Influencia;</li>
+                        <br>
+                        <li> Requerir información y documentación al Administrador Integral y a los Inversionistas para
+                            el
+                            ejercicio de sus atribuciones;</li>
+                        <br>
+                        <li> Coordinar acciones de promoción de las Zonas, sin perjuicio de las que corresponden al
+                            Administrador Integral;</li>
+                        <br>
+                        <li> Intervenir en los supuestos previstos en la Ley, en la operación o administración de las
+                            Zonas
+                            en forma provisional;</li>
+                        <br>
+                        <li> Suspender las actividades o la ejecución de obras cuando el Administrador Integral o el
+                            Inversionista pongan en riesgo inminente la salud de la población, la seguridad o el
+                            funcionamiento de la Zona y, en su caso, determinar las acciones que deben realizar para
+                            subsanar las irregularidades que motivaron la suspensión;</li>
+                        <br>
+                        <li> Solicitar el auxilio de las autoridades que resulten competentes, para hacer efectivo el
+                            cumplimiento de las medidas que determine, así como requerir a éstas la información y
+                            colaboración necesaria para el ejercicio de sus atribuciones;</li>
+                        <br>
+                        <li>Fungir como representante del Gobierno Federal, ante los Consejos Técnicos de las Zonas, así
+                            como recibir y dar trámite a sus recomendaciones;</li>
+                        <br>
+                        <li> Coadyuvar en las acciones de coordinación entre los gobiernos federal, locales y
+                            municipales en
+                            donde se ubique la Zona y el Área de Influencia, y el Administrador Integral y los
+                            Inversionistas;</li>
+                        <br>
+                        <li>Ejercer el derecho del tanto en favor de la Federación, en caso de enajenación de inmuebles
+                            de
+                            propiedad privada en los que se hubiere establecido una Zona;</li>
+                        <br>
+                        <li>Autorizar los actos que impliquen el cambio del control de la persona moral titular del
+                            Permiso;
+                        </li>
+                        <br>
+                        <li>Aplicar las sanciones derivadas de las infracciones a la Ley y disposiciones que derivan de
+                            la
+                            misma;</li>
+                        <br>
+                        <li> Elaborar y enviar al Congreso de la Unión, el informe sobre la operación de cada Zona y los
+                            resultados obtenidos en el desarrollo económico y social del Área de Influencia;</li>
+                        <br>
+                        <li>Publicar en su página de Internet la información relacionada con las Zonas y sus Áreas de
+                            Influencia, y</li>
+                        <br>
+                        <li>Las demás que establecen las disposiciones jurídicas aplicables.</li>
+                    </ol>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz5"><strong>Artículo 5</strong></p>
+                </td>
+                <td valign="top">
+                    <p>Los mecanismos específicos a que se refiere el artículo 4, fracción II, del presente Decreto,
+                        podrán
+                        implementarse a través de fideicomisos de fomento; financiamiento a través de las instituciones
+                        de
+                        la banca de desarrollo, y los demás instrumentos conducentes, los cuales se sujetarán a las
+                        disposiciones jurídicas aplicables.
+                    </p>
+
+                </td>
+
+            </tr>
+
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz6"><strong>Artículo 6</strong></p>
+                </td>
+                <td valign="top">
+                    <p> Para el ejercicio de sus atribuciones, la Autoridad Federal podrá requerir información y
+                        colaboración a las dependencias y entidades paraestatales de la Administración Pública Federal,
+                        en
+                        sus respectivos ámbitos de competencia, quienes los prestarán de conformidad con las
+                        disposiciones
+                        jurídicas aplicables.
+                    </p>
+
+                </td>
+
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz7"><strong>Artículo 7</strong></p>
+                </td>
+                <td valign="top">
+                    <p> La Autoridad Federal contará con un Titular, quien será nombrado y removido libremente por el
+                        Presidente de la República, a propuesta del Titular de la Secretaría.
+                    </p>
+
+                </td>
+
+            </tr>
+
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz8"><strong>Artículo 8</strong></p>
+                </td>
+                <td valign="top">
+                    <p>El Titular de la Autoridad Federal deberá reunir los requisitos siguientes:
+                    </p>
+                    <ol type="I">
+                        <br>
+                        <li>Ser ciudadano mexicano en pleno goce de sus derechos civiles y políticos;</li>
+                        <br>
+                        <li> Contar con título profesional de nivel licenciatura o superior en las áreas de
+                            administración,
+                            economía, derecho, ingeniería, contaduría o materias afines al objeto de la Ley, con una
+                            antigedad no menor a cinco años al día del nombramiento;</li>
+                        <br>
+                        <li>Haberse desempeñado, durante al menos diez años, en actividades que proporcionen la
+                            experiencia
+                            necesaria para cumplir las funciones a su cargo, ya sea en los ámbitos profesional,
+                            académico o
+                            de investigación;</li>
+                        <br>
+                        <li> No haber sido condenado mediante sentencia firme por delito doloso que le imponga pena de
+                            prisión. Tratándose de delitos patrimoniales dolosos, cualquiera que haya sido la pena, y
+                        </li>
+                        <br>
+                        <li> No encontrarse, al momento de su nombramiento, inhabilitado o suspendido para ejercer el
+                            comercio o para desempeñar un empleo, cargo o comisión en el servicio público.</li>
+
+                    </ol>
+                </td>
+
+            </tr>
+
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz9"><strong>Artículo 9</strong></p>
+                </td>
+                <td valign="top">
+                    <p> La representación, trámite y resolución de los asuntos que son competencia de la Autoridad
+                        Federal,
+                        corresponde originalmente a su Titular, quien está facultado para celebrar los actos y convenios
+                        inherentes al objeto de la misma
+                    </p>
+                    <p>Los titulares de las unidades administrativas de la Autoridad Federal ejercerán, conforme a la
+                        distribución de competencias que al efecto prevea el Reglamento Interior, las atribuciones a que
+                        se
+                        refiere el artículo 4 de este Decreto, con excepción de aquéllas a que se refiere el artículo
+                        siguiente.</p>
+                </td>
+
+            </tr>
+
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz10"><strong>Artículo 10</strong></p>
+                </td>
+                <td valign="top">
+                    <p>. Las atribuciones indelegables del Titular de la Autoridad Federal son:
+                    </p>
+                    <ol type="I">
+                        <li>Planear y coordinar el desarrollo de las actividades de las unidades administrativas de la
+                            Autoridad Federal;</li>
+                        <br>
+                        <li>Coordinar la implementación de la política para el establecimiento y desarrollo de Zonas;
+                        </li>
+                        <br>
+                        <li>Determinar la instrumentación de mecanismos específicos para apoyar, promover, facilitar la
+                            gestión, fomentar y financiar la planeación, establecimiento y operación de Zonas;</li>
+                        <br>
+                        <li>Emitir los Dictámenes para el establecimiento, modificación y ampliación de las Zonas a que
+                            se
+                            refiere la fracción VII del artículo 4 del presente Decreto;</li>
+                        <br>
+
+                        <li>Suscribir los Convenios de Coordinación a que se refiere el artículo 4, fracción IX del
+                            presente
+                            Decreto, así como los demás convenios y acuerdos que se requieran para dar cumplimiento a la
+                            Ley, el Reglamento y demás disposiciones jurídicas aplicables;</li>
+                        <br>
+                        <li>Someter a la consideración y, en su caso, aprobación de la Comisión Intersecretarial, los
+                            Dictámenes, Programas de Desarrollo y demás instrumentos que correspondan;</li>
+                        <br>
+                        <li>Fungir como Secretario Técnico de la Comisión Intersecretarial;</li>
+                        <br>
+                        <li>Proponer al Titular de la Secretaría el anteproyecto de Reglamento Interior de la Autoridad
+                            Federal;</li>
+                        <br>
+                        <li>Aprobar los programas y anteproyectos de presupuesto de la Autoridad Federal y someterlos a
+                            la
+                            consideración del Titular de la Secretaría;</li>
+                        <br>
+                        <li>Emitir el Manual de Organización de la Autoridad Federal, así como proponer la estructura
+                            orgánica de la misma, de conformidad con las disposiciones jurídicas aplicables;</li>
+                        <li>Enviar al Congreso de la Unión, el informe sobre la operación de cada Zona y los resultados
+                            obtenidos en el desarrollo económico y social del Área de Influencia, conforme a los
+                            artículos
+                            16, fracción II, inciso d) de la Ley Federal de Zonas Económicas Especiales y 4, fracción
+                            XXXII
+                            del presente Decreto;</li>
+                        <br>
+                        <li>Rendir informes al Titular de la Secretaría, respecto de las acciones que realice la
+                            Autoridad
+                            Federal;</li>
+                        <br>
+                        <li>Las demás que establecen las disposiciones jurídicas aplicables.</li>
+
+                    </ol>
+
+                </td>
+
+            </tr>
+
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz11"><strong>Artículo 11</strong></p>
+                </td>
+                <td valign="top">
+                    <p> El Titular de la Autoridad Federal será auxiliado por los servidores públicos que se determinen
+                        en
+                        el Reglamento Interior que emita el Titular del Ejecutivo Federal. La Autoridad Federal se
+                        sujetará
+                        a las estructuras orgánica y ocupacional que le sean autorizadas en términos de las
+                        disposiciones
+                        aplicables.</p>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz12"><strong>Artículo 12</strong></p>
+                </td>
+                <td valign="top">
+                    <p>Para la realización de su objeto, la Autoridad Federal contará con las asignaciones que
+                        establezca el
+                        Presupuesto de Egresos de la Federación. Los recursos y los ingresos excedentes que, en su caso,
+                        genere, serán ejercidos en términos de lo dispuesto en la Ley Federal de Presupuesto y
+                        Responsabilidad Hacendaria, su Reglamento y demás disposiciones jurídicas aplicables. </p>
+                    <p>La Auditoría Superior de la Federación, en los términos de la Ley de Fiscalización y Rendición de
+                        Cuentas de la Federación, llevará a cabo la fiscalización de los recursos públicos que ejerza la
+                        Autoridad Federal</p>
+
+                </td>
+
+            </tr>
+
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz13"><strong>Artículo 13</strong></p>
+                </td>
+                <td valign="top">
+                    <p> La Autoridad Federal rendirá cuentas sobre los resultados alcanzados en términos de la Ley y
+                        sobre
+                        su operación, a través de los siguientes informes:</p>
+                    <ol type="I">
+                        <li> Informe al Congreso de la Unión, a más tardar el 15 de mayo de cada año, sobre la operación
+                            de
+                            cada Zona y los resultados obtenidos en el desarrollo económico y social del Área de
+                            Influencia;
+                        </li>
+                        <li> La Información que sea difundida a través de su página oficial de Internet, sobre:</li>
+                        <ol type="a">
+                            <li> El Informe que se menciona en la fracción I del presente artículo</li>
+                            <li>Las disposiciones administrativas aplicables en materia de Zonas;</li>
+                            <li>Los dictámenes emitidos para el establecimiento de Zonas;</li>
+                            <li> Los Convenios de Coordinación suscritos para el establecimiento y desarrollo de las
+                                Zonas;
+                            </li>
+                            <li> Los Programas de Desarrollo, los Planes Maestros de las Zonas y las reglas de operación
+                                de
+                                cada Zona, con excepción de la información reservada o confidencial en términos de las
+                                disposiciones jurídicas aplicables;</li>
+                            <li> El listado de Permisos, Asignaciones y Autorizaciones que se encuentren vigentes, así
+                                como
+                                sus términos y condiciones, y</li>
+                            <li>Las estadísticas generales sobre la operación de cada Zona</li>
+                        </ol>
+                        <li> La información anual y trimestral, a través de la Secretaría, sobre su presupuesto, su
+                            ejercicio y, en su caso, sobre los fideicomisos en los que actúe como unidad responsable, en
+                            los
+                            términos de la Ley Federal de Presupuesto y Responsabilidad Hacendaria, la Ley General de
+                            Contabilidad Gubernamental y demás disposiciones aplicables;</li>
+                        <li> La información prevista en la legislación en materia de transparencia y acceso a la
+                            información
+                            pública gubernamental que deberá difundirse en Internet y en los plazos establecidos en
+                            dicha
+                            legislación, y</li>
+                        <li>Los demás que establezcan las disposiciones aplicables.</li>
+
+                    </ol>
+
+                </td>
+
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz14"><strong>Artículo 14</strong></p>
+                </td>
+                <td valign="top">
+                    <p>La actuación de los servidores públicos de la Autoridad Federal en el otorgamiento, regulación y
+                        supervisión de los Permisos, Asignaciones o Autorizaciones o de cualquier acto o procedimiento
+                        establecido en la Ley y demás disposiciones aplicables, se sujetará a los principios de
+                        legalidad,
+                        honradez, lealtad, imparcialidad y eficiencia, y a las disposiciones jurídicas aplicables en
+                        materia
+                        de combate a la corrupción y de responsabilidades administrativas.
+                    </p>
+                </td>
+
+            </tr>
+
+
+        </table>
+        <br>
+        <table width="100%" border="3" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
+            bordercolor="#A5D3E7">
+
+            <caption>
+                <p id="titulo3">ARTÍCULO SEGUNDO</p>
+                <p id="titulo2"> Se reforman los artículos 2o., apartado D, en sus fracciones III y IV y 98-C y se
+                    adiciona
+                    al artículo 2o., la fracción V al apartado D, del Reglamento Interior de la Secretaría de Hacienda y
+                    Crédito Público, para quedar como sigue:</p>
+            </caption>
+
+            <tr>
+                <th width="30%">ARTÍCULO</th>
+                <th width="70%">CONTENIDO</th>
+            </tr>
+
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz15"><strong>Artículo 2o</strong></p>
+                </td>
+                <td valign="top">
+                    <p>
+                    </p>
+                    <p>"Artículo 2o. ...</p>
+                    <p>A. a C. ..</p>
+                    <p>D. ...</p>
+                    <p>I. y II. ...</p>
+                    <p>III. Comisión Nacional de Seguros y Fianzas;</p>
+                    <p>IV. Comisión Nacional del Sistema de Ahorro para el Retiro, y</p>
+                    <p>V. Autoridad Federal para el Desarrollo de las Zonas Económicas Especiales.</p>
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz16"><strong>Artículo 98-C</strong></p>
+                </td>
+                <td valign="top">
+                    <p> El Servicio de Administración Tributaria, la Comisión Nacional Bancaria y de Valores, la
+                        Comisión
+                        Nacional de Seguros y Fianzas, la Comisión Nacional del Sistema de Ahorro para el Retiro y la
+                        Autoridad Federal para el Desarrollo de las Zonas Económicas Especiales, tendrán la organización
+                        y
+                        las atribuciones que establezcan las leyes o, en su caso, los ordenamientos emitidos por el
+                        Presidente de la República, por los que fueron creados."
+                    </p>
+
+                </td>
+            </tr>
+
+
+
+
+        </table>
+        <br>
+        <br>
+        <table width="100%" border="3" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
+            bordercolor="#A5D3E7">
+
+            <caption>
+                <p id="titulo3">Transitorios</p>
+
+            </caption>
+
+            <tr>
+                <th width="30%">ARTÍCULO</th>
+                <th width="70%">CONTENIDO</th>
+            </tr>
+
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz16"><strong>PRIMERO</strong></p>
+                </td>
+                <td valign="top">
+                    <p> - El presente Decreto entrará en vigor al día siguiente de su publicación en el Diario Oficial
+                        de la Federación
+                    </p>
+
+                </td>
+            </tr>
+
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz16"><strong>SEGUNDO</strong></p>
+                </td>
+                <td valign="top">
+                    <p> La Secretaría de Hacienda y Crédito Público, con cargo a su presupuesto, asignará los recursos
+                        humanos, financieros y materiales que requiera la Autoridad Federal para el Desarrollo de las
+                        Zonas Económicas Especiales para el inicio de sus actividades, conforme a las disposiciones
+                        jurídicas aplicables.
+                    </p>
+
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz16"><strong>TERCERO</strong></p>
+                </td>
+                <td valign="top">
+                    <p> Dentro de los 120 días contados a partir de la entrada en vigor del presente Decreto, el Titular
+                        de la Secretaría de Hacienda y Crédito Público someterá a consideración del Titular del
+                        Ejecutivo Federal, el proyecto de Reglamento Interior de la Autoridad Federal para el Desarrollo
+                        de las Zonas Económicas Especiales.
+                    </p>
+
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz16"><strong>CUARTO</strong></p>
+                </td>
+                <td valign="top">
+                    <p>La atribución prevista en el artículo 4, fracción XVII, del artículo PRIMERO del presente
+                    </p>
+
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <P>Decreto, entrará en vigor una vez que las facultades en materia de administración de bienes inmuebles de
+            propiedad federal se transfieran de la Secretaría de la Función Pública a la Secretaría de Hacienda y
+            Crédito Público, en términos de las disposiciones jurídicas aplicables.</P>
+        <P>Dado en la residencia del Poder Ejecutivo Federal, en la Ciudad de México, a veinticuatro de junio de dos mil
+            dieciséis.- Enrique Peña Nieto.- Rúbrica.- El Secretario de Hacienda y Crédito Público, Luis Videgaray
+            Caso.- Rúbrica.</P>
+
+    </div>
 </div>

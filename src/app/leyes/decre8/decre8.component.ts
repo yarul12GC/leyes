@@ -3,13 +3,13 @@ import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { RouterModule } from '@angular/router';
 @Component({
-  selector: 'app-decre3',
+  selector: 'app-decre8',
   standalone: true,
   imports: [CommonModule, RouterModule],
-  templateUrl: './decre3.component.html',
-  styleUrl: './decre3.component.css'
+  templateUrl: './decre8.component.html',
+  styleUrl: './decre8.component.css'
 })
-export default class Decre3Component  implements OnInit {
+export default class Decre8Component  implements OnInit {
   isMenuOpen = false;
 
   constructor(private route: ActivatedRoute) { }

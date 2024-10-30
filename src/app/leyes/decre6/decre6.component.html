@@ -1,3 +1,57 @@
+<div class="zona1">
+    <div class="p-4">
+        <div class="mt-4">
+            <!-- Botón principal del acordeón -->
+            <button (click)="toggleMenu()"
+                class="text-lg font-semibold text-red-600 bg-white border border-gray-300 p-2 rounded-md w-full shadow-lg hover:shadow-xl transition-shadow duration-300">
+                >DECRETO por el que se establece el impuesto general de importación para la
+        región fronteriza y la franja fronteriza norte.
+            </button>
+            <div *ngIf="isMenuOpen">
+                <button (click)="toggleSubMenu({ isOpen: false })"
+                    class="flex justify-between w-full p-2 text-left bg-white  text-red-600 font-bold  border border-gray-300 rounded">
+
+                    <table width="100%">
+                        <tr>
+                            <td class="contenidos" width="18%">
+
+
+                                <ul>
+                                    <li><a [routerLink]="['/decre6']" fragment="dff1">Artículo 1</a></li>
+                                    <li><a [routerLink]="['/decre6']" fragment="dff2">Artículo 2</a></li>
+                                    <li><a [routerLink]="['/decre6']" fragment="dff3">Artículo 3</a></li>
+                                    <li><a [routerLink]="['/decre6']" fragment="dff4">Artículo 4</a></li>
+                                    <li><a [routerLink]="['/decre6']" fragment="dff5">Artículo 5</a></li>
+                                    <li><a [routerLink]="['/decre6']" fragment="dff6">Artículo 6</a></li>
+                                    <li><a [routerLink]="['/decre6']" fragment="dff7">Artículo 7</a></li>
+                             
+                              
+                                </ul>
+                            </td>
+
+
+
+
+
+
+
+
+                    </table>
+
+
+
+                </button>
+                <div *ngIf="false" class="ml-4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
 <hr style="height:3px; color: black; background-color: red;" />
 <div id="cabezaLey">
     <p id="titulo1"><a name="cfdlf"></a>DECRETO por el que se establece el impuesto general de importación para la
@@ -4408,7 +4462,7 @@
 
         <tr>
             <td valign="top">
-                <p align="left" id="dff1"><strong>ARTICULO 7</strong></p>
+                <p align="left" id="dff7"><strong>ARTICULO 7</strong></p>
             </td>
             <td valign="top">
                 <p>Son causales de cancelación del registro como empresa de la frontera que el titular del registro:

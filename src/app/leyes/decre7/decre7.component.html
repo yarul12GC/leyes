@@ -1,67 +1,30 @@
-<hr style="height:3px; color: black; background-color: red;" />
-<div id="cabezaLey">
+<div class="zona1">
+    <div class="p-4">
+        <div class="mt-4">
+            <!-- Botón principal del acordeón -->
+            <button (click)="toggleMenu()"
+                class="text-lg font-semibold text-red-600 bg-white border border-gray-300 p-2 rounded-md w-full shadow-lg hover:shadow-xl transition-shadow duration-300">
+                DECRETO por el que se establecen medidas para la productividad, competitividad y combate de
+                prácticas de subvaluación del sector calzado.
+            </button>
+            <div *ngIf="isMenuOpen">
+                <button (click)="toggleSubMenu({ isOpen: false })"
+                    class="flex justify-between w-full p-2 text-left bg-white  text-red-600 font-bold  border border-gray-300 rounded">
 
-    <p id="titulo1"> DECRETO por el que se establecen medidas para la productividad, competitividad y combate de
-        prácticas de subvaluación del sector calzado.</p>
-    <p>Nueva Ley publicada en el Diario Oficial de la Federación el 4 de febrero de 1985
-    </p>
-    <p>Al margen un sello con el Escudo Nacional, que dice: Estados Unidos Mexicanos.- Presidencia de la República.</p>
-    <p>ENRIQUE PEÑA NIETO, Presidente de los Estados Unidos Mexicanos, en ejercicio de la facultad que me confiere el
-        artículo 89, fracción I de la Constitución Política de los Estados Unidos Mexicanos, con fundamento en los
-        artículos 131 de la propia Constitución; 31 y 34 de la Ley Orgánica de la Administración Pública Federal, 2,
-        fracción VI de la Ley de Planeación y 4o., fracciones I y II de la Ley de Comercio Exterior, y
-    </p>
-    <br>
-    <p id="titulo1">CONSIDERANDO
-    </p>
+                    <table width="100%">
+                        <tr>
+                            <td class="contenidos" width="18%">
 
-    <p>Que el Plan Nacional de Desarrollo 2013-2018, en las metas nacionales México Próspero y México con
-        Responsabilidad Global, considera entre sus objetivos el de garantizar reglas claras que incentiven el
-        desarrollo de un mercado interno competitivo, lo que permitirá promover un crecimiento sostenido de la
-        productividad y el diseño de una política moderna de fomento económico enfocada a generar innovación y
-        crecimiento en sectores estratégicos para reafirmar el compromiso con el libre comercio, la movilidad de
-        capitales y la integración productiva;</p>
 
-    <p>Que el Programa de Desarrollo Innovador 2013-2018, define que para el sector industrial se implementarán
-        estrategias y acciones que impulsen la productividad de los sectores maduros, entre los cuales se pueden
-        considerar industrias con alto impacto regional y generadoras de empleo, como el sector calzado, es por ello que
-        resulta imperativo impulsar la productividad de dicho sector mediante la implementación de las acciones y
-        estrategias de este Programa; del Programa para Democratizar la Productividad 2013-2018, y de la Banca de
-        Desarrollo, a través del apoyo en el acceso a la tecnología y la innovación, a efecto de generar menores costos
-        de producción, eficiencia logística y el incremento de las competencias, habilidades y especialización del
-        capital humano;</p>
+                                <ul>
+                                    <li><a [routerLink]="['/decre7']" fragment="dm1">Artículo 1</a></li>
+                                    <li><a [routerLink]="['/decre7']" fragment="dm2">Artículo 2</a></li>
+                                    <li><a [routerLink]="['/decre7']" fragment="dm3">Artículo 3</a></li>
+                                    <li><a [routerLink]="['/decre7']" fragment="dm4">Artículo 4</a></li>
+                                    <li><a [routerLink]="['/decre7']" fragment="dm5">Artículo 5</a></li>
 
-    <p>Que la productividad impulsa la transformación de las empresas y facilita la integración de cadenas de valor,
-        acelera su reconversión productiva y con ello, su inserción en los mercados internacionales, por lo que se debe
-        aprovechar el reconocimiento que la calidad del calzado de cuero y piel fabricado en México tiene en el mundo;
-    </p>
-
-    <p>Que diversos sectores de la economía ven afectada su participación en el mercado interno por prácticas
-        comerciales lesivas, provocadas por mercancías que ingresan al país por las que se declara en el pedimento como
-        valor en aduana un valor menor al realmente pagado o por pagar por las mismas, en ocasiones a precios
-        significativamente bajos, incluso por debajo del precio de la materia prima con la que se elaboran,
-        principalmente mediante la facturación a través de terceros, o la alteración o falsificación de los documentos
-        comerciales, entre otras;</p>
-
-    <p>Que es urgente establecer un marco de medidas para prevenir y combatir la práctica de subvaluación, ya que además
-        de afectar la recaudación tributaria al disminuir la base gravable del impuesto general de importación, se
-        afecta el desempeño de la industria nacional, propiciando la pérdida de empleos, lo que genera un bajo nivel de
-        inversión y fomenta el crecimiento de la economía informal;</p>
-
-    <p>Que el 24 de diciembre de 2008 se publicó en el Diario Oficial de la Federación el Decreto por el que se modifica
-        la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, que prevé un esquema de
-        desgravación arancelaria gradual, aplicable a diversos sectores de la economía incluido el del calzado, mismo
-        que fue modificado mediante publicaciones en el mismo órgano de difusión el 31 de diciembre de 2012 y el 26 de
-        diciembre de 2013, cuya última etapa de desgravación inicia el 1o. de enero de 2015;</p>
-
-    <p>Que resulta conveniente ampliar la gradualidad de la desgravación prevista en el considerando anterior, para los
-        productos a los que se refiere este ordenamiento, a fin de permitir que las medidas emprendidas en el sector
-        calzado se consoliden y se potencie el efecto de las acciones y estrategias a que se refiere el presente
-        instrumento, y</p>
-
-    <p>Que conforme a lo dispuesto en la Ley de Comercio Exterior las medidas correspondientes a que se refiere el
-        presente Decreto fueron opinadas favorablemente por la Comisión de Comercio Exterior, he tenido a bien expedir
-        el siguiente;</p>
+                                </ul>
+                            </td>
 
 
 
@@ -69,192 +32,316 @@
 
 
 
-    <p id="titulo1">DECRETO</p>
 
-</div>
-
-<div id="contenedor_tablas">
-    <table width="100%" border="3" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
-        bordercolor="#A5D3E7">
-
-        <caption>
-
-        </caption>
-
-        <tr>
-            <th width="30%">ARTÍCULO</th>
-            <th width="70%">CONTENIDO</th>
-        </tr>
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dm1"><strong>ARTICULO PRIMERO</strong></p>
-            </td>
-            <td valign="top">
-                <p>El presente Decreto tiene por objeto establecer el marco que permita impulsar acciones que propicien
-                    la productividad del sector calzado, mediante una política industrial innovadora encaminada a su
-                    consolidación y al incremento de su competitividad, así como indicar acciones que la Administración
-                    Pública Federal podrá instrumentar para la prevención y combate de la práctica de subvaluación de
-                    mercancías importadas
-                </p>
-
-            </td>
-        </tr>
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dm2"><strong>ARTICULO SEGUNDO</strong></p>
-            </td>
-            <td valign="top">
-                <p>Las secretarías de Hacienda y Crédito Público y de Economía, en el ámbito de sus respectivas
-                    competencias, establecerán las medidas necesarias para incrementar la productividad y la
-                    competitividad del sector calzado, en particular, mediante las acciones siguientes:
-                </p>
-                <ol type="I">
-                    <li>Definir medidas que faciliten el acceso a apoyos financieros para los proyectos productivos del
-                        sector, en condiciones competitivas;</li>
-                    <li>Otorgar apoyos para la innovación, transformación del sector e integración de cadenas de valor,
-                        así como para potenciar el efecto de las acciones públicas;</li>
-                    <li>Promover y apoyar esquemas integrales para la capacitación, desarrollo y certificación de
-                        capacidades de empresarios y trabajadores con enfoque al cliente;</li>
-                    <li>Apoyar el desarrollo e implementación de metodologías, tecnologías y procesos de diseño para la
-                        diferenciación de productos y generación de mayor valor agregado, y</li>
-                    <li>Apoyar estrategias de comercialización y posicionamiento de producto y marca país en mercados
-                        objetivo.</li>
-                </ol>
+                    </table>
 
 
 
+                </button>
+                <div *ngIf="false" class="ml-4">
 
-            </td>
-        </tr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="height:3px; color: black; background-color: red;" />
+    <div id="cabezaLey">
 
-        <tr>
-            <td valign="top">
-                <p align="left" id="dm3"><strong>ARTICULO TERCERO</strong></p>
-            </td>
-            <td valign="top">
-                <p> Las secretarías de Hacienda y Crédito Público y de Economía, en el ámbito de sus respectivas
-                    competencias, implementarán acciones permanentes para prevenir y combatir la práctica de
-                    subvaluación de mercancías importadas, las cuales podrán contemplar, entre otras, las siguientes:
-                </p>
-                <ol type="I">
+        <p id="titulo1"> DECRETO por el que se establecen medidas para la productividad, competitividad y combate de
+            prácticas de subvaluación del sector calzado.</p>
+        <p>Nueva Ley publicada en el Diario Oficial de la Federación el 4 de febrero de 1985
+        </p>
+        <p>Al margen un sello con el Escudo Nacional, que dice: Estados Unidos Mexicanos.- Presidencia de la República.
+        </p>
+        <p>ENRIQUE PEÑA NIETO, Presidente de los Estados Unidos Mexicanos, en ejercicio de la facultad que me confiere
+            el
+            artículo 89, fracción I de la Constitución Política de los Estados Unidos Mexicanos, con fundamento en los
+            artículos 131 de la propia Constitución; 31 y 34 de la Ley Orgánica de la Administración Pública Federal, 2,
+            fracción VI de la Ley de Planeación y 4o., fracciones I y II de la Ley de Comercio Exterior, y
+        </p>
+        <br>
+        <p id="titulo1">CONSIDERANDO
+        </p>
 
-                    <li>I. Allegarse de información que estimen relevante para prevenir, detectar y sancionar prácticas
-                        de subvaluación, así como identificar las mercancías objeto de estos controles;</li>
-                    <li>II. Especializar la metodología de análisis de riesgo en las operaciones de introducción de las
-                        mercancías al país, que reditúe en revisiones asertivas, inclusive mediante la designación de
-                        aduanas autorizadas para tramitar el despacho aduanero de determinado tipo de mercancías;</li>
-                    <li>III. Coordinar acciones con personas calificadas y reconocidas por instituciones académicas
-                        especializadas, Cámaras Empresariales y sus Confederaciones, así como organismos internacionales
-                        y autoridades de otros países para el análisis de riesgo;</li>
-                    <li>IV. Establecer medidas de regulación y restricción no arancelarias a la importación, las cuales
-                        podrán consistir en permisos previos automáticos, entre otras, conforme a la Ley de Comercio
-                        Exterior;</li>
-                    <li>V. Prever sectores específicos en el padrón de importadores de sectores específicos a que se
-                        refiere el artículo 59, fracción IV de la Ley Aduanera;</li>
-                    <li>VI. Prever mecanismos para monitorear el valor en aduana de las mercancías, incluso a través de
-                        garantías que cubran el interés fiscal, tales como precios estimados y precios de alerta, entre
-                        otros.</li>
+        <p>Que el Plan Nacional de Desarrollo 2013-2018, en las metas nacionales México Próspero y México con
+            Responsabilidad Global, considera entre sus objetivos el de garantizar reglas claras que incentiven el
+            desarrollo de un mercado interno competitivo, lo que permitirá promover un crecimiento sostenido de la
+            productividad y el diseño de una política moderna de fomento económico enfocada a generar innovación y
+            crecimiento en sectores estratégicos para reafirmar el compromiso con el libre comercio, la movilidad de
+            capitales y la integración productiva;</p>
 
+        <p>Que el Programa de Desarrollo Innovador 2013-2018, define que para el sector industrial se implementarán
+            estrategias y acciones que impulsen la productividad de los sectores maduros, entre los cuales se pueden
+            considerar industrias con alto impacto regional y generadoras de empleo, como el sector calzado, es por ello
+            que
+            resulta imperativo impulsar la productividad de dicho sector mediante la implementación de las acciones y
+            estrategias de este Programa; del Programa para Democratizar la Productividad 2013-2018, y de la Banca de
+            Desarrollo, a través del apoyo en el acceso a la tecnología y la innovación, a efecto de generar menores
+            costos
+            de producción, eficiencia logística y el incremento de las competencias, habilidades y especialización del
+            capital humano;</p>
 
+        <p>Que la productividad impulsa la transformación de las empresas y facilita la integración de cadenas de valor,
+            acelera su reconversión productiva y con ello, su inserción en los mercados internacionales, por lo que se
+            debe
+            aprovechar el reconocimiento que la calidad del calzado de cuero y piel fabricado en México tiene en el
+            mundo;
+        </p>
 
+        <p>Que diversos sectores de la economía ven afectada su participación en el mercado interno por prácticas
+            comerciales lesivas, provocadas por mercancías que ingresan al país por las que se declara en el pedimento
+            como
+            valor en aduana un valor menor al realmente pagado o por pagar por las mismas, en ocasiones a precios
+            significativamente bajos, incluso por debajo del precio de la materia prima con la que se elaboran,
+            principalmente mediante la facturación a través de terceros, o la alteración o falsificación de los
+            documentos
+            comerciales, entre otras;</p>
 
-                </ol>
-            </td>
-        </tr>
+        <p>Que es urgente establecer un marco de medidas para prevenir y combatir la práctica de subvaluación, ya que
+            además
+            de afectar la recaudación tributaria al disminuir la base gravable del impuesto general de importación, se
+            afecta el desempeño de la industria nacional, propiciando la pérdida de empleos, lo que genera un bajo nivel
+            de
+            inversión y fomenta el crecimiento de la economía informal;</p>
 
+        <p>Que el 24 de diciembre de 2008 se publicó en el Diario Oficial de la Federación el Decreto por el que se
+            modifica
+            la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, que prevé un esquema de
+            desgravación arancelaria gradual, aplicable a diversos sectores de la economía incluido el del calzado,
+            mismo
+            que fue modificado mediante publicaciones en el mismo órgano de difusión el 31 de diciembre de 2012 y el 26
+            de
+            diciembre de 2013, cuya última etapa de desgravación inicia el 1o. de enero de 2015;</p>
 
-        <tr>
-            <td valign="top">
-                <p align="left" id="dm4"><strong>ARTICULO CUARTO</strong></p>
-            </td>
-            <td valign="top">
-                <p>La Secretaría de Economía, previa solicitud, asesorará a las Cámaras de Industria objeto de las
-                    medidas a que se refiere el presente Decreto, sobre la factibilidad de solicitar el inicio de una
-                    investigación por prácticas desleales de comercio internacional o salvaguardias, de conformidad con
-                    la legislación en la materia.
-                </p>
+        <p>Que resulta conveniente ampliar la gradualidad de la desgravación prevista en el considerando anterior, para
+            los
+            productos a los que se refiere este ordenamiento, a fin de permitir que las medidas emprendidas en el sector
+            calzado se consoliden y se potencie el efecto de las acciones y estrategias a que se refiere el presente
+            instrumento, y</p>
 
-            </td>
-        </tr>
-
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dm5"><strong>ARTICULO QUINTO</strong></p>
-            </td>
-            <td valign="top">
-                <p>Las secretarías de Hacienda y Crédito Público y de Economía, en el ámbito de sus respectivas
-                    competencias, podrán expedir las disposiciones de carácter general que sean necesarias para la
-                    correcta y debida aplicación del presente Decreto.
-                </p>
-
-            </td>
-        </tr>
-
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="dm6"><strong>ARTICULO SEXTO</strong></p>
-            </td>
-            <td valign="top">
-                <p>Se reforma la fracción V del Transitorio Único del "Decreto por el que se modifica la Tarifa de la
-                    Ley de los Impuestos Generales de Importación y de Exportación", publicado en el Diario Oficial de
-                    la Federación el 24 de diciembre de 2008, y sus posteriores modificaciones publicadas en el mismo
-                    órgano de difusión el 31 de diciembre de 2012 y el 26 de diciembre de 2013, para quedar como sigue:
-                </p>
-
-            </td>
-        </tr>
-
-        <tr>
-            <td valign="top">
-                <p align="left" id="df1"><strong>ARTICULO PRIMERO</strong></p>
-            </td>
-            <td valign="top">
-                <p>El presente Decreto tiene por objeto establecer el marco que permita impulsar acciones que propicien
-                    la productividad del sector calzado, mediante una política industrial innovadora encaminada a su
-                    consolidación y al incremento de su competitividad, así como indicar acciones que la Administración
-                    Pública Federal podrá instrumentar para la prevención y combate de la práctica de subvaluación de
-                    mercancías importadas
-                </p>
-
-            </td>
-        </tr>
-
-    </table>
-    <br>
-    <br>
-    <table width="100%" border="3" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
-        bordercolor="#A5D3E7">
-
-        <caption>
-            <p id="titulo3">Transitorios</p>
-
-        </caption>
-
-        <tr>
-            <th width="30%">ARTÍCULO</th>
-            <th width="70%">CONTENIDO</th>
-        </tr>
+        <p>Que conforme a lo dispuesto en la Ley de Comercio Exterior las medidas correspondientes a que se refiere el
+            presente Decreto fueron opinadas favorablemente por la Comisión de Comercio Exterior, he tenido a bien
+            expedir
+            el siguiente;</p>
 
 
-        <tr>
-            <td valign="top">
-                <p align="left" id="dz16"><strong>UNICO</strong></p>
-            </td>
-            <td valign="top">
-                <p>El presente Decreto entrará en vigor al día siguiente de su publicación en el Diario Oficial de la
-                    Federación.
-                </p>
 
-            </td>
-        </tr>
 
-    </table>
-    <br>
-    <P>do en la residencia del Poder Ejecutivo Federal, en la Ciudad de México, a veintiocho de agosto de dos mil
-        catorce.- Enrique Peña Nieto.- Rúbrica.- El Secretario de Hacienda y Crédito Público, Luis Videgaray Caso.-
-        Rúbrica.- El Secretario de Economía, Ildefonso Guajardo Villarreal.- Rúbrica.</P>
-</div>
+
+
+
+        <p id="titulo1">DECRETO</p>
+
+    </div>
+
+    <div id="contenedor_tablas">
+        <table width="100%" border="3" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
+            bordercolor="#A5D3E7">
+
+            <caption>
+
+            </caption>
+
+            <tr>
+                <th width="30%">ARTÍCULO</th>
+                <th width="70%">CONTENIDO</th>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dm1"><strong>ARTICULO PRIMERO</strong></p>
+                </td>
+                <td valign="top">
+                    <p>El presente Decreto tiene por objeto establecer el marco que permita impulsar acciones que
+                        propicien
+                        la productividad del sector calzado, mediante una política industrial innovadora encaminada a su
+                        consolidación y al incremento de su competitividad, así como indicar acciones que la
+                        Administración
+                        Pública Federal podrá instrumentar para la prevención y combate de la práctica de subvaluación
+                        de
+                        mercancías importadas
+                    </p>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dm2"><strong>ARTICULO SEGUNDO</strong></p>
+                </td>
+                <td valign="top">
+                    <p>Las secretarías de Hacienda y Crédito Público y de Economía, en el ámbito de sus respectivas
+                        competencias, establecerán las medidas necesarias para incrementar la productividad y la
+                        competitividad del sector calzado, en particular, mediante las acciones siguientes:
+                    </p>
+                    <ol type="I">
+                        <li>Definir medidas que faciliten el acceso a apoyos financieros para los proyectos productivos
+                            del
+                            sector, en condiciones competitivas;</li>
+                        <li>Otorgar apoyos para la innovación, transformación del sector e integración de cadenas de
+                            valor,
+                            así como para potenciar el efecto de las acciones públicas;</li>
+                        <li>Promover y apoyar esquemas integrales para la capacitación, desarrollo y certificación de
+                            capacidades de empresarios y trabajadores con enfoque al cliente;</li>
+                        <li>Apoyar el desarrollo e implementación de metodologías, tecnologías y procesos de diseño para
+                            la
+                            diferenciación de productos y generación de mayor valor agregado, y</li>
+                        <li>Apoyar estrategias de comercialización y posicionamiento de producto y marca país en
+                            mercados
+                            objetivo.</li>
+                    </ol>
+
+
+
+
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dm3"><strong>ARTICULO TERCERO</strong></p>
+                </td>
+                <td valign="top">
+                    <p> Las secretarías de Hacienda y Crédito Público y de Economía, en el ámbito de sus respectivas
+                        competencias, implementarán acciones permanentes para prevenir y combatir la práctica de
+                        subvaluación de mercancías importadas, las cuales podrán contemplar, entre otras, las
+                        siguientes:
+                    </p>
+                    <ol type="I">
+
+                        <li>I. Allegarse de información que estimen relevante para prevenir, detectar y sancionar
+                            prácticas
+                            de subvaluación, así como identificar las mercancías objeto de estos controles;</li>
+                        <li>II. Especializar la metodología de análisis de riesgo en las operaciones de introducción de
+                            las
+                            mercancías al país, que reditúe en revisiones asertivas, inclusive mediante la designación
+                            de
+                            aduanas autorizadas para tramitar el despacho aduanero de determinado tipo de mercancías;
+                        </li>
+                        <li>III. Coordinar acciones con personas calificadas y reconocidas por instituciones académicas
+                            especializadas, Cámaras Empresariales y sus Confederaciones, así como organismos
+                            internacionales
+                            y autoridades de otros países para el análisis de riesgo;</li>
+                        <li>IV. Establecer medidas de regulación y restricción no arancelarias a la importación, las
+                            cuales
+                            podrán consistir en permisos previos automáticos, entre otras, conforme a la Ley de Comercio
+                            Exterior;</li>
+                        <li>V. Prever sectores específicos en el padrón de importadores de sectores específicos a que se
+                            refiere el artículo 59, fracción IV de la Ley Aduanera;</li>
+                        <li>VI. Prever mecanismos para monitorear el valor en aduana de las mercancías, incluso a través
+                            de
+                            garantías que cubran el interés fiscal, tales como precios estimados y precios de alerta,
+                            entre
+                            otros.</li>
+
+
+
+
+                    </ol>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dm4"><strong>ARTICULO CUARTO</strong></p>
+                </td>
+                <td valign="top">
+                    <p>La Secretaría de Economía, previa solicitud, asesorará a las Cámaras de Industria objeto de las
+                        medidas a que se refiere el presente Decreto, sobre la factibilidad de solicitar el inicio de
+                        una
+                        investigación por prácticas desleales de comercio internacional o salvaguardias, de conformidad
+                        con
+                        la legislación en la materia.
+                    </p>
+
+                </td>
+            </tr>
+
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dm5"><strong>ARTICULO QUINTO</strong></p>
+                </td>
+                <td valign="top">
+                    <p>Las secretarías de Hacienda y Crédito Público y de Economía, en el ámbito de sus respectivas
+                        competencias, podrán expedir las disposiciones de carácter general que sean necesarias para la
+                        correcta y debida aplicación del presente Decreto.
+                    </p>
+
+                </td>
+            </tr>
+
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dm6"><strong>ARTICULO SEXTO</strong></p>
+                </td>
+                <td valign="top">
+                    <p>Se reforma la fracción V del Transitorio Único del "Decreto por el que se modifica la Tarifa de
+                        la
+                        Ley de los Impuestos Generales de Importación y de Exportación", publicado en el Diario Oficial
+                        de
+                        la Federación el 24 de diciembre de 2008, y sus posteriores modificaciones publicadas en el
+                        mismo
+                        órgano de difusión el 31 de diciembre de 2012 y el 26 de diciembre de 2013, para quedar como
+                        sigue:
+                    </p>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="df1"><strong>ARTICULO PRIMERO</strong></p>
+                </td>
+                <td valign="top">
+                    <p>El presente Decreto tiene por objeto establecer el marco que permita impulsar acciones que
+                        propicien
+                        la productividad del sector calzado, mediante una política industrial innovadora encaminada a su
+                        consolidación y al incremento de su competitividad, así como indicar acciones que la
+                        Administración
+                        Pública Federal podrá instrumentar para la prevención y combate de la práctica de subvaluación
+                        de
+                        mercancías importadas
+                    </p>
+
+                </td>
+            </tr>
+
+        </table>
+        <br>
+        <br>
+        <table width="100%" border="3" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
+            bordercolor="#A5D3E7">
+
+            <caption>
+                <p id="titulo3">Transitorios</p>
+
+            </caption>
+
+            <tr>
+                <th width="30%">ARTÍCULO</th>
+                <th width="70%">CONTENIDO</th>
+            </tr>
+
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz16"><strong>UNICO</strong></p>
+                </td>
+                <td valign="top">
+                    <p>El presente Decreto entrará en vigor al día siguiente de su publicación en el Diario Oficial de
+                        la
+                        Federación.
+                    </p>
+
+                </td>
+            </tr>
+
+        </table>
+        <br>
+        <P>dado en la residencia del Poder Ejecutivo Federal, en la Ciudad de México, a veintiocho de agosto de dos mil
+            catorce.- Enrique Peña Nieto.- Rúbrica.- El Secretario de Hacienda y Crédito Público, Luis Videgaray Caso.-
+            Rúbrica.- El Secretario de Economía, Ildefonso Guajardo Villarreal.- Rúbrica.</P>
+    </div>

@@ -1,0 +1,256 @@
+<div class="zona1">
+    <div class="p-4">
+        <div class="mt-4">
+            <!-- Botón principal del acordeón -->
+            <button (click)="toggleMenu()"
+                class="text-lg font-semibold text-red-600 bg-white border border-gray-300 p-2 rounded-md w-full shadow-lg hover:shadow-xl transition-shadow duration-300">
+                DECRETO que establece la devolución de impuestos de importación a los exportadores.
+                Publicado en el Diario Oficial de la Federación.
+            </button>
+            <div *ngIf="isMenuOpen">
+                <button (click)="toggleSubMenu({ isOpen: false })"
+                    class="flex justify-between w-full p-2 text-left bg-white  text-red-600 font-bold  border border-gray-300 rounded">
+
+                    <table width="100%">
+                        <tr>
+                            <td class="contenidos" width="18%">
+
+
+                                <ul>
+                                    <li><a [routerLink]="['/decre10']" fragment="dm1">Artículo 1</a></li>
+                                    <li><a [routerLink]="['/decre10']" fragment="dm2">Artículo 2</a></li>
+                                    <li><a [routerLink]="['/decre10']" fragment="dm3">Artículo 3</a></li>
+                                    <li><a [routerLink]="['/decre10']" fragment="dm4">Artículo 4</a></li>
+                                    <li><a [routerLink]="['/decre10']" fragment="dm5">Artículo 5</a></li>
+                                    <li><a [routerLink]="['/decre10']" fragment="dm6">Artículo 6</a></li>
+                                    <li><a [routerLink]="['/decre10']" fragment="dm7">Artículo 7</a></li>
+                                    <li><a [routerLink]="['/decre10']" fragment="dm8">Artículo 8</a></li>
+                                    <li><a [routerLink]="['/decre10']" fragment="dm9">Artículo 9</a></li>
+                                </ul>
+                            </td>
+
+
+
+
+
+
+
+
+                    </table>
+
+
+
+                </button>
+                <div *ngIf="false" class="ml-4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <hr style="height:3px; color: black; background-color: red;" />
+    <div id="cabezaLey">
+        <p id="titulo1">DECRETO que establece la devolución de impuestos de importación a los exportadores.</p>
+        <p>Publicado en el Diario Oficial de la Federación.</p>
+        <p>Al margen un sello con el Escudo Nacional, que dice: Estados Unidos Mexicanos.- Presidencia de la República.
+        </p>
+        <p>ERNESTO ZEDILLO PONCE DE LEÓN, Presidente de los Estados Unidos Mexicanos, en ejercicio de la facultad que me
+            confiere el artículo 89, fracción I de la Constitución Política de los Estados Unidos Mexicanos, y con
+            fundamento en los artículos 31 y 34 de la Ley Orgánica de la Administración Pública Federal; 4o., fracción
+            VI de la Ley de Comercio Exterior, y 39, fracción II del Código Fiscal de la Federación, y</p>
+        <br>
+        <p id="titulo1">CONSIDERANDO</p>
+        <p>Que es una práctica internacional reconocida devolver a los exportadores los impuestos de importación que
+            hubieren pagado por las materias primas, partes, componentes y demás insumos de origen extranjero,
+            incorporados a los productos que se elaboren y exporten;</p>
+        <p>Que dicho mecanismo fiscal está previsto en el Decreto que establece la Devolución de Impuestos de
+            Importación a los Exportadores, publicado en el Diario Oficial de la Federación el 24 de abril de 1985,
+            reformado y adicionado por diverso publicado en ese mismo órgano informativo el 29 de julio de 1987, el cual
+            ha demostrado ser un instrumento eficiente para la promoción de exportaciones;</p>
+        <p>Que a fin de fortalecer al sector exportador deben ampliarse los beneficios de ese mecanismo, mediante la
+            incorporación de la devolución de impuestos respecto de mercancías que retornen al exterior en el mismo
+            estado, y</p>
+        <p>Que es necesario que tanto el exportador como su proveedor gocen de los beneficios de la Constancia de
+            Exportación, he tenido a bien expedir el siguiente:</p>
+        <p id="titulo1">DECRETO</p>
+    </div>
+
+    <div id="contenedor_tablas">
+        <table width="100%" border="3" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
+            bordercolor="#A5D3E7">
+            <caption></caption>
+            <tr>
+                <th width="30%">ARTÍCULO</th>
+                <th width="70%">CONTENIDO</th>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dm1"><strong>ARTICULO 1</strong></p>
+                </td>
+                <td valign="top">
+                    <p>El presente Decreto tiene por objeto establecer el mecanismo mediante el cual operará la
+                        devolución del arancel causado por la importación de insumos, incorporados a mercancías de
+                        exportación o de mercancías que se retornen al extranjero en el mismo estado.</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dm2"><strong>ARTICULO 2</strong></p>
+                </td>
+                <td valign="top">
+                    <p>Para los efectos de este Decreto, se entenderá por:</p>
+                    <ol type="I">
+                        <li>Secretaría, a la Secretaría de Comercio y Fomento Industrial;</li>
+                        <li>Exportadores directos, a las personas establecidas en México que exporten mercancías en el
+                            mismo estado en que fueron importadas o que exporten mercancías que incorporen insumos
+                            importados;</li>
+                        <li>Exportadores indirectos, a los proveedores de insumos que se incorporen a productos que
+                            serán vendidos en el exterior por empresas inscritas en el Registro Nacional de la Industria
+                            Maquiladora, empresas con Programa de Importación Temporal para Producir Artículos de
+                            Exportación, por Empresas de Comercio Exterior, o por un tercero que extienda carta de aval
+                            solidario y presente pedimentos de exportación definitiva;</li>
+                        <li>Insumos importados, a las materias primas, partes y componentes, empaques y envases,
+                            combustibles, lubricantes y otros materiales de origen extranjero incorporados a las
+                            mercancías de exportación, y</li>
+                        <li>Constancia de Exportación, al documento comprobatorio de exportaciones indirectas, expedido
+                            por el exportador directo, conforme al formato que al efecto expida la Secretaría de
+                            Hacienda y Crédito Público.</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dm3"><strong>ARTICULO 3</strong></p>
+                </td>
+                <td valign="top">
+                    <p>Los exportadores directos o indirectos podrán obtener, en los términos de este Decreto, la
+                        devolución de los impuestos de importación por:</p>
+                    <ol type="I">
+                        <li>Los insumos incorporados en mercancías de exportación;</li>
+                        <li>Las mercancías que se retornen al extranjero en el mismo estado.</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dm4"><strong>ARTICULO 4</strong></p>
+                </td>
+                <td valign="top">
+                    <p>Para obtener la devolución, los exportadores deberán:</p>
+                    <ol type="I">
+                        <li>Presentar ante la Secretaría la solicitud correspondiente en los formatos que para tal
+                            efecto se expidan;</li>
+                        <li>Tratándose del exportador directo, anexar copia del pedimento de importación y exportación
+                            que amparen las mercancías por las cuales se requiere la devolución;</li>
+                        <li>En el caso del exportador indirecto, anexar factura de venta, copia de los pedimentos de
+                            importación y los documentos necesarios.</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dm5"><strong>ARTICULO 5</strong></p>
+                </td>
+                <td valign="top">
+                    <p>La solicitud de devolución de los impuestos de importación deberá presentarse en los plazos
+                        señalados para exportadores directos e indirectos.</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dm6"><strong>ARTICULO 6</strong></p>
+                </td>
+                <td valign="top">
+                    <p>El monto de los impuestos de importación que se devolverá al exportador se calculará mediante un
+                        mecanismo de tipo de cambio aplicado a la cantidad en moneda nacional.</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dm7"><strong>ARTICULO 7</strong></p>
+                </td>
+                <td valign="top">
+                    <p>La Secretaría dictaminará la solicitud en un plazo de 10 días hábiles. Cuando proceda la
+                        devolución, se remitirá la resolución a la Secretaría de Hacienda para el importe de la
+                        devolución.</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dm8"><strong>ARTICULO 8</strong></p>
+                </td>
+                <td valign="top">
+                    <p>Las personas que obtengan la devolución quedarán obligadas a conservar la documentación
+                        respectiva durante el plazo señalado en el Código Fiscal de la Federación.</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dm9"><strong>ARTICULO 9</strong></p>
+                </td>
+                <td valign="top">
+                    <p>La Secretaría y la Secretaría de Hacienda y Crédito Público expedirán, dentro de sus
+                        competencias, las disposiciones y criterios necesarios para la aplicación del presente Decreto.
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <table width="100%" border="3" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
+            bordercolor="#A5D3E7">
+            <caption>
+                <p id="titulo3">Transitorios</p>
+            </caption>
+
+            <tr>
+                <th width="30%">ARTÍCULO</th>
+                <th width="70%">CONTENIDO</th>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz16"><strong>PRIMERO</strong></p>
+                </td>
+                <td valign="top">
+                    <p>El presente Decreto entrará en vigor a los cinco días hábiles siguientes al de su publicación en
+                        el Diario Oficial de la Federación.</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <p align="left" id="dz17"><strong>SEGUNDO</strong></p>
+                </td>
+                <td valign="top">
+                    <p>Se abroga el Decreto que establece la devolución de impuestos de importación a los exportadores,
+                        publicado en el Diario Oficial de la Federación el 24 de abril de 1985 y su reforma, publicada
+                        en el Diario Oficial de la Federación el 29 de julio de 1987.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <p>Dado en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, Distrito Federal, a los diez días del
+        mes de mayo de mil novecientos noventa y cinco.- Ernesto Zedillo Ponce de León.- Rúbrica.- El Secretario de
+        Hacienda y Crédito Público, Guillermo Ortiz Martínez.- Rúbrica.- El Secretario de Comercio y Fomento Industrial,
+        Herminio Blanco Mendoza.- Rúbrica.</p>

@@ -1,0 +1,148 @@
+<div class="zona1">
+    <div class="p-4">
+        <div class="mt-4">
+            <!-- Botón principal del acordeón -->
+            <button (click)="toggleMenu()"
+                class="text-lg font-semibold text-red-600 bg-white border border-gray-300 p-2 rounded-md w-full shadow-lg hover:shadow-xl transition-shadow duration-300">
+                DECRETO por el que se establece la Ventanilla Digital Mexicana de Comercio Exterior..
+            </button>
+            <div *ngIf="isMenuOpen">
+                <button (click)="toggleSubMenu({ isOpen: false })"
+                    class="flex justify-between w-full p-2 text-left bg-white  text-red-600 font-bold  border border-gray-300 rounded">
+
+                    <table width="100%">
+                        <tr>
+                            <td class="contenidos" width="18%">
+
+
+                                <ul>
+                                    <li><a [routerLink]="['/decre12']" fragment="dt1">Artículo 1</a></li>
+                                    <li><a [routerLink]="['/decre12']" fragment="dt2">Artículo 2</a></li>
+                                    <li><a [routerLink]="['/decre12']" fragment="dt3">Artículo 3</a></li>
+                                    <li><a [routerLink]="['/decre12']" fragment="dt4">Artículo 4</a></li>
+                                    <li><a [routerLink]="['/decre12']" fragment="dt5">Artículo 5</a></li>
+                               
+                                </ul>
+                            </td>
+
+
+
+
+
+
+
+
+                    </table>
+
+
+
+                </button>
+                <div *ngIf="false" class="ml-4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<hr style="height:3px; color: black; background-color: red;" />
+<div id="cabezaLey">
+    <p id="titulo1">DECRETO por el que se establece la Ventanilla Digital Mexicana de Comercio Exterior.</p>
+    <p>Nueva Ley publicada en el Diario Oficial de la Federación el 6 de enero de 2011.</p>
+    <p>Al margen un sello con el Escudo Nacional, que dice: Estados Unidos Mexicanos.- Presidencia de la República.</p>
+    <p>FELIPE DE JESÚS CALDERÓN HINOJOSA, Presidente de los Estados Unidos Mexicanos, en ejercicio de la facultad que me confiere el artículo 89, fracción I de la Constitución Política de los Estados Unidos Mexicanos, con fundamento en los artículos 17, 21, 29, 31, 32 Bis, 33, 34, 35, 37, 38 y 39 de la Ley Orgánica de la Administración Pública Federal; y 4o., fracciones VI y VII de la Ley de Comercio Exterior.</p>
+    <br>
+    <p id="titulo1">CONSIDERANDO</p>
+    <p>Que el Plan Nacional de Desarrollo 2007-2012 señala que una economía nacional más competitiva brindará mejores condiciones para las inversiones y la creación de empleos, para lo cual es indispensable consolidar e impulsar el marco institucional.</p>
+    <p>Que actualmente, en el ámbito del comercio exterior, se demandan medidas de facilitación y simplificación comercial que otorguen certidumbre jurídica y propicien la reducción de los costos de transacción a cargo de las empresas mexicanas.</p>
+    <p>Que es conveniente que las autoridades competentes en materia de comercio exterior se coordinen e implementen acciones de simplificación, automatización y mejora de los procesos...</p>
+    <br>
+    <p id="titulo1">DECRETO</p>
+</div>
+
+<div id="contenedor_tablas">
+    <table width="100%" border="3" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse" bordercolor="#A5D3E7">
+        <caption></caption>
+        <tr>
+            <th width="30%">ARTÍCULO</th>
+            <th width="70%">CONTENIDO</th>
+        </tr>
+        <tr>
+            <td valign="top">
+                <p align="left" id="dt1"><strong>ARTÍCULO PRIMERO</strong></p>
+            </td>
+            <td valign="top">
+                <p>Se establece la Ventanilla Digital Mexicana de Comercio Exterior con el objeto de permitir a los agentes de comercio exterior realizar, a través de un solo punto de entrada electrónico, todos los trámites de importación, exportación y tránsito de mercancías.</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <p align="left" id="dt2"><strong>ARTÍCULO SEGUNDO</strong></p>
+            </td>
+            <td valign="top">
+                <p>Para los efectos del presente Decreto, se entenderá por:</p>
+                <ol>
+                    <li>Comisión Intersecretarial: la Comisión Intersecretarial para la Ventanilla Digital Mexicana de Comercio Exterior.</li>
+                    <li>Autoridades competentes en materia de comercio exterior: AGA, SAGARPA, SALUD, SAT, SE, SEDENA, SEMARNAT, SENER, SEP, SHCP.</li>
+                    <li>FIEL: la Firma Electrónica Avanzada reconocida por el SAT.</li>
+                    <li>MERCANCÍAS: los productos, artículos, efectos y cualesquier otros bienes.</li>
+                    <li>SFP: la Secretaría de la Función Pública.</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <p align="left" id="dt3"><strong>ARTÍCULO TERCERO</strong></p>
+            </td>
+            <td valign="top">
+                <p>La implementación de la Ventanilla Digital Mexicana de Comercio Exterior se desarrollará en tres etapas.</p>
+                <ul>
+                    <li>Etapa 1: SE y AGA, al 30 de septiembre de 2011.</li>
+                    <li>Etapa 2: SEDENA, SEMARNAT, SAGARPA y SALUD, al 30 de enero de 2012.</li>
+                    <li>Etapa 3: SENER y SEP, al 30 de junio de 2012.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <p align="left" id="dt4"><strong>ARTÍCULO CUARTO</strong></p>
+            </td>
+            <td valign="top">
+                <p>Las actividades que podrán realizarse a través de la Ventanilla Digital Mexicana de Comercio Exterior son:</p>
+                <ol>
+                    <li>Llevar a cabo cualquier trámite relacionado con importaciones, exportaciones y tránsito de mercancías.</li>
+                    <li>Consultar información sobre los procedimientos para la importación, exportación y tránsito de mercancías.</li>
+                    <li>Efectuar pagos electrónicos de las contribuciones y aprovechamientos.</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <p align="left" id="dt5"><strong>ARTÍCULO QUINTO</strong></p>
+            </td>
+            <td valign="top">
+                <p>Para realizar trámites a través de la Ventanilla Digital, se utilizará el Registro Federal de Contribuyentes y el certificado de la FIEL vigente.</p>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table width="100%" border="3" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse" bordercolor="#A5D3E7">
+        <caption>
+            <p id="titulo3">Transitorios</p>
+        </caption>
+        <tr>
+            <th width="30%">ARTÍCULO</th>
+            <th width="70%">CONTENIDO</th>
+        </tr>
+        <tr>
+            <td valign="top">
+                <p align="left" id="dz16"><strong>UNICO</strong></p>
+            </td>
+            <td valign="top">
+                <p>El presente Decreto entrará en vigor al día siguiente de su publicación en el Diario Oficial de la Federación.</p>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <p>Dado en la Residencia del Poder Ejecutivo Federal, en la Ciudad de México, a 6 de enero de 2011.- Felipe de Jesús Calderón Hinojosa.- Rúbrica.</p>
+</div>

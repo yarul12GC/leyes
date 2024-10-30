@@ -132,6 +132,26 @@ export const routes: Routes = [
         loadComponent: () => import('./leyes/decre7/decre7.component')
       },
       {
+        path: 'decre8',
+        loadComponent: () => import('./leyes/decre8/decre8.component')
+      },
+      {
+        path: 'decre9',
+        loadComponent: () => import('./leyes/decre9/decre9.component')
+      },
+      {
+        path: 'decre10',
+        loadComponent: () => import('./leyes/decre10/decre10.component')
+      },
+      {
+        path: 'decre11',
+        loadComponent: () => import('./leyes/decre11/decre11.component')
+      },
+      {
+        path: 'decre12',
+        loadComponent: () => import('./leyes/decre12/decre12.component')
+      },
+      {
         path: '',
         redirectTo: 'panel',
         pathMatch: 'full'

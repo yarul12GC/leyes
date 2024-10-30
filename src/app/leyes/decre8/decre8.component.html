@@ -1,0 +1,263 @@
+<div class="zona1">
+    <div class="p-4">
+        <div class="mt-4">
+            <!-- Botón principal del acordeón -->
+            <button (click)="toggleMenu()"
+                class="text-lg font-semibold text-red-600 bg-white border border-gray-300 p-2 rounded-md w-full shadow-lg hover:shadow-xl transition-shadow duration-300">
+                DECRETO por el que se establecen medidas para la productividad, competitividad y combate de
+                prácticas de subvaluación de los sectores textil y confección.
+            </button>
+            <div *ngIf="isMenuOpen">
+                <button (click)="toggleSubMenu({ isOpen: false })"
+                    class="flex justify-between w-full p-2 text-left bg-white  text-red-600 font-bold  border border-gray-300 rounded">
+
+                    <table width="100%">
+                        <tr>
+                            <td class="contenidos" width="18%">
+
+
+                                <ul>
+                                    <li><a [routerLink]="['/decre8']" fragment="dt1">Artículo 1</a></li>
+                                    <li><a [routerLink]="['/decre8']" fragment="dt2">Artículo 2</a></li>
+                                    <li><a [routerLink]="['/decre8']" fragment="dt3">Artículo 3</a></li>
+                                    <li><a [routerLink]="['/decre8']" fragment="dt4">Artículo 4</a></li>
+                                    <li><a [routerLink]="['/decre8']" fragment="dt5">Artículo 5</a></li>
+                                    <li><a [routerLink]="['/decre8']" fragment="dt6">Artículo 6</a></li>
+                             
+                                </ul>
+                            </td>
+
+
+
+
+
+
+
+
+                    </table>
+
+
+
+                </button>
+                <div *ngIf="false" class="ml-4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr style="height:3px; color: black; background-color: red;" />
+<div id="cabezaLey">
+
+    <p id="titulo1">DECRETO por el que se establecen medidas para la productividad, competitividad y combate de
+        prácticas de subvaluación de los sectores textil y confección.</p>
+    <p>Nueva Ley publicada en el Diario Oficial de la Federación el 4 de febrero de 1985
+    </p>
+    <p>Al margen un sello con el Escudo Nacional, que dice: Estados Unidos Mexicanos.- Presidencia de la República.</p>
+    <p>ENRIQUE PEÑA NIETO, Presidente de los Estados Unidos Mexicanos, en ejercicio de la facultad que me confiere el
+        artículo 89, fracción I de la Constitución Política de los Estados Unidos Mexicanos, con fundamento en los
+        artículos 131 de la propia Constitución; 31 y 34 de la Ley Orgánica de la Administración Pública Federal; 2,
+        fracción VI de la Ley de Planeación y 4o., fracciones I y II de la Ley de Comercio Exterior, y
+    </p>
+    <br>
+    <p id="titulo1">CONSIDERANDO
+    </p>
+
+
+
+
+
+
+
+
+    <p id="titulo1">DECRETO</p>
+
+</div>
+
+<div id="contenedor_tablas">
+    <table width="100%" border="3" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
+        bordercolor="#A5D3E7">
+
+        <caption>
+
+        </caption>
+
+        <tr>
+            <th width="30%">ARTÍCULO</th>
+            <th width="70%">CONTENIDO</th>
+        </tr>
+
+        <tr>
+            <td valign="top">
+                <p align="left" id="dt1"><strong>ARTICULO PRIMERO</strong></p>
+            </td>
+            <td valign="top">
+                <p>El presente Decreto tiene por objeto establecer el marco que permita impulsar acciones que fomenten
+                    la productividad de los sectores textil y confección, mediante una política industrial innovadora
+                    encaminada a su consolidación y al incremento de su competitividad, así como indicar acciones que la
+                    Administración Pública Federal podrá instrumentar para la prevención y combate de la práctica de
+                    subvaluación de mercancías importadas, pertenecientes a dichos sectores.
+                </p>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td valign="top">
+                <p align="left" id="dt2"><strong>ARTICULO SEGUNDO</strong></p>
+            </td>
+            <td valign="top">
+                <p> Las secretarías de Hacienda y Crédito Público y de Economía, en el ámbito de sus respectivas
+                    competencias, establecerán las medidas necesarias para incrementar la productividad y la
+                    competitividad de los sectores textil y confección, en particular, mediante las acciones siguientes:
+                </p>
+                <ol type="I">
+                    <li> Definir medidas que faciliten el acceso a apoyos financieros para los proyectos productivos del
+                        sector, en condiciones competitivas</li>
+                    <li> Otorgar apoyos para la innovación, transformación del sector e integración de cadenas de valor,
+                        así como para potenciar el efecto de las acciones públicas;</li>
+                    <li>Promover y apoyar esquemas integrales para la capacitación, desarrollo y certificación de
+                        capacidades de empresarios y trabajadores con enfoque al cliente;</li>
+                    <li> Apoyar el desarrollo e implementación de metodologías, tecnologías y procesos de diseño para la
+                        diferenciación de productos y generación de mayor valor agregado, y</li>
+
+                    <li>Apoyar estrategias de comercialización y posicionamiento de producto y marca país en mercados
+                        objetivo.</li>
+                </ol>
+
+
+
+            </td>
+        </tr>
+
+
+        <tr>
+            <td valign="top">
+                <p align="left" id="dt3"><strong>ARTICULO TERCERO</strong></p>
+            </td>
+            <td valign="top">
+                <p>Las secretarías de Hacienda y Crédito Público y de Economía, en el ámbito de sus respectivas
+                    competencias, implementarán acciones para prevenir y combatir la práctica de subvaluación de
+                    mercancías importadas, las cuales podrán considerar, entre otras, las siguientes:
+                </p>
+                <ol type="I">
+                    <li>Allegarse de información para prevenir, detectar y sancionar prácticas de subvaluación, así como
+                        identificar las mercancías objeto de estos controles;</li>
+                    <li>Especializar la metodología de análisis de riesgo en las operaciones de introducción de
+                        mercancías al país, que reditúe en revisiones asertivas;</li>
+                    <li>Coordinar acciones con organismos internacionales y autoridades de otros países para el análisis
+                        de riesgo;</li>
+                    <li> Establecer medidas de regulación y restricción no arancelarias a la importación, en términos de
+                        la Ley de Comercio Exterior y su Reglamento;</li>
+                    <li> Prever sectores específicos en el padrón de importadores de sectores específicos a que se
+                        refiere el artículo 59, fracción IV de la Ley Aduanera, y</li>
+                    <li> Prever mecanismos para monitorear el valor en aduana de las mercancías, incluso a través de
+                        garantías que cubran el interés fiscal, tales como precios estimados y precios de alerta, entre
+                        otros</li>
+                </ol>
+
+            </td>
+        </tr>
+
+
+        <tr>
+            <td valign="top">
+                <p align="left" id="dt4"><strong>ARTICULO CUARTO</strong></p>
+            </td>
+            <td valign="top">
+                <p> La Secretaría de Economía, previa solicitud, asesorará a las Cámaras de las industrias objeto de las
+                    medidas a que se refiere el presente Decreto, sobre la factibilidad de solicitar el inicio de una
+                    investigación por prácticas desleales de comercio internacional o salvaguardias, de conformidad con
+                    la legislación en la materia.
+                </p>
+
+            </td>
+        </tr>
+
+
+        <tr>
+            <td valign="top">
+                <p align="left" id="dt5"><strong>ARTICULO QUINTO</strong></p>
+            </td>
+            <td valign="top">
+                <p> Las secretarías de Hacienda y Crédito Público y de Economía, en el ámbito de sus respectivas
+                    competencias, podrán expedir las disposiciones de carácter general que sean necesarias para la
+                    correcta y debida aplicación del presente Decreto.
+                </p>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td valign="top">
+                <p align="left" id="dt6"><strong>ARTICULO SEXTO</strong></p>
+            </td>
+            <td valign="top">
+                <p> Se reforma la fracción V del Transitorio Único del "Decreto por el que se modifica la Tarifa de la
+                    Ley de los Impuestos Generales de Importación y de Exportación", publicado en el Diario Oficial de
+                    la Federación el 24 de diciembre de 2008, y sus posteriores modificaciones publicadas en el mismo
+                    órgano de difusión el 31 de diciembre de 2012, el 26 de diciembre de 2013 y el 29 de agosto de 2014,
+                    para quedar como sigue
+                </p>
+                <ol type="I">
+                    <li>"ÚNICO.- ...</li>
+                    <li>I. a IV. ...</li>
+                    <li>V. El artículo 7 BIS del presente Decreto, que entrará en vigor el 31 de enero de 2019."</li>
+
+                </ol>
+
+            </td>
+        </tr>
+
+
+    </table>
+    <br>
+    <br>
+    <table width="100%" border="3" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
+        bordercolor="#A5D3E7">
+
+        <caption>
+            <p id="titulo3">Transitorios</p>
+
+        </caption>
+
+        <tr>
+            <th width="30%">ARTÍCULO</th>
+            <th width="70%">CONTENIDO</th>
+        </tr>
+
+
+        <tr>
+            <td valign="top">
+                <p align="left" id="dz16"><strong>UNICO</strong></p>
+            </td>
+            <td valign="top">
+                <p>El presente Decreto entrará en vigor al día siguiente de su publicación en el Diario Oficial de la
+                    Federación.
+                </p>
+
+            </td>
+        </tr>
+
+    </table>
+    <br>
+    <P>Dado en la residencia del Poder Ejecutivo Federal, en la Ciudad de México, a veintitrés de diciembre de dos mil
+        catorce.- Enrique Peña Nieto.- Rúbrica.- El Secretario de Hacienda y Crédito Público, Luis Videgaray Caso.-
+        Rúbrica.- El Secretario de Economía, Ildefonso Guajardo Villarreal.- Rúbrica.</P>
+</div>

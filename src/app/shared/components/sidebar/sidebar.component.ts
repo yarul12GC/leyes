@@ -75,9 +75,12 @@ export class SidebarComponent {
         { title: 'DECRETO por el que se regula la importación definitiva de vehículos usados.', icon: 'fas fa-circle', link: '/decre5', submenu: [] },
         { title: 'DECRETO por el que se establece el impuesto general de importación para la región fronteriza y la franja fronteriza norte.', icon: 'fas fa-circle', link: '/decre6', submenu: [] },
         { title: 'DECRETO por el que se establecen medidas para la productividad, competitividad y combate de prácticas de subvaluación del sector calzado.', icon: 'fas fa-circle', link: '/decre7', submenu: [] },
-        { title: 'Submenu 8', icon: 'fas fa-circle', link: '/leyes/submenu8', submenu: [] },
-        { title: 'Submenu 9', icon: 'fas fa-circle', link: '/leyes/submenu9', submenu: [] },
-        { title: 'Submenu 10', icon: 'fas fa-circle', link: '/leyes/submenu10', submenu: [] }
+        { title: 'DECRETO por el que se establecen medidas para la productividad, competitividad y combate de prácticas de subvaluación de los sectores textil y confección.', icon: 'fas fa-circle', link: '/decre8', submenu: [] },
+        { title: 'DECRETO de la zona libre de Chetumal.', icon: 'fas fa-circle', link: '/decre9', submenu: [] },
+        { title: 'DECRETO que establece la devolución de impuestos de importación a los exportadores.', icon: 'fas fa-circle', link: '/decre10', submenu: [] },
+        { title: 'DECRETO por el que se modifica el diverso para el fomento y operación de la industria maquiladora de exportación', icon: 'fas fa-circle', link: '/decre11', submenu: [] },
+        { title: 'DECRETO por el que se establece la Ventanilla Digital Mexicana de Comercio Exterior.', icon: 'fas fa-circle', link: '/decre12', submenu: [] },
+      
       ]
     },
     {
