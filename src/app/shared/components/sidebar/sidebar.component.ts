@@ -23,21 +23,6 @@ interface MenuItem {
 export class SidebarComponent {
   menuItems: MenuItem[] = [
     {
-      title: 'Panel',
-      icon: 'fas fa-tachometer-alt',
-      link: '/panel',
-      submenu: [
-      
-        { title: 'Submenu 4', icon: 'fas fa-circle', link: '/leyes/submenu4', submenu: [] },
-        { title: 'Submenu 5', icon: 'fas fa-circle', link: '/leyes/submenu5', submenu: [] },
-        { title: 'Submenu 6', icon: 'fas fa-circle', link: '/leyes/submenu6', submenu: [] },
-        { title: 'Submenu 7', icon: 'fas fa-circle', link: '/leyes/submenu7', submenu: [] },
-        { title: 'Submenu 8', icon: 'fas fa-circle', link: '/leyes/submenu8', submenu: [] },
-        { title: 'Submenu 9', icon: 'fas fa-circle', link: '/leyes/submenu9', submenu: [] },
-        { title: 'Submenu 10', icon: 'fas fa-circle', link: '/leyes/submenu10', submenu: [] }
-      ]
-    },
-    {
       title: 'Leyes',
       icon: 'fas fa-gavel',
       link: '/leyes',
@@ -50,7 +35,6 @@ export class SidebarComponent {
         { title: 'Ley Federal Para La Prevención E Identificación De Operaciones Con Recursos De Procedencia Ilícita', icon: 'fas fa-circle', link: '/leyfpii', submenu: [] },
         { title: 'Ley Federal Para El Control De Sustancias Químicas Susceptibles De Desvío Para La Fabricación De Armas Químicas', icon: 'fas fa-circle', link: '/leyarmas', submenu: [] },
         { title: 'Ley Federal Del Impuesto Sobre Automóviles Nuevos', icon: 'fas fa-circle', link: '/leyia', submenu: [] },
-        { title: 'DECRETO IMMEX', icon: 'fas fa-circle', link: '/decre', submenu: [] },
         { title: 'Ley Del Servicio De Administración Tributaria', icon: 'fas fa-circle', link: '/leyat', submenu: [] },
         { title: 'Ley Federal De Zonas Económicas Especiales', icon: 'fas fa-circle', link: '/leyze', submenu: [] },
         { title: 'Ley Federal De Sanidad Vegetal', icon: 'fas fa-circle', link: '/leysv', submenu: [] },
@@ -78,6 +62,7 @@ export class SidebarComponent {
         { title: 'DECRETO que establece la devolución de impuestos de importación a los exportadores.', icon: 'fas fa-circle', link: '/decre10', submenu: [] },
         { title: 'DECRETO por el que se modifica el diverso para el fomento y operación de la industria maquiladora de exportación', icon: 'fas fa-circle', link: '/decre11', submenu: [] },
         { title: 'DECRETO por el que se establece la Ventanilla Digital Mexicana de Comercio Exterior.', icon: 'fas fa-circle', link: '/decre12', submenu: [] },
+        { title: 'DECRETO IMMEX', icon: 'fas fa-circle', link: '/decre', submenu: [] },
 
       ]
     },
@@ -119,18 +104,8 @@ export class SidebarComponent {
         { title: '-  Anexo 30 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo30', submenu: [] },
 
         //esta seccion es para los  30 anexos que corresponden a las reglas generales de comercio exterior 
-
-
         { title: 'Reglamento de la ley de comercio exterior', icon: 'fas fa-circle', link: '/reglamentoley/', submenu: [] },
         { title: 'Reglas y criterios de caracter general en materia decomercio exterior', icon: 'fas fa-circle', link: '/reglasycriterios', submenu: [] },
-        { title: 'Submenu 3', icon: 'fas fa-circle', link: '/leyes/submenu3', submenu: [] },
-        { title: 'Submenu 4', icon: 'fas fa-circle', link: '/leyes/submenu4', submenu: [] },
-        { title: 'Submenu 5', icon: 'fas fa-circle', link: '/leyes/submenu5', submenu: [] },
-        { title: 'Submenu 6', icon: 'fas fa-circle', link: '/leyes/submenu6', submenu: [] },
-        { title: 'Submenu 7', icon: 'fas fa-circle', link: '/leyes/submenu7', submenu: [] },
-        { title: 'Submenu 8', icon: 'fas fa-circle', link: '/leyes/submenu8', submenu: [] },
-        { title: 'Submenu 9', icon: 'fas fa-circle', link: '/leyes/submenu9', submenu: [] },
-        { title: 'Submenu 10', icon: 'fas fa-circle', link: '/leyes/submenu10', submenu: [] }
       ]
     }
   ];
