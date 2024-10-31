@@ -27,9 +27,7 @@ export class SidebarComponent {
       icon: 'fas fa-tachometer-alt',
       link: '/panel',
       submenu: [
-        { title: 'Anexo1', icon: 'fas fa-circle', link: '/anexo1', submenu: [] },
-        { title: 'Anexo2', icon: 'fas fa-circle', link: '/anexo2', submenu: [] },
-        { title: 'Anexo3', icon: 'fas fa-circle', link: '/anexo3', submenu: [] },
+      
         { title: 'Submenu 4', icon: 'fas fa-circle', link: '/leyes/submenu4', submenu: [] },
         { title: 'Submenu 5', icon: 'fas fa-circle', link: '/leyes/submenu5', submenu: [] },
         { title: 'Submenu 6', icon: 'fas fa-circle', link: '/leyes/submenu6', submenu: [] },
@@ -60,7 +58,7 @@ export class SidebarComponent {
         { title: 'Ley De Puertos', icon: 'fas fa-circle', link: '/leypu', submenu: [] },
         { title: 'Ley Federal Para El Control De Precursores Químicos, Productos Químicos Esenciales Y Máquinas Para Elaborar Cápsulas, Tabletas y/o Comprimidos', icon: 'fas fa-circle', link: '/leymaq', submenu: [] },
         { title: 'Ley De Caminos, Puentes Y Autotransporte Federal', icon: 'fas fa-circle', link: '/leycam', submenu: [] },
-       
+
       ]
     },
     {
@@ -80,7 +78,7 @@ export class SidebarComponent {
         { title: 'DECRETO que establece la devolución de impuestos de importación a los exportadores.', icon: 'fas fa-circle', link: '/decre10', submenu: [] },
         { title: 'DECRETO por el que se modifica el diverso para el fomento y operación de la industria maquiladora de exportación', icon: 'fas fa-circle', link: '/decre11', submenu: [] },
         { title: 'DECRETO por el que se establece la Ventanilla Digital Mexicana de Comercio Exterior.', icon: 'fas fa-circle', link: '/decre12', submenu: [] },
-      
+
       ]
     },
     {
@@ -88,9 +86,43 @@ export class SidebarComponent {
       icon: 'fas fa-book',
       link: '/reglas',
       submenu: [
-        { title: 'Reglas y criterios de caracter general en materia decomercio exterior', icon: 'fas fa-circle', link: '/reglasycriterios', submenu: [] },
-        { title: 'Reglas generales de comercio exterior', icon: 'fas fa-circle', link: '/reglasgenerales', submenu: [] },
+        { title: 'Reglas Generales de Comercio Exterior', icon: 'fas fa-circle', link: '/reglasgenerales', submenu: [] },
+        { title: '-  Anexo 1 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo1', submenu: [] },
+        { title: '-  Anexo 2 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo2', submenu: [] },
+        { title: '-  Anexo 3 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo3', submenu: [] },
+        { title: '-  Anexo 4 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo4', submenu: [] },
+        { title: '-  Anexo 5 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo5', submenu: [] },
+        { title: '-  Anexo 6 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo6', submenu: [] },
+        { title: '-  Anexo 7 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo7', submenu: [] },
+        { title: '-  Anexo 8 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo8', submenu: [] },
+        { title: '-  Anexo 9 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo9', submenu: [] },
+        { title: '-  Anexo 10 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo10', submenu: [] },
+        { title: '-  Anexo 11 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo11', submenu: [] },
+        { title: '-  Anexo 12 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo12', submenu: [] },
+        { title: '-  Anexo 13 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo13', submenu: [] },
+        { title: '-  Anexo 14 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo14', submenu: [] },
+        { title: '-  Anexo 15 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo15', submenu: [] },
+        { title: '-  Anexo 16 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo16', submenu: [] },
+        { title: '-  Anexo 17 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo17', submenu: [] },
+        { title: '-  Anexo 18 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo18', submenu: [] },
+        { title: '-  Anexo 19 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo19', submenu: [] },
+        { title: '-  Anexo 20 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo20', submenu: [] },
+        { title: '-  Anexo 21 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo21', submenu: [] },
+        { title: '-  Anexo 22 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo22', submenu: [] },
+        { title: '-  Anexo 23 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo23', submenu: [] },
+        { title: '-  Anexo 24 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo24', submenu: [] },
+        { title: '-  Anexo 25 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo25', submenu: [] },
+        { title: '-  Anexo 26 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo26', submenu: [] },
+        { title: '-  Anexo 27 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo27', submenu: [] },
+        { title: '-  Anexo 28 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo28', submenu: [] },
+        { title: '-  Anexo 29 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo29', submenu: [] },
+        { title: '-  Anexo 30 de Las RGDCE', icon: 'fas fa-circle', link: '/anexo30', submenu: [] },
+
+        //esta seccion es para los  30 anexos que corresponden a las reglas generales de comercio exterior 
+
+
         { title: 'Reglamento de la ley de comercio exterior', icon: 'fas fa-circle', link: '/reglamentoley/', submenu: [] },
+        { title: 'Reglas y criterios de caracter general en materia decomercio exterior', icon: 'fas fa-circle', link: '/reglasycriterios', submenu: [] },
         { title: 'Submenu 3', icon: 'fas fa-circle', link: '/leyes/submenu3', submenu: [] },
         { title: 'Submenu 4', icon: 'fas fa-circle', link: '/leyes/submenu4', submenu: [] },
         { title: 'Submenu 5', icon: 'fas fa-circle', link: '/leyes/submenu5', submenu: [] },

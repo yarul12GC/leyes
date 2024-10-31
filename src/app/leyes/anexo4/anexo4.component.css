@@ -1,0 +1,150 @@
+.zona1 {
+    width: 99%;
+    height: auto;
+    background: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 20px;
+    margin-top: 0ch;
+    color: #000000;
+    border-radius: 5px;
+    box-shadow: 7px 13px 37px #000000;
+}
+
+#titulo1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#titulo2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#titulo3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#cabezaLey {
+    text-align: center;
+    width: 100%;
+}
+
+
+#cita {
+    text-align: right;
+    font-style: italic;
+    font-size: 13px;
+    color: red;
+}
+
+#citaT {
+    font-style: italic;
+    font-size: 12px;
+    color: red;
+}
+
+b {
+    color: red;
+}
+
+#n {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+#n2 {
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+}
+
+
+caption {
+    border: 3px solid #000000;
+    /* Borde azul */
+    background-color: rgb(234, 233, 233);
+    /* Relleno gris */
+    padding: 5px 10px;
+    /* Relleno interno */
+    text-align: center;
+    /* Texto alineado a la derecha */
+    margin-top: 2%;
+
+    border-bottom-width: 1px;
+    /* Grosor del borde inferior */
+}
+
+th {
+    background-color: rgb(234, 233, 233);
+    padding: 5px;
+    color: rgb(0, 22, 112);
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+ul li a {
+    font-size: 15px;
+    line-height: 2;
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+
+    &:hover {
+        color: #5e0404;
+    }
+}
+
+ol li {
+    text-align: left;
+    line-height: 20px;
+    margin-left: 25px;
+}
+
+
+.contenido {
+    padding: 15px;
+    display: none;
+}
+
+
+td.contenidos {
+
+    vertical-align: top;
+}
+
+td {
+
+    text-align: center;
+    justify-content: center;
+}
+
+
+button {
+    background: #252525;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    width: 208px;
+    height: 25px;
+    margin: 3px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: rgb(255, 0, 0);
+    color: #ffffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: inset 0000 #000;
+    transition: ease-out 0.6s;
+    justify-content: center;
+}
+
+button:hover {
+
+    box-shadow: inset 230px 0000 #000000;
+    color: #ffffff;
+}
