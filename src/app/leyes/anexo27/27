@@ -1,95 +1,88 @@
-<div class="zona1">
-    
-
-
-
-
-
 
 
 
  <br>
- <hr style="height:3px; color: black; background-color: red;" />
- <div id="cabezaLey">
-    
-     <p id="titulo1">PODER EJECUTIVO</p>
-     <p id="titulo1">SECRETARIA DE HACIENDA Y CREDITO PUBLICO</p>
-     <p id="titulo2"> ANEXO  17 de las Reglas Generales de Comercio Exterior para 2024</p>
-     <p id="titulo2" >Mercancías por las que no procederá el tránsito internacional por territorio nacional
+    <hr style="height:3px; color: black; background-color: red;" />
+    <div id="cabezaLey">
+       
+        <p id="titulo1">PODER EJECUTIVO</p>
+        <p id="titulo1">SECRETARIA DE HACIENDA Y CREDITO PUBLICO</p>
+        <p id="titulo2"> ANEXO  17 de las Reglas Generales de Comercio Exterior para 2024</p>
+        <p id="titulo2" >Mercancías por las que no procederá el tránsito internacional por territorio nacional
 
-     </p>
-     
+        </p>
+        
 
 
 <p>Para los efectos del artículo 131, segundo párrafo de la Ley, en relación con la regla 4.6.21., se dan a
- conocer las mercancías por las que no procederá el tránsito internacional por territorio nacional, señaladas a
- continuación:
- </p>
+    conocer las mercancías por las que no procederá el tránsito internacional por territorio nacional, señaladas a
+    continuación:
+    </p>
 
 
-   <p>Contenido</p>  
+      <p>Contenido</p>  
 
- </div>
+    </div>
 
- <div id="contenedor_tablas">
-        
-         
-     <table width="100%" border="1" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
-                     bordercolor="#000000">
+    <div id="contenedor_tablas">
+           
+            
+        <table width="100%" border="1" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
+                        bordercolor="#000000">
 
 <tr>
 <th align="left">
 
- I. Mercancías cuyo arancel sea superior al 35% de acuerdo a la TIGIE.
- <br>
- II. Llantas usadas y mercancías.
- <br>
- III. Ropa usada.
- <br>
- IV. Plaguicidas, fertilizantes y sustancias tóxicas.
- <br>
- V. Residuos peligrosos y mercancías que causan desequilibrios ecológicos y al ambiente.
- <br>
- VI. Armas, cartuchos, explosivos y otras mercancías sujetas a permiso o autorización de la SEDENA.
- <br>
- VII. Mercancías prohibidas.
- <br>
- VIII. Artículos eléctricos, electrónicos y electrodomésticos.
- <br>
- IX. Tratándose de las siguientes mercancías:
- <br>
- (a) Manteca y grasas.
- <br>
- (b) Cerveza.
- <br>
- (c) Cigarros.
- <br>
- (d) Madera contrachapada.
- <br>
- (e) Pañales.
- <br>
- (f) Textil.
- <br>
- (g) Accesorios para la industria del vestido, maletas, zapatos y otros.
- <br>
- (h) Calzado.
- <br>
- (i) Herramientas.
- <br>
- (j) Bicicletas.
- <br>
- (k) Juguetes.
+    I. Mercancías cuyo arancel sea superior al 35% de acuerdo a la TIGIE.
+    <br>
+    II. Llantas usadas y mercancías.
+    <br>
+    III. Ropa usada.
+    <br>
+    IV. Plaguicidas, fertilizantes y sustancias tóxicas.
+    <br>
+    V. Residuos peligrosos y mercancías que causan desequilibrios ecológicos y al ambiente.
+    <br>
+    VI. Armas, cartuchos, explosivos y otras mercancías sujetas a permiso o autorización de la SEDENA.
+    <br>
+    VII. Mercancías prohibidas.
+    <br>
+    VIII. Artículos eléctricos, electrónicos y electrodomésticos.
+    <br>
+    IX. Tratándose de las siguientes mercancías:
+    <br>
+    (a) Manteca y grasas.
+    <br>
+    (b) Cerveza.
+    <br>
+    (c) Cigarros.
+    <br>
+    (d) Madera contrachapada.
+    <br>
+    (e) Pañales.
+    <br>
+    (f) Textil.
+    <br>
+    (g) Accesorios para la industria del vestido, maletas, zapatos y otros.
+    <br>
+    (h) Calzado.
+    <br>
+    (i) Herramientas.
+    <br>
+    (j) Bicicletas.
+    <br>
+    (k) Juguetes.
 
 </th>
 </tr>
 
-     </table>
+        </table>
 <br>
 <br>
-     <table width="100%" border="1" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
-     bordercolor="#000000">
+        <table width="100%" border="1" align="center" cellpadding="2" cellspacing="0" style="border-collapse:collapse"
+        bordercolor="#000000">
 
-     <p>I. Mercancías cuyo arancel sea superior al 35% de acuerdo a la TIGIE:</p>
+        <p>I. Mercancías cuyo arancel sea superior al 35% de acuerdo a la TIGIE:</p>
 <tr>
 
 <th  width="20%">Fracción
@@ -119,7 +112,7 @@ arancelaria y NICO</th>
 
 <td>2101.11.02</td>
 <td>Extracto de café líquido concentrado, aunque se presente
- congelado</td>
+    congelado</td>
 <td></td>
 
 </tr>
@@ -128,7 +121,7 @@ arancelaria y NICO</th>
 
 <td>00</td>
 <td>Extracto de café líquido concentrado, aunque se presente
- congelado</td>
+    congelado</td>
 <td></td>
 
 </tr>
@@ -161,7 +154,7 @@ arancelaria y NICO</th>
 
 <td>2101.12.01 </td>
 <td>Preparaciones a base de extractos, esencias o concentrados o a
- base de café.</td>
+    base de café.</td>
 <td></td>
 
 </tr>
@@ -170,12 +163,12 @@ arancelaria y NICO</th>
 
 <td>00</td>
 <td>Preparaciones a base de extractos, esencias o concentrados o a
- base de café.</td>
+    base de café.</td>
 <td></td>
 
 </tr>
 
-     </table>
+        </table>
 
 
 <p>II. Llantas usadas y mercancías</p>
@@ -186,11 +179,11 @@ bordercolor="#000000">
 
 <tr>
 
- <th  >Fracción
- arancelaria y NICO</th>
- <th >Descripción</th>
- <th>Acotación</th>
- </tr>
+    <th  width="20%">Fracción
+    arancelaria y NICO</th>
+    <th width="60%">Descripción</th>
+    <th width="20%">Acotación</th>
+    </tr>
 
 
 
@@ -214,8 +207,8 @@ bordercolor="#000000">
 
 <td>4012.20.01</td>
 <td>De los tipos utilizados en vehículos para el transporte en carretera
- de pasajeros o mercancía, incluyendo tractores, o en vehículos de
- la partida 87.05.</td>
+    de pasajeros o mercancía, incluyendo tractores, o en vehículos de
+    la partida 87.05.</td>
 <td></td>
 
 </tr>
@@ -225,8 +218,8 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>De los tipos utilizados en vehículos para el transporte en carretera
- de pasajeros o mercancía, incluyendo tractores, o en vehículos de
- la partida 87.05.</td>
+    de pasajeros o mercancía, incluyendo tractores, o en vehículos de
+    la partida 87.05.</td>
 <td></td>
 
 </tr>
@@ -260,8 +253,8 @@ bordercolor="#000000">
 
 <td>01</td>
 <td>Reconocibles como diseñadas exclusivamente para lo comprendido en
- los números de identificación comercial 8701.91.01.00, 8701.92.01.00,
- 8701.93.01.00, 8701.94.01.00, 8701.95.01.00 y 8701.94.05.00.</td>
+    los números de identificación comercial 8701.91.01.00, 8701.92.01.00,
+    8701.93.01.00, 8701.94.01.00, 8701.95.01.00 y 8701.94.05.00.</td>
 <td></td>
 
 </tr>
@@ -271,8 +264,8 @@ bordercolor="#000000">
 <td>03
 </td>
 <td>Rims (camas) sin neumáticos, con diámetro exterior inferior o igual a 70
- cm, excepto lo comprendido en el número de identificación comercial
- 8708.70.99.02</td>
+    cm, excepto lo comprendido en el número de identificación comercial
+    8708.70.99.02</td>
 <td></td>
 
 </tr>
@@ -282,7 +275,7 @@ bordercolor="#000000">
 
 <td>04</td>
 <td>Rines de aluminio y de aleaciones de aluminio con diámetro superior a
- 57.15 cm (22.5 pulgadas)</td>
+    57.15 cm (22.5 pulgadas)</td>
 <td></td>
 
 </tr>
@@ -306,11 +299,11 @@ bordercolor="#000000">
 
 <tr>
 
- <th  width="20%">Fracción
- arancelaria y NICO</th>
- <th width="60%">Descripción</th>
- <th width="20%">Acotación</th>
- </tr>
+    <th  width="20%">Fracción
+    arancelaria y NICO</th>
+    <th width="60%">Descripción</th>
+    <th width="20%">Acotación</th>
+    </tr>
 
 
 
@@ -342,20 +335,20 @@ bordercolor="#000000">
 
 
 <p>IV. Tratándose de plaguicidas, fertilizantes y sustancias tóxicas previstas en el “Acuerdo que establece
- las mercancías cuya importación y exportación está sujeta a regulación por parte de las
- dependencias que integran la Comisión Intersecretarial para el Control del Proceso y Uso de
- Plaguicidas, Fertilizantes y Sustancias Tóxicas”, publicado en el DOF el 26 de diciembre de 2020 y
- sus posteriores modificaciones, sólo se permitirá el tránsito internacional por territorio nacional, si
- los interesados cuentan con la autorización correspondiente para su movilización por territorio
- nacional, expedida por la autoridad competente.</p>
+    las mercancías cuya importación y exportación está sujeta a regulación por parte de las
+    dependencias que integran la Comisión Intersecretarial para el Control del Proceso y Uso de
+    Plaguicidas, Fertilizantes y Sustancias Tóxicas”, publicado en el DOF el 26 de diciembre de 2020 y
+    sus posteriores modificaciones, sólo se permitirá el tránsito internacional por territorio nacional, si
+    los interesados cuentan con la autorización correspondiente para su movilización por territorio
+    nacional, expedida por la autoridad competente.</p>
 
 <br>
 <p>V. Tratándose de residuos peligrosos y mercancías que causan desequilibrios ecológicos y al
- ambiente previstos en el “Acuerdo que establece las mercancías cuya importación y exportación
- está sujeta a regulación por parte de la Secretaría de Medio Ambiente y Recursos Naturales”,
- publicado en el DOF el 26 de diciembre de 2020 y sus posteriores modificaciones, sólo procederá
- el tránsito internacional por territorio nacional cuando los interesados cuenten con las guías
- ecológicas para su movilización por territorio nacional, expedidas por la autoridad competente.</p>
+    ambiente previstos en el “Acuerdo que establece las mercancías cuya importación y exportación
+    está sujeta a regulación por parte de la Secretaría de Medio Ambiente y Recursos Naturales”,
+    publicado en el DOF el 26 de diciembre de 2020 y sus posteriores modificaciones, sólo procederá
+    el tránsito internacional por territorio nacional cuando los interesados cuenten con las guías
+    ecológicas para su movilización por territorio nacional, expedidas por la autoridad competente.</p>
 
 <br>
 <br>
@@ -367,11 +360,11 @@ bordercolor="#000000">
 
 <tr>
 
- <th  width="20%">Fracción
- arancelaria y NICO</th>
- <th width="60%">Descripción</th>
- <th width="20%">Acotación</th>
- </tr>
+    <th  width="20%">Fracción
+    arancelaria y NICO</th>
+    <th width="60%">Descripción</th>
+    <th width="20%">Acotación</th>
+    </tr>
 
 
 <tr>
@@ -395,7 +388,7 @@ bordercolor="#000000">
 
 <td>9301.20.01</td>
 <td>Lanzacohetes; lanzallamas; lanzagranadas; lanzatorpedos y
- lanzadores similares.</td>
+    lanzadores similares.</td>
 <td></td>
 
 </tr>
@@ -404,7 +397,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Lanzacohetes; lanzallamas; lanzagranadas; lanzatorpedos y
- lanzadores similares.</td>
+    lanzadores similares.</td>
 <td></td>
 
 </tr>
@@ -463,7 +456,7 @@ bordercolor="#000000">
 
 <td>9303.20.9</td>
 <td>Las demás armas largas de caza o tiro deportivo que tengan, por lo
- menos, un cañón de ánima lisa</td>
+    menos, un cañón de ánima lisa</td>
 <td></td>
 
 </tr>
@@ -474,7 +467,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Las demás armas largas de caza o tiro deportivo que tengan, por lo
- menos, un cañón de ánima lisa</td>
+    menos, un cañón de ánima lisa</td>
 <td></td>
 
 </tr>
@@ -549,7 +542,7 @@ bordercolor="#000000">
 
 <td>9305.10.01</td>
 <td>Reconocibles como diseñadas exclusivamente para lo
- comprendido en la fracción arancelaria 9304.00.01.</td>
+    comprendido en la fracción arancelaria 9304.00.01.</td>
 <td></td>
 
 </tr>
@@ -558,7 +551,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Reconocibles como diseñadas exclusivamente para lo
- comprendido en la fracción arancelaria 9304.00.01.</td>
+    comprendido en la fracción arancelaria 9304.00.01.</td>
 <td></td>
 
 </tr>
@@ -701,7 +694,7 @@ bordercolor="#000000">
 
 <td>02</td>
 <td>Cartuchos para “pistolas” de remachar y similares o para “pistolas” de
- matarife</td>
+    matarife</td>
 <td></td>
 
 </tr>
@@ -760,7 +753,7 @@ bordercolor="#000000">
 
 <td>9307.00.01 </td>
 <td>Sables, espadas, bayonetas, lanzas y demás armas blancas, sus
- partes y fundas</td>
+    partes y fundas</td>
 <td></td>
 
 </tr>
@@ -769,7 +762,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Sables, espadas, bayonetas, lanzas y demás armas blancas, sus
- partes y fundas</td>
+    partes y fundas</td>
 <td></td>
 
 </tr>
@@ -787,11 +780,11 @@ bordercolor="#000000">
 
 <tr>
 
- <th  width="20%">Fracción
- arancelaria y NICO</th>
- <th width="60%">Descripción</th>
- <th width="20%">Acotación</th>
- </tr>
+    <th  width="20%">Fracción
+    arancelaria y NICO</th>
+    <th width="60%">Descripción</th>
+    <th width="20%">Acotación</th>
+    </tr>
 
 
 <tr>
@@ -814,7 +807,7 @@ bordercolor="#000000">
 
 <td>1209.99.07</td>
 <td>De marihuana (Género Cannabis), aun cuando esté mezclada con
- otras semillas</td>
+    otras semillas</td>
 <td></td>
 
 </tr>
@@ -868,7 +861,7 @@ bordercolor="#000000">
 
 <td>2903.82.02 </td>
 <td>1,4,5,6,7,8,8-Heptacloro-3a,4,7,7atetrahidro-4,7-metanoindeno
- (Heptacloro)</td>
+    (Heptacloro)</td>
 <td></td>
 
 </tr>
@@ -878,7 +871,7 @@ bordercolor="#000000">
 
 <td>2903.89.03</td>
 <td>1,2,3,4,10,10-Hexacloro-1,4,4a,5,8,8a-hexahidro-endo-endo-1,4:5,8-
- dimetanonaftaleno (Isodrin).</td>
+    dimetanonaftaleno (Isodrin).</td>
 <td></td>
 
 </tr>
@@ -895,7 +888,7 @@ bordercolor="#000000">
 
 <td>2931.59.01</td>
 <td>Feniltiofosfonato de O-(2,5-dicloro-4-bromofenil)-O-metilo
- (Leptofos).</td>
+    (Leptofos).</td>
 <td></td>
 
 </tr>
@@ -953,13 +946,13 @@ bordercolor="#000000">
 
 <td>4908.90.05</td>
 <td>Impresas a colores o en blanco y negro, presentadas para su venta
- en sobres o paquetes, aun cuando incluyan goma de mascar,
- dulces o cualquier otro tipo de artículos, conteniendo dibujos,
- figuras o ilustraciones que representen a la niñez de manera
- denigrante o ridícula, en actitudes de incitación a la violencia, a la
- autodestrucción o en cualquier otra forma de comportamiento
- antisocial, conocidas como “Garbage Pail Kids”, por ejemplo,
- impresas por cualquier empresa o denominación comercial.</td>
+    en sobres o paquetes, aun cuando incluyan goma de mascar,
+    dulces o cualquier otro tipo de artículos, conteniendo dibujos,
+    figuras o ilustraciones que representen a la niñez de manera
+    denigrante o ridícula, en actitudes de incitación a la violencia, a la
+    autodestrucción o en cualquier otra forma de comportamiento
+    antisocial, conocidas como “Garbage Pail Kids”, por ejemplo,
+    impresas por cualquier empresa o denominación comercial.</td>
 <td></td>
 
 </tr>
@@ -969,12 +962,12 @@ bordercolor="#000000">
 <td>4911.91.05
 </td>
 <td>Impresas a colores o en blanco y negro, presentadas para su venta
- en sobres o paquetes, aun cuando incluyan goma de mascar,
- dulces o cualquier otro tipo de artículos, conteniendo dibujos,
- figuras o ilustraciones que representen a la niñez de manera
- denigrante o ridícula, en actitudes de incitación a la violencia, a la
- autodestrucción o en cualquier otra forma de comportamiento antisocial, conocidas como “Garbage Pail Kids”, por ejemplo,
- impresas por cualquier empresa o denominación comercial.</td>
+    en sobres o paquetes, aun cuando incluyan goma de mascar,
+    dulces o cualquier otro tipo de artículos, conteniendo dibujos,
+    figuras o ilustraciones que representen a la niñez de manera
+    denigrante o ridícula, en actitudes de incitación a la violencia, a la
+    autodestrucción o en cualquier otra forma de comportamiento antisocial, conocidas como “Garbage Pail Kids”, por ejemplo,
+    impresas por cualquier empresa o denominación comercial.</td>
 <td></td>
 
 </tr>
@@ -993,11 +986,11 @@ bordercolor="#000000">
 
 <tr>
 
- <th  width="20%">Fracción
- arancelaria y NICO</th>
- <th width="60%">Descripción</th>
- <th width="20%">Acotación</th>
- </tr>
+    <th  width="20%">Fracción
+    arancelaria y NICO</th>
+    <th width="60%">Descripción</th>
+    <th width="20%">Acotación</th>
+    </tr>
 
 
 <tr>
@@ -1063,7 +1056,7 @@ bordercolor="#000000">
 
 <td>8523.41.01 </td>
 <td>Discos de escritura (conocidos como CD-R; DVD-R, y demás
- formatos), para sistemas de lectura por rayo láser.</td>
+    formatos), para sistemas de lectura por rayo láser.</td>
 <td></td>
 
 </tr>
@@ -1072,7 +1065,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Discos de escritura (conocidos como CD-R; DVD-R, y demás
- formatos), para sistemas de lectura por rayo láser.</td>
+    formatos), para sistemas de lectura por rayo láser.</td>
 <td></td>
 
 </tr>
@@ -1090,7 +1083,7 @@ bordercolor="#000000">
 
 <td>01</td>
 <td>Discos para sistemas de lectura por rayos láser, para reproducir
- únicamente sonido.</td>
+    únicamente sonido.</td>
 <td></td>
 
 </tr>
@@ -1116,7 +1109,7 @@ bordercolor="#000000">
 
 <td>8527.21.01</td>
 <td>Receptores de radio AM-FM, aun cuando incluyan transmisoresreceptores de radio banda civil o receptor de señal satelital, o
- entradas para “Bluethooth” o “USB”</td>
+    entradas para “Bluethooth” o “USB”</td>
 <td></td>
 
 </tr>
@@ -1125,7 +1118,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Receptores de radio AM-FM, aun cuando incluyan transmisoresreceptores de radio banda civil o receptor de señal satelital, o
- entradas para “Bluethooth” o “USB”</td>
+    entradas para “Bluethooth” o “USB”</td>
 <td></td>
 
 </tr>
@@ -1171,8 +1164,8 @@ bordercolor="#000000">
 <td>8528.71.01
 </td>
 <td>Incompletos o sin terminar (incluso los ensambles compuestos de
- todas las partes especificadas en la Nota Nacional 13 del Capítulo
- 85 más una fuente de poder).</td>
+    todas las partes especificadas en la Nota Nacional 13 del Capítulo
+    85 más una fuente de poder).</td>
 <td></td>
 
 </tr>
@@ -1181,8 +1174,8 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Incompletos o sin terminar (incluso los ensambles compuestos de
- todas las partes especificadas en la Nota Nacional 13 del Capítulo
- 85 más una fuente de poder).</td>
+    todas las partes especificadas en la Nota Nacional 13 del Capítulo
+    85 más una fuente de poder).</td>
 <td></td>
 
 </tr>
@@ -1208,8 +1201,8 @@ bordercolor="#000000">
 
 <td>8528.72.01</td>
 <td>Con pantalla inferior o igual a 35.56 cm (14 pulgadas), excepto los
- de alta definición, los tipo proyección y los comprendidos en la
- fracción arancelaria 8528.72.06.</td>
+    de alta definición, los tipo proyección y los comprendidos en la
+    fracción arancelaria 8528.72.06.</td>
 <td></td>
 
 </tr>
@@ -1218,8 +1211,8 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Con pantalla inferior o igual a 35.56 cm (14 pulgadas), excepto los
- de alta definición, los tipo proyección y los comprendidos en la
- fracción arancelaria 8528.72.06.</td>
+    de alta definición, los tipo proyección y los comprendidos en la
+    fracción arancelaria 8528.72.06.</td>
 <td></td>
 
 </tr>
@@ -1231,8 +1224,8 @@ bordercolor="#000000">
 <td>8528.72.02
 </td>
 <td>Con pantalla superior a 35.56 cm (14 pulgadas), excepto los de alta
- definición, los tipo proyección y los comprendidos en la fracción
- arancelaria 8528.72.06.</td>
+    definición, los tipo proyección y los comprendidos en la fracción
+    arancelaria 8528.72.06.</td>
 <td></td>
 
 </tr>
@@ -1241,8 +1234,8 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Con pantalla superior a 35.56 cm (14 pulgadas), excepto los de alta
- definición, los tipo proyección y los comprendidos en la fracción
- arancelaria 8528.72.06.</td>
+    definición, los tipo proyección y los comprendidos en la fracción
+    arancelaria 8528.72.06.</td>
 <td></td>
 
 </tr>
@@ -1251,7 +1244,7 @@ bordercolor="#000000">
 
 <td>8528.72.03 </td>
 <td>De tipo proyección por tubos de rayos catódicos, excepto los de
- alta definición</td>
+    alta definición</td>
 <td></td>
 
 </tr>
@@ -1261,7 +1254,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>De tipo proyección por tubos de rayos catódicos, excepto los de
- alta definición</td>
+    alta definición</td>
 <td></td>
 
 </tr>
@@ -1270,7 +1263,7 @@ bordercolor="#000000">
 
 <td>8528.72.04</td>
 <td>De alta definición por tubo de rayo catódico, excepto los tipo
- proyección</td>
+    proyección</td>
 <td></td>
 
 </tr>
@@ -1279,7 +1272,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>De alta definición por tubo de rayo catódico, excepto los tipo
- proyección</td>
+    proyección</td>
 <td></td>
 
 </tr>
@@ -1305,8 +1298,8 @@ bordercolor="#000000">
 
 <td>8528.72.06</td>
 <td>Con pantalla plana, incluso las reconocibles como diseñadas para
- vehículos automóviles.
- </td>
+    vehículos automóviles.
+    </td>
 <td></td>
 
 </tr>
@@ -1315,8 +1308,8 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Con pantalla plana, incluso las reconocibles como diseñadas para
- vehículos automóviles.
- </td>
+    vehículos automóviles.
+    </td>
 <td></td>
 
 </tr>
@@ -1336,11 +1329,11 @@ bordercolor="#000000">
 
 <tr>
 
- <th  width="20%">Fracción
- arancelaria y NICO</th>
- <th width="60%">Descripción</th>
- <th width="20%">Acotación</th>
- </tr>
+    <th  width="20%">Fracción
+    arancelaria y NICO</th>
+    <th width="60%">Descripción</th>
+    <th width="20%">Acotación</th>
+    </tr>
 
 <tr>
 
@@ -1428,8 +1421,8 @@ bordercolor="#000000">
 
 <td>1503.00.02</td>
 <td>Estearina solar, aceite de manteca de cerdo, oleoestearina,
- oleomargarina y aceite de sebo, sin emulsionar, mezclar ni preparar
- de otro modo.</td>
+    oleomargarina y aceite de sebo, sin emulsionar, mezclar ni preparar
+    de otro modo.</td>
 <td></td>
 
 </tr>
@@ -1438,8 +1431,8 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Estearina solar, aceite de manteca de cerdo, oleoestearina,
- oleomargarina y aceite de sebo, sin emulsionar, mezclar ni preparar
- de otro modo.</td>
+    oleomargarina y aceite de sebo, sin emulsionar, mezclar ni preparar
+    de otro modo.</td>
 <td></td>
 
 </tr>
@@ -1497,7 +1490,7 @@ bordercolor="#000000">
 
 <td>1522.00.01</td>
 <td>Degrás; residuos procedentes del tratamiento de grasas o ceras,
- animales o vegetales</td>
+    animales o vegetales</td>
 <td></td>
 
 </tr>
@@ -1506,7 +1499,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Degrás; residuos procedentes del tratamiento de grasas o ceras,
- animales o vegetales</td>
+    animales o vegetales</td>
 <td></td>
 
 </tr>
@@ -1523,11 +1516,11 @@ bordercolor="#000000">
 
 <tr>
 
- <th  width="20%">Fracción
- arancelaria y NICO</th>
- <th width="60%">Descripción</th>
- <th width="20%">Acotación</th>
- </tr>
+    <th  width="20%">Fracción
+    arancelaria y NICO</th>
+    <th width="60%">Descripción</th>
+    <th width="20%">Acotación</th>
+    </tr>
 
 <tr>
 
@@ -1558,11 +1551,11 @@ bordercolor="#000000">
 
 <tr>
 
- <th  width="20%">Fracción
- arancelaria y NICO</th>
- <th width="60%">Descripción</th>
- <th width="20%">Acotación</th>
- </tr>
+    <th  width="20%">Fracción
+    arancelaria y NICO</th>
+    <th width="60%">Descripción</th>
+    <th width="20%">Acotación</th>
+    </tr>
 
 
 
@@ -1570,7 +1563,7 @@ bordercolor="#000000">
 
 <td>2402.10.01</td>
 <td>Cigarros (puros) (incluso despuntados) y cigarritos (puritos), que
- contengan tabaco</td>
+    contengan tabaco</td>
 <td></td>
 
 </tr>
@@ -1580,7 +1573,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Cigarros (puros) (incluso despuntados) y cigarritos (puritos), que
- contengan tabaco</td>
+    contengan tabaco</td>
 <td></td>
 
 </tr>
@@ -1630,11 +1623,11 @@ bordercolor="#000000">
 
 <tr>
 
- <th  width="20%">Fracción
- arancelaria y NICO</th>
- <th width="60%">Descripción</th>
- <th width="20%">Acotación</th>
- </tr>
+    <th  width="20%">Fracción
+    arancelaria y NICO</th>
+    <th width="60%">Descripción</th>
+    <th width="20%">Acotación</th>
+    </tr>
 
 
 
@@ -1659,10 +1652,10 @@ bordercolor="#000000">
 
 <td>4412.31.01</td>
 <td>Que tengan, por lo menos, una hoja externa de las maderas
- tropicales siguientes: Dark Red Meranti, Light Red Meranti, White
- Lauan, Sipo, Limba, Okumé, Obeché, Acajou d'Afrique, Sapelli,
- Mahogany, Palisandre de Para, Palisandre de Río y Palisandre de
- Rose</td>
+    tropicales siguientes: Dark Red Meranti, Light Red Meranti, White
+    Lauan, Sipo, Limba, Okumé, Obeché, Acajou d'Afrique, Sapelli,
+    Mahogany, Palisandre de Para, Palisandre de Río y Palisandre de
+    Rose</td>
 <td></td>
 
 </tr>
@@ -1671,10 +1664,10 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Que tengan, por lo menos, una hoja externa de las maderas
- tropicales siguientes: Dark Red Meranti, Light Red Meranti, White
- Lauan, Sipo, Limba, Okumé, Obeché, Acajou d'Afrique, Sapelli,
- Mahogany, Palisandre de Para, Palisandre de Río y Palisandre de
- Rose</td>
+    tropicales siguientes: Dark Red Meranti, Light Red Meranti, White
+    Lauan, Sipo, Limba, Okumé, Obeché, Acajou d'Afrique, Sapelli,
+    Mahogany, Palisandre de Para, Palisandre de Río y Palisandre de
+    Rose</td>
 <td></td>
 
 </tr>
@@ -1702,14 +1695,14 @@ bordercolor="#000000">
 <td>4412.33.91
 </td>
 <td>Las demás, que tengan, por lo menos, una hoja externa de madera
- distinta de la de coníferas, de las especies: aliso (Alnus spp.),
- fresno (Fraxinus spp.), haya (Fagus spp.), abedul (Betula spp.),
- cerezo (Prunus spp.), castaño (Castanea spp.), olmo (Ulmus spp.),
- eucalipto (Eucalyptus spp.), caria o pacana (Carya spp.), castaño de
- Indias (Aesculus spp.), tilo (Tilia spp.), arce (Acer spp.), roble
- (Quercus spp.), plátano (Platanus spp.), álamo (Populus spp.),
- algarrobo negro (Robinia spp.), árbol de tulipán (Liriodendron spp.)
- o nogal (Juglans spp.)</td>
+    distinta de la de coníferas, de las especies: aliso (Alnus spp.),
+    fresno (Fraxinus spp.), haya (Fagus spp.), abedul (Betula spp.),
+    cerezo (Prunus spp.), castaño (Castanea spp.), olmo (Ulmus spp.),
+    eucalipto (Eucalyptus spp.), caria o pacana (Carya spp.), castaño de
+    Indias (Aesculus spp.), tilo (Tilia spp.), arce (Acer spp.), roble
+    (Quercus spp.), plátano (Platanus spp.), álamo (Populus spp.),
+    algarrobo negro (Robinia spp.), árbol de tulipán (Liriodendron spp.)
+    o nogal (Juglans spp.)</td>
 <td></td>
 
 </tr>
@@ -1719,14 +1712,14 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Las demás, que tengan, por lo menos, una hoja externa de madera
- distinta de la de coníferas, de las especies: aliso (Alnus spp.),
- fresno (Fraxinus spp.), haya (Fagus spp.), abedul (Betula spp.),
- cerezo (Prunus spp.), castaño (Castanea spp.), olmo (Ulmus spp.),
- eucalipto (Eucalyptus spp.), caria o pacana (Carya spp.), castaño de
- Indias (Aesculus spp.), tilo (Tilia spp.), arce (Acer spp.), roble
- (Quercus spp.), plátano (Platanus spp.), álamo (Populus spp.),
- algarrobo negro (Robinia spp.), árbol de tulipán (Liriodendron spp.)
- o nogal (Juglans spp.)</td>
+    distinta de la de coníferas, de las especies: aliso (Alnus spp.),
+    fresno (Fraxinus spp.), haya (Fagus spp.), abedul (Betula spp.),
+    cerezo (Prunus spp.), castaño (Castanea spp.), olmo (Ulmus spp.),
+    eucalipto (Eucalyptus spp.), caria o pacana (Carya spp.), castaño de
+    Indias (Aesculus spp.), tilo (Tilia spp.), arce (Acer spp.), roble
+    (Quercus spp.), plátano (Platanus spp.), álamo (Populus spp.),
+    algarrobo negro (Robinia spp.), árbol de tulipán (Liriodendron spp.)
+    o nogal (Juglans spp.)</td>
 <td></td>
 
 </tr>
@@ -1736,8 +1729,8 @@ bordercolor="#000000">
 <td>4412.34.91
 </td>
 <td>Las demás, que tengan, por lo menos, una hoja externa de madera
- distinta de la de coníferas, no especificadas en la subpartida
- 4412.33</td>
+    distinta de la de coníferas, no especificadas en la subpartida
+    4412.33</td>
 <td></td>
 
 </tr>
@@ -1746,8 +1739,8 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Las demás, que tengan, por lo menos, una hoja externa de madera
- distinta de la de coníferas, no especificadas en la subpartida
- 4412.33</td>
+    distinta de la de coníferas, no especificadas en la subpartida
+    4412.33</td>
 <td></td>
 
 </tr>
@@ -1797,20 +1790,20 @@ bordercolor="#000000">
 
 <td>02</td>
 <td>Que tengan, por lo menos, una hoja de las maderas tropicales
- siguientes: Abura, Acajou d"Afrique, Afrormosia, Ako, Alan, Andiroba,
- Aningré, Avodiré, Azobé, Balau, Balsa, Bossé clair, Cativo, Cedro,
- Dabema, Dark Red Meranti, Dibétou, Doussié, Framiré, Freijo,
- Fromager, Fuma, Geronggang, Ilomba, Imbuia, Ipé, Iroko, Jaboty,
- Jelutong, Jequitiba, Jongkong, Kapur, Kempas, Keruing, Kosipo, Kotibé,
- Koto, Light Red Meranti, Limba, Louro, Maçaranduba, Mahogany,
- Makoré, Mandioqueira, Mansonia, Mengkulang, Meranti Bakau,
- Merawan, Merbau, Merpauh, Mersawa, Moabi, Niangon, Nyatoh,
- Obeche, Okoumé, Onzabili, Orey, Ovengkol, Ozigo, Padauk, Paldao,
- Palissandre de Guatemala, Palissandre de Para, Palissandre de Rio,
- Palissandre de Rose, Pau Amarelo, Pau Marfim, Pulai, Punah, Quaruba,
- Ramin, Sapelli, Saqu=Saqui, Sepetir, Sipo, Sucupira, Suren, Tauari,
- Teak, Tiamara, Tola, Virola, White Lauan, White Meranti, White Seraya,
- Yellow Meranti.</td>
+    siguientes: Abura, Acajou d"Afrique, Afrormosia, Ako, Alan, Andiroba,
+    Aningré, Avodiré, Azobé, Balau, Balsa, Bossé clair, Cativo, Cedro,
+    Dabema, Dark Red Meranti, Dibétou, Doussié, Framiré, Freijo,
+    Fromager, Fuma, Geronggang, Ilomba, Imbuia, Ipé, Iroko, Jaboty,
+    Jelutong, Jequitiba, Jongkong, Kapur, Kempas, Keruing, Kosipo, Kotibé,
+    Koto, Light Red Meranti, Limba, Louro, Maçaranduba, Mahogany,
+    Makoré, Mandioqueira, Mansonia, Mengkulang, Meranti Bakau,
+    Merawan, Merbau, Merpauh, Mersawa, Moabi, Niangon, Nyatoh,
+    Obeche, Okoumé, Onzabili, Orey, Ovengkol, Ozigo, Padauk, Paldao,
+    Palissandre de Guatemala, Palissandre de Para, Palissandre de Rio,
+    Palissandre de Rose, Pau Amarelo, Pau Marfim, Pulai, Punah, Quaruba,
+    Ramin, Sapelli, Saqu=Saqui, Sepetir, Sipo, Sucupira, Suren, Tauari,
+    Teak, Tiamara, Tola, Virola, White Lauan, White Meranti, White Seraya,
+    Yellow Meranti.</td>
 <td></td>
 
 </tr>
@@ -1827,7 +1820,7 @@ bordercolor="#000000">
 
 <td>4412.42.91 </td>
 <td>Las demás, que tengan, por lo menos, una hoja externa de madera
- distinta de la de coníferas</td>
+    distinta de la de coníferas</td>
 <td></td>
 
 </tr>
@@ -1877,7 +1870,7 @@ bordercolor="#000000">
 
 <td>4412.51.01</td>
 <td>Que tengan, por lo menos, una hoja externa de maderas tropicales.
- </td>
+    </td>
 <td></td>
 
 </tr>
@@ -1886,20 +1879,20 @@ bordercolor="#000000">
 
 <td>01</td>
 <td>Que tengan, por lo menos, una hoja de las maderas tropicales
- siguientes: Abura, Acajou d"Afrique, Afrormosia, Ako, Alan, Andiroba,
- Aningré, Avodiré, Azobé, Balau, Balsa, Bossé clair, Cativo, Cedro,
- Dabema, Dark Red Meranti, Dibétou, Doussié, Framiré, Freijo,
- Fromager, Fuma, Geronggang, Ilomba, Imbuia, Ipé, Iroko, Jaboty,
- Jelutong, Jequitiba, Jongkong, Kapur, Kempas, Keruing, Kosipo, Kotibé,
- Koto, Light Red Meranti, Limba, Louro, Maçaranduba, Mahogany,
- Makoré, Mandioqueira, Mansonia, Mengkulang, Meranti Bakau,
- Merawan, Merbau, Merpauh, Mersawa, Moabi, Niangon, Nyatoh,
- Obeche, Okoumé, Onzabili, Orey, Ovengkol, Ozigo, Padauk, Paldao,
- Palissandre de Guatemala, Palissandre de Para, Palissandre de Rio,
- Palissandre de Rose, Pau Amarelo, Pau Marfim, Pulai, Punah, Quaruba,
- Ramin, Sapelli, Saqui=Saqui, Sepetir, Sipo, Sucupira, Suren, Tauari,
- Teak, Tiamara, Tola, Virola, White Lauan, White Meranti, White Seraya,
- Yellow Meranti.</td>
+    siguientes: Abura, Acajou d"Afrique, Afrormosia, Ako, Alan, Andiroba,
+    Aningré, Avodiré, Azobé, Balau, Balsa, Bossé clair, Cativo, Cedro,
+    Dabema, Dark Red Meranti, Dibétou, Doussié, Framiré, Freijo,
+    Fromager, Fuma, Geronggang, Ilomba, Imbuia, Ipé, Iroko, Jaboty,
+    Jelutong, Jequitiba, Jongkong, Kapur, Kempas, Keruing, Kosipo, Kotibé,
+    Koto, Light Red Meranti, Limba, Louro, Maçaranduba, Mahogany,
+    Makoré, Mandioqueira, Mansonia, Mengkulang, Meranti Bakau,
+    Merawan, Merbau, Merpauh, Mersawa, Moabi, Niangon, Nyatoh,
+    Obeche, Okoumé, Onzabili, Orey, Ovengkol, Ozigo, Padauk, Paldao,
+    Palissandre de Guatemala, Palissandre de Para, Palissandre de Rio,
+    Palissandre de Rose, Pau Amarelo, Pau Marfim, Pulai, Punah, Quaruba,
+    Ramin, Sapelli, Saqui=Saqui, Sepetir, Sipo, Sucupira, Suren, Tauari,
+    Teak, Tiamara, Tola, Virola, White Lauan, White Meranti, White Seraya,
+    Yellow Meranti.</td>
 <td></td>
 
 </tr>
@@ -1917,7 +1910,7 @@ bordercolor="#000000">
 
 <td>4412.52.91 </td>
 <td>Los demás, que tengan, por lo menos, una hoja externa de madera
- distinta de la de coníferas.</td>
+    distinta de la de coníferas.</td>
 <td></td>
 
 </tr>
@@ -1926,7 +1919,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Los demás, que tengan, por lo menos, una hoja externa de madera
- distinta de la de coníferas.</td>
+    distinta de la de coníferas.</td>
 <td></td>
 
 </tr>
@@ -1969,20 +1962,20 @@ bordercolor="#000000">
 
 <td>02</td>
 <td>Que tengan, por lo menos, una hoja de las maderas tropicales
- siguientes: Abura, Acajou d"Afrique, Afrormosia, Ako, Alan, Andiroba,
- Aningré, Avodiré, Azobé, Balau, Balsa, Bossé clair, Cativo, Cedro,
- Dabema, Dark Red Meranti, Dibétou, Doussié, Framiré, Freijo,
- Fromager, Fuma, Geronggang, Ilomba, Imbuia, Ipé, Iroko, Jaboty,
- Jelutong, Jequitiba, Jongkong, Kapur, Kempas, Keruing, Kosipo, Kotibé,
- Koto, Light Red Meranti, Limba, Louro, Maçaranduba, Mahogany,
- Makoré, Mandioqueira, Mansonia, Mengkulang, Meranti Bakau,
- Merawan, Merbau, Merpauh, Mersawa, Moabi, Niangon, Nyatoh,
- Obeche, Okoumé, Onzabili, Orey, Ovengkol, Ozigo, Padauk, Paldao,
- Palissandre de Guatemala, Palissandre de Para, Palissandre de Rio,
- Palissandre de Rose, Pau Amarelo, Pau Marfim, Pulai, Punah, Quaruba,
- Ramin, Sapelli, Saqui=Saqui, Sepetir, Sipo, Sucupira, Suren, Tauari,
- Teak, Tiamara, Tola, Virola, White Lauan, White Meranti, White Seraya,
- Yellow Meranti</td>
+    siguientes: Abura, Acajou d"Afrique, Afrormosia, Ako, Alan, Andiroba,
+    Aningré, Avodiré, Azobé, Balau, Balsa, Bossé clair, Cativo, Cedro,
+    Dabema, Dark Red Meranti, Dibétou, Doussié, Framiré, Freijo,
+    Fromager, Fuma, Geronggang, Ilomba, Imbuia, Ipé, Iroko, Jaboty,
+    Jelutong, Jequitiba, Jongkong, Kapur, Kempas, Keruing, Kosipo, Kotibé,
+    Koto, Light Red Meranti, Limba, Louro, Maçaranduba, Mahogany,
+    Makoré, Mandioqueira, Mansonia, Mengkulang, Meranti Bakau,
+    Merawan, Merbau, Merpauh, Mersawa, Moabi, Niangon, Nyatoh,
+    Obeche, Okoumé, Onzabili, Orey, Ovengkol, Ozigo, Padauk, Paldao,
+    Palissandre de Guatemala, Palissandre de Para, Palissandre de Rio,
+    Palissandre de Rose, Pau Amarelo, Pau Marfim, Pulai, Punah, Quaruba,
+    Ramin, Sapelli, Saqui=Saqui, Sepetir, Sipo, Sucupira, Suren, Tauari,
+    Teak, Tiamara, Tola, Virola, White Lauan, White Meranti, White Seraya,
+    Yellow Meranti</td>
 <td></td>
 
 </tr>
@@ -2000,7 +1993,7 @@ bordercolor="#000000">
 
 <td>4412.92.91</td>
 <td>Las demás, que tengan, por lo menos, una hoja externa de madera
- distinta de la de coníferas.</td>
+    distinta de la de coníferas.</td>
 <td></td>
 
 </tr>
@@ -2059,18 +2052,18 @@ bordercolor="#000000">
 
 <tr>
 
- <th  width="20%">Fracción
- arancelaria y NICO</th>
- <th width="60%">Descripción</th>
- <th width="20%">Acotación</th>
- </tr>
+    <th  width="20%">Fracción
+    arancelaria y NICO</th>
+    <th width="60%">Descripción</th>
+    <th width="20%">Acotación</th>
+    </tr>
 
 
 <tr>
 
 <td>9619.00.01</td>
 <td>De pasta de papel, papel, guata de celulosa o napa de fibras de
- celulosa.</td>
+    celulosa.</td>
 <td></td>
 
 </tr>
@@ -2079,7 +2072,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>De pasta de papel, papel, guata de celulosa o napa de fibras de
- celulosa.</td>
+    celulosa.</td>
 <td></td>
 
 </tr>
@@ -2096,11 +2089,11 @@ bordercolor="#000000">
 
 <tr>
 
- <th  width="20%">Fracción
- arancelaria y NICO</th>
- <th width="60%">Descripción</th>
- <th width="20%">Acotación</th>
- </tr>
+    <th  width="20%">Fracción
+    arancelaria y NICO</th>
+    <th width="60%">Descripción</th>
+    <th width="20%">Acotación</th>
+    </tr>
 
 
 <tr>
@@ -2142,7 +2135,7 @@ bordercolor="#000000">
 
 <td>5209.12.01 </td>
 <td>De ligamento sarga, incluido el cruzado, de curso inferior o igual a
- 4.</td>
+    4.</td>
 <td></td>
 
 </tr>
@@ -2151,7 +2144,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>De ligamento sarga, incluido el cruzado, de curso inferior o igual a
- 4.</td>
+    4.</td>
 <td></td>
 
 </tr>
@@ -2177,7 +2170,7 @@ bordercolor="#000000">
 
 <td>5209.32.01</td>
 <td>De ligamento sarga, incluido el cruzado, de curso inferior o igual a
- 4.</td>
+    4.</td>
 <td></td>
 
 </tr>
@@ -2186,7 +2179,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>De ligamento sarga, incluido el cruzado, de curso inferior o igual a
- 4.</td>
+    4.</td>
 <td></td>
 
 </tr>
@@ -2212,7 +2205,7 @@ bordercolor="#000000">
 
 <td>09.43.91</td>
 <td>Los demás tejidos de ligamento sarga, incluido el cruzado, de
- curso inferior o igual a 4.</td>
+    curso inferior o igual a 4.</td>
 <td></td>
 
 </tr>
@@ -2221,7 +2214,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Los demás tejidos de ligamento sarga, incluido el cruzado, de
- curso inferior o igual a 4.</td>
+    curso inferior o igual a 4.</td>
 <td></td>
 
 </tr>
@@ -2680,7 +2673,7 @@ bordercolor="#000000">
 
 <td>6110.30.01</td>
 <td>Construidos con 9 o menos puntadas por cada 2cm, medidos en
- dirección horizontal, excepto los chalecos.</td>
+    dirección horizontal, excepto los chalecos.</td>
 <td></td>
 
 </tr>
@@ -2715,7 +2708,7 @@ bordercolor="#000000">
 
 <td>02</td>
 <td>Con un contenido de lana o pelo fino mayor o igual a 23% en peso, para
- hombres y mujeres</td>
+    hombres y mujeres</td>
 <td></td>
 
 </tr>
@@ -2725,7 +2718,7 @@ bordercolor="#000000">
 
 <td>03</td>
 <td>Con un contenido de lana o pelo fino mayor o igual a 23% en peso, para
- niños y niñas.</td>
+    niños y niñas.</td>
 <td></td>
 
 </tr>
@@ -2819,7 +2812,7 @@ bordercolor="#000000">
 
 <td>6115.10.01</td>
 <td>Calzas, panty-medias, leotardos y medias, de compresión
- progresiva (por ejemplo, medias para várices)</td>
+    progresiva (por ejemplo, medias para várices)</td>
 <td></td>
 
 </tr>
@@ -2829,7 +2822,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Calzas, panty-medias, leotardos y medias, de compresión
- progresiva (por ejemplo, medias para várices)</td>
+    progresiva (por ejemplo, medias para várices)</td>
 <td></td>
 
 </tr>
@@ -2936,9 +2929,9 @@ bordercolor="#000000">
 
 <td>6201.40.01</td>
 <td>Con un contenido de plumón y plumas de ave acuática superior o
- igual al 15%, en peso, siempre que el contenido de plumón sea
- superior o igual al 35%, en peso; con un contenido del plumaje
- superior o igual al 10%, en peso.</td>
+    igual al 15%, en peso, siempre que el contenido de plumón sea
+    superior o igual al 35%, en peso; con un contenido del plumaje
+    superior o igual al 10%, en peso.</td>
 <td></td>
 
 </tr>
@@ -2947,9 +2940,9 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Con un contenido de plumón y plumas de ave acuática superior o
- igual al 15%, en peso, siempre que el contenido de plumón sea
- superior o igual al 35%, en peso; con un contenido del plumaje
- superior o igual al 10%, en peso.</td>
+    igual al 15%, en peso, siempre que el contenido de plumón sea
+    superior o igual al 35%, en peso; con un contenido del plumaje
+    superior o igual al 10%, en peso.</td>
 <td></td>
 
 </tr>
@@ -2959,7 +2952,7 @@ bordercolor="#000000">
 
 <td>6201.40.02 </td>
 <td>Con un contenido de lana o pelo fino superior o igual a 36% en
- peso, excepto lo comprendido en la fracción arancelaria 6201.40.01</td>
+    peso, excepto lo comprendido en la fracción arancelaria 6201.40.01</td>
 
 </tr>
 
@@ -2967,7 +2960,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Con un contenido de lana o pelo fino superior o igual a 36% en
- peso, excepto lo comprendido en la fracción arancelaria 6201.40.01</td>
+    peso, excepto lo comprendido en la fracción arancelaria 6201.40.01</td>
 <td></td>
 
 </tr>
@@ -3073,7 +3066,7 @@ bordercolor="#000000">
 
 <td>6210.20.91</td>
 <td>Las demás prendas de vestir de los tipos citados en la partida
- 62.01</td>
+    62.01</td>
 <td></td>
 
 </tr>
@@ -3083,7 +3076,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Las demás prendas de vestir de los tipos citados en la partida
- 62.01</td>
+    62.01</td>
 <td></td>
 
 </tr>
@@ -3092,7 +3085,7 @@ bordercolor="#000000">
 
 <td>6210.30.91</td>
 <td>Las demás prendas de vestir de los tipos citados en la partida
- 62.02</td>
+    62.02</td>
 <td></td>
 
 </tr>
@@ -3101,7 +3094,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Las demás prendas de vestir de los tipos citados en la partida
- 62.02</td>
+    62.02</td>
 <td></td>
 
 </tr>
@@ -3205,7 +3198,7 @@ bordercolor="#000000">
 
 <td>01</td>
 <td>Fundas para edredón y fundas para colchón, de ancho inferior o igual a
- 160 cm</td>
+    160 cm</td>
 <td></td>
 
 </tr>
@@ -3215,7 +3208,7 @@ bordercolor="#000000">
 
 <td>02</td>
 <td>Fundas para edredón y fundas para colchón, de ancho superior a 160
- cm pero inferior o igual a 210 cm</td>
+    cm pero inferior o igual a 210 cm</td>
 <td></td>
 
 </tr>
@@ -3224,7 +3217,7 @@ bordercolor="#000000">
 
 <td>03</td>
 <td>Fundas para edredón y fundas para colchón, de ancho superior a 210
- cm pero inferior o igual a 240 cm</td>
+    cm pero inferior o igual a 240 cm</td>
 <td></td>
 
 </tr>
@@ -3233,7 +3226,7 @@ bordercolor="#000000">
 
 <td>04</td>
 <td>Fundas para edredón y fundas para colchón, de ancho superior a 240
- cm</td>
+    cm</td>
 <td></td>
 
 </tr>
@@ -3281,11 +3274,11 @@ bordercolor="#000000">
 
 <tr>
 
- <th  width="20%">Fracción
- arancelaria y NICO</th>
- <th width="60%">Descripción</th>
- <th width="20%">Acotación</th>
- </tr>
+    <th  width="20%">Fracción
+    arancelaria y NICO</th>
+    <th width="60%">Descripción</th>
+    <th width="20%">Acotación</th>
+    </tr>
 
 
 
@@ -3400,7 +3393,7 @@ bordercolor="#000000">
 
 <td>9606.30.01</td>
 <td>Formas para botones y demás partes de botones; esbozos de
- botones.</td>
+    botones.</td>
 <td></td>
 
 </tr>
@@ -3410,7 +3403,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Formas para botones y demás partes de botones; esbozos de
- botones.</td>
+    botones.</td>
 <td></td>
 
 </tr>
@@ -3476,11 +3469,11 @@ bordercolor="#000000">
 
 <tr>
 
- <th  width="20%">Fracción
- arancelaria y NICO</th>
- <th width="60%">Descripción</th>
- <th width="20%">Acotación</th>
- </tr>
+    <th  width="20%">Fracción
+    arancelaria y NICO</th>
+    <th width="60%">Descripción</th>
+    <th width="20%">Acotación</th>
+    </tr>
 
 
 
@@ -3523,9 +3516,9 @@ bordercolor="#000000">
 
 <td>01</td>
 <td>Con suela y parte superior recubierta (incluidos los accesorios o
- refuerzos) de caucho o plástico en más del 90%, excepto los
- reconocibles para ser utilizados para protección industrial o para
- protección contra el mal tiempo</td>
+    refuerzos) de caucho o plástico en más del 90%, excepto los
+    reconocibles para ser utilizados para protección industrial o para
+    protección contra el mal tiempo</td>
 <td></td>
 
 </tr>
@@ -3544,7 +3537,7 @@ bordercolor="#000000">
 
 <td>6402.12.01 </td>
 <td>Calzado de esquí y calzado para la práctica de “snowboard” (tabla
- para nieve).</td>
+    para nieve).</td>
 <td></td>
 
 </tr>
@@ -3553,7 +3546,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Calzado de esquí y calzado para la práctica de “snowboard” (tabla para
- nieve).</td>
+    nieve).</td>
 <td></td>
 
 </tr>
@@ -3563,9 +3556,9 @@ bordercolor="#000000">
 
 <td>6402.19.01</td>
 <td>Para hombres, adultos y jóvenes, con la parte superior (corte) con
- un contenido de caucho o plástico superior al 90%, excepto el que
- tenga una banda o aplicación similar pegada o moldeada a la suela
- y sobrepuesta al corte</td>
+    un contenido de caucho o plástico superior al 90%, excepto el que
+    tenga una banda o aplicación similar pegada o moldeada a la suela
+    y sobrepuesta al corte</td>
 <td></td>
 
 </tr>
@@ -3574,9 +3567,9 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Para hombres, adultos y jóvenes, con la parte superior (corte) con
- un contenido de caucho o plástico superior al 90%, excepto el que
- tenga una banda o aplicación similar pegada o moldeada a la suela
- y sobrepuesta al corte</td>
+    un contenido de caucho o plástico superior al 90%, excepto el que
+    tenga una banda o aplicación similar pegada o moldeada a la suela
+    y sobrepuesta al corte</td>
 <td></td>
 
 </tr>
@@ -3594,8 +3587,8 @@ bordercolor="#000000">
 
 <td>01</td>
 <td>Calzado para mujeres, adultas y jóvenes, con la parte superior (corte) de
- caucho o plástico en más del 90%, excepto el que tenga una banda o
- aplicación similar pegada o moldeada a la suela y sobrepuesta al corte.</td>
+    caucho o plástico en más del 90%, excepto el que tenga una banda o
+    aplicación similar pegada o moldeada a la suela y sobrepuesta al corte.</td>
 <td></td>
 
 </tr>
@@ -3604,8 +3597,8 @@ bordercolor="#000000">
 
 <td>02</td>
 <td>Calzado para niños, niñas o infantes con la parte superior (corte) de
- caucho o plástico en más del 90%, excepto el que tenga una banda o
- aplicación similar pegada o moldeada a la suela y sobrepuesta al corte</td>
+    caucho o plástico en más del 90%, excepto el que tenga una banda o
+    aplicación similar pegada o moldeada a la suela y sobrepuesta al corte</td>
 <td></td>
 
 </tr>
@@ -3705,7 +3698,7 @@ bordercolor="#000000">
 
 <td>6403.12.01</td>
 <td>Calzado de esquí y calzado para la práctica de “snowboard” (tabla
- para nieve)</td>
+    para nieve)</td>
 <td></td>
 
 </tr>
@@ -3714,7 +3707,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Calzado de esquí y calzado para la práctica de “snowboard” (tabla
- para nieve)</td>
+    para nieve)</td>
 <td></td>
 
 </tr>
@@ -3764,7 +3757,7 @@ bordercolor="#000000">
 
 <td>6403.20.01</td>
 <td>Calzado con suela de cuero natural y parte superior de tiras de
- cuero natural que pasan por el empeine y rodean el dedo gordo</td>
+    cuero natural que pasan por el empeine y rodean el dedo gordo</td>
 <td></td>
 
 </tr>
@@ -3773,7 +3766,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Calzado con suela de cuero natural y parte superior de tiras de
- cuero natural que pasan por el empeine y rodean el dedo gordo</td>
+    cuero natural que pasan por el empeine y rodean el dedo gordo</td>
 <td></td>
 
 </tr>
@@ -3798,7 +3791,7 @@ bordercolor="#000000">
 
 <td>02</td>
 <td>Para hombres, adultos y jóvenes, excepto lo comprendido en el número
- de identificación comercial 6403.51.05.01.</td>
+    de identificación comercial 6403.51.05.01.</td>
 <td></td>
 
 </tr>
@@ -3832,7 +3825,7 @@ bordercolor="#000000">
 
 <td>6403.91.04</td>
 <td>Con palmilla o plataforma de madera, sin plantillas ni puntera
- metálica de protección.</td>
+    metálica de protección.</td>
 <td></td>
 
 </tr>
@@ -3841,7 +3834,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Con palmilla o plataforma de madera, sin plantillas ni puntera
- metálica de protección.</td>
+    metálica de protección.</td>
 <td></td>
 
 </tr>
@@ -3884,7 +3877,7 @@ bordercolor="#000000">
 
 <td>6403.99.06</td>
 <td>Con palmilla o plataforma de madera, sin plantillas ni puntera
- metálica de protección</td>
+    metálica de protección</td>
 <td></td>
 
 </tr>
@@ -3893,7 +3886,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Con palmilla o plataforma de madera, sin plantillas ni puntera
- metálica de protección</td>
+    metálica de protección</td>
 <td></td>
 
 </tr>
@@ -3947,8 +3940,8 @@ bordercolor="#000000">
 
 <td>6404.19.0</td>
 <td>Para mujeres, adultas y jóvenes, excepto el que tenga una banda o
- aplicación similar pegada o moldeada a la suela y sobrepuesta al
- corte y lo comprendido en la fracción arancelaria 6404.19.08</td>
+    aplicación similar pegada o moldeada a la suela y sobrepuesta al
+    corte y lo comprendido en la fracción arancelaria 6404.19.08</td>
 <td></td>
 
 </tr>
@@ -3958,8 +3951,8 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Para mujeres, adultas y jóvenes, excepto el que tenga una banda o
- aplicación similar pegada o moldeada a la suela y sobrepuesta al
- corte y lo comprendido en la fracción arancelaria 6404.19.08/td>
+    aplicación similar pegada o moldeada a la suela y sobrepuesta al
+    corte y lo comprendido en la fracción arancelaria 6404.19.08/td>
 <td></td>
 
 </tr>
@@ -3976,9 +3969,9 @@ bordercolor="#000000">
 
 <td>01</td>
 <td>Para hombres, adultos y jóvenes, excepto el que tenga una banda o
- aplicación similar pegada o moldeada a la suela y sobrepuesta al corte y
- lo comprendido en el número de identificación comercial 6404.19.99.06.
- </td>
+    aplicación similar pegada o moldeada a la suela y sobrepuesta al corte y
+    lo comprendido en el número de identificación comercial 6404.19.99.06.
+    </td>
 <td></td>
 
 </tr>
@@ -3987,9 +3980,9 @@ bordercolor="#000000">
 
 <td>02</td>
 <td>
- Para niños o niñas, excepto el que tenga una banda o aplicación similar
- pegada o moldeada a la suela y sobrepuesta al corte y sandalias.
- </td>
+    Para niños o niñas, excepto el que tenga una banda o aplicación similar
+    pegada o moldeada a la suela y sobrepuesta al corte y sandalias.
+    </td>
 <td></td>
 
 </tr>
@@ -3998,7 +3991,7 @@ bordercolor="#000000">
 
 <td>03</td>
 <td>Para infantes, excepto el que tenga una banda o aplicación similar
- pegada o moldeada a la suela y sobrepuesta al corte y sandalia</td>
+    pegada o moldeada a la suela y sobrepuesta al corte y sandalia</td>
 <td></td>
 
 </tr>
@@ -4229,11 +4222,11 @@ bordercolor="#000000">
 
 <tr>
 
- <th  width="20%">Fracción
- arancelaria y NICO</th>
- <th width="60%">Descripción</th>
- <th width="20%">Acotación</th>
- </tr>
+    <th  width="20%">Fracción
+    arancelaria y NICO</th>
+    <th width="60%">Descripción</th>
+    <th width="20%">Acotación</th>
+    </tr>
 
 
 
@@ -4376,7 +4369,7 @@ bordercolor="#000000">
 
 <td>8204.11.01</td>
 <td>Llaves de palanca con matraca, excepto lo comprendido en la
- fracción arancelaria 8204.11.02.</td>
+    fracción arancelaria 8204.11.02.</td>
 <td></td>
 
 </tr>
@@ -4385,7 +4378,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Llaves de palanca con matraca, excepto lo comprendido en la
- fracción arancelaria 8204.11.02.</td>
+    fracción arancelaria 8204.11.02.</td>
 <td></td>
 
 </tr>
@@ -4569,7 +4562,7 @@ bordercolor="#000000">
 
 <td>01</td>
 <td>Hojas con espesor máximo de 6 mm y anchura máxima de 500 mm, con
- filo continuo o discontinuo  
+    filo continuo o discontinuo  
 </td>
 <td></td>
 
@@ -4612,8 +4605,8 @@ bordercolor="#000000">
 
 <td>9603.40.01</td>
 <td>Pinceles y brochas para pintar, enlucir, barnizar o similares
- (excepto los de la subpartida 9603.30); almohadillas o muñequillas
- y rodillos, para pintar.</td>
+    (excepto los de la subpartida 9603.30); almohadillas o muñequillas
+    y rodillos, para pintar.</td>
 <td></td>
 
 </tr>
@@ -4624,8 +4617,8 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Pinceles y brochas para pintar, enlucir, barnizar o similares
- (excepto los de la subpartida 9603.30); almohadillas o muñequillas
- y rodillos, para pintar.</td>
+    (excepto los de la subpartida 9603.30); almohadillas o muñequillas
+    y rodillos, para pintar.</td>
 <td></td>
 
 </tr>
@@ -4642,11 +4635,11 @@ bordercolor="#000000">
 
 <tr>
 
- <th  width="20%">Fracción
- arancelaria y NICO</th>
- <th width="60%">Descripción</th>
- <th width="20%">Acotación</th>
- </tr>
+    <th  width="20%">Fracción
+    arancelaria y NICO</th>
+    <th width="60%">Descripción</th>
+    <th width="20%">Acotación</th>
+    </tr>
 
 
 
@@ -4674,7 +4667,7 @@ bordercolor="#000000">
 
 <td>8712.00.05</td>
 <td>Bicicletas y demás velocípedos (incluidos los triciclos de reparto),
- sin motor</td>
+    sin motor</td>
 <td></td>
 
 </tr>
@@ -4701,7 +4694,7 @@ bordercolor="#000000">
 
 <td>03</td>
 <td>Bicicletas, excepto lo comprendido en los números de identificación
- comercial 8712.00.05.01 y 8712.00.05.02.</td>
+    comercial 8712.00.05.01 y 8712.00.05.02.</td>
 <td></td>
 
 </tr>
@@ -4878,11 +4871,11 @@ bordercolor="#000000">
 
 <tr>
 
- <th  width="20%">Fracción
- arancelaria y NICO</th>
- <th width="60%">Descripción</th>
- <th width="20%">Acotación</th>
- </tr>
+    <th  width="20%">Fracción
+    arancelaria y NICO</th>
+    <th width="60%">Descripción</th>
+    <th width="20%">Acotación</th>
+    </tr>
 
 
 <tr>
@@ -4906,9 +4899,9 @@ bordercolor="#000000">
 
 <td>9503.00.02</td>
 <td>Con ruedas, diseñados para que los conduzcan los niños,
- impulsados por ellos o por otra persona, o accionados por baterías
- recargables de hasta 12 V, excepto, en ambos casos, lo
- comprendido en la fracción arancelaria 9503.00.01.</td>
+    impulsados por ellos o por otra persona, o accionados por baterías
+    recargables de hasta 12 V, excepto, en ambos casos, lo
+    comprendido en la fracción arancelaria 9503.00.01.</td>
 <td></td>
 
 </tr>
@@ -4917,9 +4910,9 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Con ruedas, diseñados para que los conduzcan los niños,
- impulsados por ellos o por otra persona, o accionados por baterías
- recargables de hasta 12 V, excepto, en ambos casos, lo
- comprendido en la fracción arancelaria 9503.00.01.</td>
+    impulsados por ellos o por otra persona, o accionados por baterías
+    recargables de hasta 12 V, excepto, en ambos casos, lo
+    comprendido en la fracción arancelaria 9503.00.01.</td>
 <td></td>
 
 </tr>
@@ -4929,9 +4922,9 @@ bordercolor="#000000">
 
 <td>9503.00.04</td>
 <td>Muñecas y muñecos que representen solamente seres humanos,
- incluso vestidos, que contengan mecanismos operados eléctrica o
- electrónicamente, excepto lo comprendido en la fracción
- arancelaria 9503.00.05</td>
+    incluso vestidos, que contengan mecanismos operados eléctrica o
+    electrónicamente, excepto lo comprendido en la fracción
+    arancelaria 9503.00.05</td>
 <td></td>
 
 </tr>
@@ -4940,9 +4933,9 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Muñecas y muñecos que representen solamente seres humanos,
- incluso vestidos, que contengan mecanismos operados eléctrica o
- electrónicamente, excepto lo comprendido en la fracción
- arancelaria 9503.00.05</td>
+    incluso vestidos, que contengan mecanismos operados eléctrica o
+    electrónicamente, excepto lo comprendido en la fracción
+    arancelaria 9503.00.05</td>
 <td></td>
 
 </tr>
@@ -4951,9 +4944,9 @@ bordercolor="#000000">
 
 <td>9503.00.08</td>
 <td>Juguetes terapéutico-pedagógicos, reconocibles como diseñados
- exclusivamente para usos clínicos, para corregir disfunciones
- psicomotrices o problemas de lento aprendizaje, en instituciones
- de educación especial o similares</td>
+    exclusivamente para usos clínicos, para corregir disfunciones
+    psicomotrices o problemas de lento aprendizaje, en instituciones
+    de educación especial o similares</td>
 <td></td>
 
 </tr>
@@ -4963,9 +4956,9 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Juguetes terapéutico-pedagógicos, reconocibles como diseñados
- exclusivamente para usos clínicos, para corregir disfunciones
- psicomotrices o problemas de lento aprendizaje, en instituciones
- de educación especial o similares</td>
+    exclusivamente para usos clínicos, para corregir disfunciones
+    psicomotrices o problemas de lento aprendizaje, en instituciones
+    de educación especial o similares</td>
 <td></td>
 
 </tr>
@@ -4975,9 +4968,9 @@ bordercolor="#000000">
 <td>9503.00.10
 </td>
 <td>Modelos reducidos “a escala” para ensamblar, incluso los que
- tengan componentes electrónicos o eléctricos, excepto lo
- comprendido en la fracción arancelaria 9503.00.07.
- </td>
+    tengan componentes electrónicos o eléctricos, excepto lo
+    comprendido en la fracción arancelaria 9503.00.07.
+    </td>
 <td></td>
 
 </tr>
@@ -4986,9 +4979,9 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Modelos reducidos “a escala” para ensamblar, incluso los que
- tengan componentes electrónicos o eléctricos, excepto lo
- comprendido en la fracción arancelaria 9503.00.07.
- </td>
+    tengan componentes electrónicos o eléctricos, excepto lo
+    comprendido en la fracción arancelaria 9503.00.07.
+    </td>
 <td></td>
 
 </tr>
@@ -4998,7 +4991,7 @@ bordercolor="#000000">
 
 <td>9503.00.11</td>
 <td>Juegos o surtidos de construcción; los demás juguetes de
- construcción</td>
+    construcción</td>
 <td></td>
 
 </tr>
@@ -5007,7 +5000,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Juegos o surtidos de construcción; los demás juguetes de
- construcción</td>
+    construcción</td>
 <td></td>
 
 </tr>
@@ -5067,10 +5060,10 @@ bordercolor="#000000">
 
 <td>9503.00.20</td>
 <td>Juguetes y modelos, con motor, excepto lo comprendido en las
- fracciones arancelarias 9503.00.02, 9503.00.04, 9503.00.05,
- 9503.00.07, 9503.00.09, 9503.00.10, 9503.00.11, 9503.00.12,
- 9503.00.15 y 9503.00.18.
- </td>
+    fracciones arancelarias 9503.00.02, 9503.00.04, 9503.00.05,
+    9503.00.07, 9503.00.09, 9503.00.10, 9503.00.11, 9503.00.12,
+    9503.00.15 y 9503.00.18.
+    </td>
 <td></td>
 
 </tr>
@@ -5080,10 +5073,10 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Juguetes y modelos, con motor, excepto lo comprendido en las
- fracciones arancelarias 9503.00.02, 9503.00.04, 9503.00.05,
- 9503.00.07, 9503.00.09, 9503.00.10, 9503.00.11, 9503.00.12,
- 9503.00.15 y 9503.00.18.
- </td>
+    fracciones arancelarias 9503.00.02, 9503.00.04, 9503.00.05,
+    9503.00.07, 9503.00.09, 9503.00.10, 9503.00.11, 9503.00.12,
+    9503.00.15 y 9503.00.18.
+    </td>
 <td></td>
 
 </tr>
@@ -5092,7 +5085,7 @@ bordercolor="#000000">
 
 <td>9503.00.22</td>
 <td>Preparaciones de materias plásticas, o caucho, reconocibles como
- diseñadas para formar globos por insuflado.</td>
+    diseñadas para formar globos por insuflado.</td>
 <td></td>
 
 </tr>
@@ -5101,7 +5094,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Preparaciones de materias plásticas, o caucho, reconocibles como
- diseñadas para formar globos por insuflado.</td>
+    diseñadas para formar globos por insuflado.</td>
 <td></td>
 
 </tr>
@@ -5110,8 +5103,8 @@ bordercolor="#000000">
 
 <td>9503.00.23</td>
 <td>Juguetes inflables, incluso las pelotas de juguete fabricadas
- exclusivamente de materias plásticas, excepto lo comprendido en
- la fracción arancelaria 9503.00.22</td>
+    exclusivamente de materias plásticas, excepto lo comprendido en
+    la fracción arancelaria 9503.00.22</td>
 <td></td>
 
 </tr>
@@ -5120,8 +5113,8 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Juguetes inflables, incluso las pelotas de juguete fabricadas
- exclusivamente de materias plásticas, excepto lo comprendido en
- la fracción arancelaria 9503.00.22</td>
+    exclusivamente de materias plásticas, excepto lo comprendido en
+    la fracción arancelaria 9503.00.22</td>
 <td></td>
 
 </tr>
@@ -5130,8 +5123,8 @@ bordercolor="#000000">
 
 <td>9503.00.26</td>
 <td>Juguetes reconocibles como diseñados exclusivamente para lanzar
- agua, excepto los comprendidos en la fracción arancelaria
- 9503.00.25.</td>
+    agua, excepto los comprendidos en la fracción arancelaria
+    9503.00.25.</td>
 <td></td>
 
 </tr>
@@ -5140,8 +5133,8 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Juguetes reconocibles como diseñados exclusivamente para lanzar
- agua, excepto los comprendidos en la fracción arancelaria
- 9503.00.25.</td>
+    agua, excepto los comprendidos en la fracción arancelaria
+    9503.00.25.</td>
 <td></td>
 
 </tr>
@@ -5151,8 +5144,8 @@ bordercolor="#000000">
 <td>9503.00.30
 </td>
 <td>Partes y accesorios de muñecas y muñecos que representen
- solamente seres humanos, excepto lo comprendido en las
- fracciones arancelarias 9503.00.28 y 9503.00.29.</td>
+    solamente seres humanos, excepto lo comprendido en las
+    fracciones arancelarias 9503.00.28 y 9503.00.29.</td>
 <td></td>
 
 </tr>
@@ -5161,8 +5154,8 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Partes y accesorios de muñecas y muñecos que representen
- solamente seres humanos, excepto lo comprendido en las
- fracciones arancelarias 9503.00.28 y 9503.00.29.</td>
+    solamente seres humanos, excepto lo comprendido en las
+    fracciones arancelarias 9503.00.28 y 9503.00.29.</td>
 <td></td>
 
 </tr>
@@ -5172,7 +5165,7 @@ bordercolor="#000000">
 
 <td>9503.00.91 </td>
 <td>Los demás juguetes con ruedas diseñados para que los conduzcan
- los niños; coches y sillas de ruedas para muñecas o muñecos.</td>
+    los niños; coches y sillas de ruedas para muñecas o muñecos.</td>
 <td></td>
 
 </tr>
@@ -5181,7 +5174,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Los demás juguetes con ruedas diseñados para que los conduzcan
- los niños; coches y sillas de ruedas para muñecas o muñecos.</td>
+    los niños; coches y sillas de ruedas para muñecas o muñecos.</td>
 <td></td>
 
 </tr>
@@ -5190,7 +5183,7 @@ bordercolor="#000000">
 
 <td>9503.00.93</td>
 <td>Los demás juguetes que representen animales o seres no
- humanos, sin rellenar.</td>
+    humanos, sin rellenar.</td>
 <td></td>
 
 </tr>
@@ -5200,7 +5193,7 @@ bordercolor="#000000">
 
 <td>00</td>
 <td>Los demás juguetes que representen animales o seres no
- humanos, sin rellenar.</td>
+    humanos, sin rellenar.</td>
 <td></td>
 
 </tr>
@@ -5217,7 +5210,7 @@ bordercolor="#000000">
 
 <td>01</td>
 <td>Juegos que imiten preparaciones de belleza, de maquillaje o de
- manicura.</td>
+    manicura.</td>
 <td></td>
 
 </tr>
@@ -5234,8 +5227,8 @@ bordercolor="#000000">
 
 <td>9504.50.04</td>
 <td>Videoconsolas y máquinas de videojuego, excepto las de la
- subpartida 9504.30 y lo comprendido en la fracción arancelaria
- 9504.50.03.</td>
+    subpartida 9504.30 y lo comprendido en la fracción arancelaria
+    9504.50.03.</td>
 <td></td>
 
 </tr>
@@ -5253,8 +5246,8 @@ bordercolor="#000000">
 
 <td>02</td>
 <td>Cartuchos conteniendo programas para videoconsolas y máquinas de
- videojuegos.
- </td>
+    videojuegos.
+    </td>
 <td></td>
 
 </tr>
@@ -5316,9 +5309,17 @@ bordercolor="#000000">
 
 <p>Atentamente</p>
 <p>Ciudad de México, a 15 de diciembre de 2023.- En suplencia por ausencia del Jefe del Servicio de
- Administración Tributaria, con fundamento en el artículo 4, primer párrafo del Reglamento Interior del Servicio
- de Administración Tributaria, firma el Administrador General Jurídico, Lic. Ricardo Carrasco Varona.-
- Rúbrica</p>
+    Administración Tributaria, con fundamento en el artículo 4, primer párrafo del Reglamento Interior del Servicio
+    de Administración Tributaria, firma el Administrador General Jurídico, Lic. Ricardo Carrasco Varona.-
+    Rúbrica</p>
 
+</body>
 
-</div>
+</html>
+
+<script>
+    function toggleItem(numero) {
+        var contenido = document.getElementById('contenido' + numero);
+        contenido.style.display = (contenido.style.display === 'none' || contenido.style.display === '') ? 'block' : 'none';
+    }
+</script>
