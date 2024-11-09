@@ -63,6 +63,7 @@ export class SidebarComponent {
         { title: 'DECRETO por el que se modifica el diverso para el fomento y operación de la industria maquiladora de exportación', icon: 'fas fa-circle', link: '/decre11', submenu: [] },
         { title: 'DECRETO por el que se establece la Ventanilla Digital Mexicana de Comercio Exterior.', icon: 'fas fa-circle', link: '/decre12', submenu: [] },
         { title: 'DECRETO IMMEX', icon: 'fas fa-circle', link: '/decre', submenu: [] },
+        { title: 'DECRETO PROSEC', icon: 'fas fa-circle', link: '/decre13', submenu: [] },
 
       ]
     },

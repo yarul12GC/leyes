@@ -4,7 +4,8 @@
             <!-- Botón principal del acordeón -->
             <button (click)="toggleMenu()"
                 class="text-lg font-semibold text-red-600 bg-white border border-gray-300 p-2 rounded-md w-full shadow-lg hover:shadow-xl transition-shadow duration-300">
-                Artículos de la Ley Federal para el Control de Sustancias Quimicas Suseptibless de Desvio paa la Fabricacion de Armas Quimicas
+                Artículos de la Ley Federal para el Control de Sustancias Quimicas Suseptibless de Desvio paa la
+                Fabricacion de Armas Quimicas
             </button>
             <div *ngIf="isMenuOpen">
                 <button (click)="toggleSubMenu({ isOpen: false })"
@@ -114,7 +115,7 @@
                                     <li><a [routerLink]="['/leyarmas']" fragment="sqsq75">Artículo 75</a></li>
                                 </ul>
                             </td>
-
+                        </tr>
 
 
                     </table>

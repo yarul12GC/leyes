@@ -268,6 +268,10 @@ export const routes: Routes = [
         loadComponent: () => import('./leyes/anexo30/anexo30.component')
       },
       {
+        path: 'decre13',
+        loadComponent: () => import('./leyes/decre13/decre13.component')
+      },
+      {
         path: '',
         redirectTo: 'panel',
         pathMatch: 'full'
