@@ -42,7 +42,8 @@ export class SidebarComponent {
         { title: 'Ley De Puertos', icon: 'fas fa-circle', link: '/leypu', submenu: [] },
         { title: 'Ley Federal Para El Control De Precursores Químicos, Productos Químicos Esenciales Y Máquinas Para Elaborar Cápsulas, Tabletas y/o Comprimidos', icon: 'fas fa-circle', link: '/leymaq', submenu: [] },
         { title: 'Ley De Caminos, Puentes Y Autotransporte Federal', icon: 'fas fa-circle', link: '/leycam', submenu: [] },
-
+        { title: 'Ley de Hidrocarburos', icon: 'fas fa-circle', link: '/leyhd', submenu: [] },
+        { title: 'Ley de los Impuestos Generales de Importación y de Exportación.', icon: 'fas fa-circle', link: '/ley-ei', submenu: [] },
       ]
     },
     {

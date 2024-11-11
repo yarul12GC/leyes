@@ -276,6 +276,14 @@ export const routes: Routes = [
         loadComponent: () => import('./leyes/reso1/reso1.component')
       },
       {
+        path: 'leyhd',
+        loadComponent: () => import('./leyes/leyhd/leyhd.component')
+      },
+      {
+        path: 'ley-ei',
+        loadComponent: () => import('./leyes/ley-ei/ley-ei.component')
+      },
+      {
         path: '',
         redirectTo: 'panel',
         pathMatch: 'full'
