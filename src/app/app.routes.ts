@@ -272,6 +272,10 @@ export const routes: Routes = [
         loadComponent: () => import('./leyes/decre13/decre13.component')
       },
       {
+        path: 'reso1',
+        loadComponent: () => import('./leyes/reso1/reso1.component')
+      },
+      {
         path: '',
         redirectTo: 'panel',
         pathMatch: 'full'
