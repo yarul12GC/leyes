@@ -27,8 +27,19 @@
 .titulos {
     justify-content: center;
     text-align: center;
-    color: rgb(218, 17, 17);
+    color: rgb(110, 0, 0);
     font-weight: bold;
     font-size: 20px;
     margin: 20px;
 }
+
+.titulo2 {
+    color: #e74c3c;         
+    font-size: 1.5rem;      
+    font-weight: bold;      
+    text-align: center;     
+    margin: 20px 0;
+    text-transform: uppercase; 
+    font-family: Arial, sans-serif; 
+  }
+  
