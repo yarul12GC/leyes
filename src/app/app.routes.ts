@@ -284,6 +284,10 @@ export const routes: Routes = [
         loadComponent: () => import('./leyes/ley-ei/ley-ei.component')
       },
       {
+        path: 'leynav',
+        loadComponent: () => import('./leyes/leynav/leynav.component')
+      },
+      {
         path: '',
         redirectTo: 'panel',
         pathMatch: 'full'

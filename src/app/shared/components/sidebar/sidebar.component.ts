@@ -44,6 +44,7 @@ export class SidebarComponent {
         { title: 'Ley De Caminos, Puentes Y Autotransporte Federal', icon: 'fas fa-circle', link: '/leycam', submenu: [] },
         { title: 'Ley de Hidrocarburos', icon: 'fas fa-circle', link: '/leyhd', submenu: [] },
         { title: 'Ley de los Impuestos Generales de Importación y de Exportación.', icon: 'fas fa-circle', link: '/ley-ei', submenu: [] },
+        { title: 'Ley de Navgacion y Comercio Maritimos.', icon: 'fas fa-circle', link: '/leynav', submenu: [] },
       ]
     },
     {
