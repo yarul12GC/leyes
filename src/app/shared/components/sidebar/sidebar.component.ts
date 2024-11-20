@@ -45,6 +45,7 @@ export class SidebarComponent {
         { title: 'Ley de Hidrocarburos', icon: 'fas fa-circle', link: '/leyhd', submenu: [] },
         { title: 'Ley de los Impuestos Generales de Importación y de Exportación.', icon: 'fas fa-circle', link: '/ley-ei', submenu: [] },
         { title: 'Ley de Navgacion y Comercio Maritimos.', icon: 'fas fa-circle', link: '/leynav', submenu: [] },
+        { title: 'Ley del Impuesto Especial Sobre Produccion Y Servicios.', icon: 'fas fa-circle', link: '/leyiss', submenu: [] },
       ]
     },
     {
