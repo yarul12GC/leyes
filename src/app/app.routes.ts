@@ -280,10 +280,6 @@ export const routes: Routes = [
         loadComponent: () => import('./leyes/leyhd/leyhd.component')
       },
       {
-        path: 'ley-ei',
-        loadComponent: () => import('./leyes/ley-ei/ley-ei.component')
-      },
-      {
         path: 'leynav',
         loadComponent: () => import('./leyes/leynav/leynav.component')
       },

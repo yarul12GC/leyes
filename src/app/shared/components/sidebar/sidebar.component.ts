@@ -43,7 +43,6 @@ export class SidebarComponent {
         { title: 'Ley Federal Para El Control De Precursores Químicos, Productos Químicos Esenciales Y Máquinas Para Elaborar Cápsulas, Tabletas y/o Comprimidos', icon: 'fas fa-circle', link: '/leymaq', submenu: [] },
         { title: 'Ley De Caminos, Puentes Y Autotransporte Federal', icon: 'fas fa-circle', link: '/leycam', submenu: [] },
         { title: 'Ley de Hidrocarburos', icon: 'fas fa-circle', link: '/leyhd', submenu: [] },
-        { title: 'Ley de los Impuestos Generales de Importación y de Exportación.', icon: 'fas fa-circle', link: '/ley-ei', submenu: [] },
         { title: 'Ley de Navgacion y Comercio Maritimos.', icon: 'fas fa-circle', link: '/leynav', submenu: [] },
         { title: 'Ley del Impuesto Especial Sobre Produccion Y Servicios.', icon: 'fas fa-circle', link: '/leyiss', submenu: [] },
       ]
